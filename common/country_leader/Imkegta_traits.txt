@@ -1,0 +1,21 @@
+leader_traits = {
+	Light_mental_problems = {
+		random = no
+        power_balance_weekly = -0.002
+	}
+	Medium_mental_problems = {
+	    random = no
+		power_balance_weekly = -0.01
+	}
+	Heavy_mental_problems = {
+	    random = no
+		power_balance_weekly = -0.05
+    }
+	Catastrofic_mental_problems ={
+	    random = no
+		power_balance_weekly = -0.1
+	}
+	Democrasy_Enemy_Number_1 ={
+		random = no
+		democratic_acceptance = -100
+	}

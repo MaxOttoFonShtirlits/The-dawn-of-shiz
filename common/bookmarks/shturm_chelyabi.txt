@@ -1,0 +1,63 @@
+bookmarks = {
+	bookmark = {
+		name = "SHTURM_CHELYABI_NAME"
+		desc = "SHTURM_CHELYABI_DESC"
+		date = 2023.8.1.1
+		picture = "GFX_select_date_chelyaba"
+		default_country = "AUC"
+		default = yes
+		
+		"AUC"={
+			history = "AUC_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"VEP"={
+			history = "VEP_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"DNR"={
+			history = "DNR_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"GAY"={
+			history = "GAY_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"FSB"={
+			history = "FSB_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"PLT"={
+			history = "PLT_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

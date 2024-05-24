@@ -1,0 +1,210 @@
+AUC_power_balance = {
+	initial_value = 1
+	left_side = AUC_Ebat_Osla_side	
+	right_side =  AUC_Adekvatni_side	
+	decision_category = AUC_balance_of_power_category
+
+	### Neutral status
+	range = {
+		id = AUC_Tailer_Derden_range
+		min = -0.10
+		max = 0.10
+		modifier = {
+			max_command_power = -50
+			war_support_factor = -0.05
+			stability_factor = -0.05
+		}
+		on_activate = {
+
+		}
+		on_deactivate = {
+			
+		}
+	}
+
+	### Grand Council
+	side = {
+		id = AUC_Ebat_Osla_side	
+		icon = GFX_Osel
+
+		range = {
+			id = AUC_Nemnogo_Shiza_range
+			min = -0.3
+			max = -0.1
+			modifier = {
+				experience_gain_army_factor = -0.1
+				war_support_weekly = -0.01
+				stability_weekly = -0.01
+				max_planning = -0.1
+				planning_speed = -0.1
+				conscription_factor = -0.5
+				max_command_power = -50
+			}
+			on_activate = {
+				
+			}
+			on_deactivate = {
+				
+			}
+		}
+
+		range = {
+			id = AUC_Lydskoe_range
+			min = -0.6
+			max = -0.3
+			modifier = {
+				experience_gain_army_factor = -0.5
+				war_support_weekly = -0.04
+				stability_weekly = -0.04
+				max_planning = -0.3
+				planning_speed = -0.3
+				conscription_factor = -0.1
+				max_command_power = -50
+			}
+			on_activate = {
+				custom_effect_tooltip = ITA_bop_cap_for_colonies_impact_tt
+			}
+			on_deactivate = {
+				
+			}
+		}
+
+		range = {
+			id = AUC_Uzshe_Osel_range
+			min = -0.9
+			max = -0.6
+			modifier = {
+				experience_gain_army_factor = -0.8
+				war_support_weekly = -0.08
+				stability_weekly = -0.08
+				max_planning = -0.7
+				planning_speed = -0.7
+				conscription_factor = -0.3
+				max_command_power = -50
+			}
+			on_activate = {
+			
+			}
+			on_deactivate = {
+				
+			}
+		}
+
+		range = {
+			id = AUC_Ebat_Osla_range
+			min = -1
+			max = -0.9
+			modifier = {
+				experience_gain_army_factor = -1
+				war_support_weekly = -0.1
+				stability_weekly = -0.1
+				max_planning = -1
+				planning_speed = -1
+				conscription_factor = -0.5
+				max_command_power = -50
+			}
+			on_activate = {
+            	set_power_balance_gfx = {
+				id = AUC_power_balance
+				side = AUC_Ebat_Osla_side		
+				gfx = GFX_EBAT_OSLA
+				}
+			}
+			on_deactivate = {
+				set_power_balance_gfx = {
+				id = AUC_power_balance
+				side = AUC_Ebat_Osla_side		
+				gfx = GFX_Osel
+				}
+			}
+		}
+	}
+
+	### Ne Shiz
+	side = {
+		id = AUC_Adekvatni_side	
+		icon = GFX_Obichniy_Imkegta
+
+		range = {
+			id = AUC_PTSR_range
+			min = 0.1
+			max = 0.3
+			modifier = {
+            max_command_power = -50
+			}
+			on_activate = {
+
+			}
+			on_deactivate = {
+				
+			}
+		}
+
+		range = {
+			id = AUC_Shelshock_range
+			min = 0.3
+			max = 0.6
+			modifier = {
+				war_support_factor = 0.05
+				stability_factor = 0.05
+				max_planning = 0.1
+				planning_speed = 0.2
+			}
+			on_activate = {
+				
+			}
+			on_deactivate = {
+				
+			}
+		}
+
+		range = {
+			id = AUC_Istericka_range
+			min = 0.6
+			max = 0.9
+			modifier = {
+				experience_gain_army_factor = 0.1
+				war_support_factor = 0.15
+				stability_factor = 0.15
+				max_planning = 0.3
+				planning_speed = 0.6
+				conscription_factor = 0.2
+			}
+			on_activate = {
+				
+			}
+			on_deactivate = {
+				
+			}
+		}
+
+		range = {
+			id = AUC_Terminator_range
+			min = 0.9
+			max = 1
+			modifier = {
+				experience_gain_army_factor = 0.2
+				war_support_factor = 0.2
+				stability_factor = 0.2
+				max_planning = 0.4
+				planning_speed = 0.8
+				conscription_factor = 0.5
+			}
+			on_activate = {
+				set_power_balance_gfx = {
+					id = AUC_power_balance
+					side = AUC_Adekvatni_side	
+					gfx = GFX_bop_AUC_Imketa_Shwarts
+				}
+			}
+			on_deactivate = {
+				set_power_balance_gfx = {
+					id = AUC_power_balance
+					side = AUC_Adekvatni_side	
+					gfx = GFX_Obichniy_Imkegta
+				}
+			}
+		}
+	}
+}
+

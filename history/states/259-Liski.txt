@@ -1,0 +1,25 @@
+
+state={
+	id=259
+	name="STATE_259" # Poltava
+	manpower = 617870
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+			11504 3
+		}
+		owner = PLT
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
+		add_core_of = PLT
+	}
+
+	provinces={
+		6495 6507 11504 13367 13368
+	}
+
+	local_supplies=10.0 
+}
