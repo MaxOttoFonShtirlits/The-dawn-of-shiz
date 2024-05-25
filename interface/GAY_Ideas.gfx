@@ -40,4 +40,16 @@ spriteTypes = {
 		name = "GFX_idea_Osetinian_Economy_koz_2"
 		texturefile = "gfx/interface/ideas/idea_Osetian_Economy_Kots_2.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_Osetinian_Economy_koz_3"
+		texturefile = "gfx/interface/ideas/idea_Osetian_Economy_Kots_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Osetinian_Economy_koz_4"
+		texturefile = "gfx/interface/ideas/idea_Osetian_Economy_Kots_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Osetinian_Economy_koz_5"
+		texturefile = "gfx/interface/ideas/idea_Osetian_Economy_Kots_5.dds"
+	}
 }

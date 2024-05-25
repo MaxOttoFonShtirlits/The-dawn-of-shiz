@@ -233,7 +233,7 @@ ideas = {
 
             }
 
-            picture = GFX_idea_404
+            picture = Osetinian_Economy_koz_3
             
             modifier = {
                 political_power_factor = -0.35
@@ -250,7 +250,7 @@ ideas = {
 
             }
 
-            picture = GFX_idea_404
+            picture = Osetinian_Economy_koz_4
             
             modifier = {
                 political_power_factor = -0.25
@@ -267,7 +267,7 @@ ideas = {
 
             }
 
-            picture = GFX_idea_404
+            picture = Osetinian_Economy_koz_5
             
             modifier = {
                 political_power_factor = -0.15
