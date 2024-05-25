@@ -206,7 +206,7 @@ ideologies = {
 			fascism_ideology = {
 			}
 
-			falangism = {
+			Caucasian_Nationalism = {
 			}
 
 			Ardabontsi = {
