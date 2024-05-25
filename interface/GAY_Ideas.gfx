@@ -16,4 +16,28 @@ spriteTypes = {
 		name = "GFX_idea_Osetinian_Economy"
 		texturefile = "gfx/interface/ideas/idea_Osetian_Economy.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_Osetinian_Economy_djagib"
+		texturefile = "gfx/interface/ideas/idea_Osetian_Economy_Djagabiev.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Osetinian_Economy_koz"
+		texturefile = "gfx/interface/ideas/idea_Osetian_Economy_Kots.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Osetinian_Economy_djagib_profsoyuzi"
+		texturefile = "gfx/interface/ideas/idea_Osetian_Economy_Djagabiev_Profsoyuz.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Recovery"
+		texturefile = "gfx/interface/ideas/idea_Recovery.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Construction"
+		texturefile = "gfx/interface/ideas/idea_Construction.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Osetinian_Economy_koz_2"
+		texturefile = "gfx/interface/ideas/idea_Osetian_Economy_Kots_2.dds"
+	}
 }

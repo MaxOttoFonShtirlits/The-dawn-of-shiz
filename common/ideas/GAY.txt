@@ -81,8 +81,6 @@ ideas = {
 				army_speed_factor = -0.2
             }
         }
-    }
-	country = {
         Full_economic_chaos = {
 
             removal_cost = -1
@@ -100,8 +98,6 @@ ideas = {
 				production_speed_buildings_factor = -0.3
             }
         }
-    }
-	country = {
         Full_economic_chaos_Program_of_Djagibaev = {
 
             removal_cost = -1
@@ -110,7 +106,7 @@ ideas = {
 
             }
 
-            picture = GFX_idea_404
+            picture = Osetinian_Economy_djagib
             
             modifier = {
                 political_power_factor = -0.9
@@ -120,8 +116,6 @@ ideas = {
 				production_speed_buildings_factor = -0.10
             }
         }
-    }
-	country = {
         Full_economic_chaos_gos_pravsouzi = {
 
             removal_cost = -1
@@ -130,7 +124,7 @@ ideas = {
 
             }
 
-            picture = GFX_idea_404
+            picture = Osetinian_Economy_djagib_profsoyuzi
             
             modifier = {
                 production_factory_efficiency_gain_factor = -0.25
@@ -138,8 +132,6 @@ ideas = {
 				production_speed_buildings_factor = -0.10
             }
         }
-    }
-	country = {
         Economy_is_recovering = {
 
             removal_cost = -1
@@ -148,7 +140,7 @@ ideas = {
 
             }
 
-            picture = GFX_idea_404
+            picture = Recovery
             
             modifier = {
                 production_factory_efficiency_gain_factor = -0.05
@@ -156,8 +148,6 @@ ideas = {
 				production_speed_buildings_factor = -0.05
             }
         }
-    }
-	country = {
         High_nalogies = {
 
             removal_cost = -1
@@ -172,8 +162,6 @@ ideas = {
                 consumer_goods_factor = -0.1
             }
         }
-    }
-	country = {
         Constitution_of_Caucasus = {
 
             removal_cost = -1
@@ -197,14 +185,12 @@ ideas = {
 
             }
 
-            picture = GFX_idea_404
+            picture = Construction
             
             modifier = {
                 production_speed_buildings_factor = 0.35
             }
         }
-    }
-	country = {
         Full_economic_chaos_programm_of_Kots = {
 
             removal_cost = -1
@@ -213,7 +199,7 @@ ideas = {
 
             }
 
-            picture = GFX_idea_404
+            picture = Osetinian_Economy_koz
             
             modifier = {
                 political_power_factor = -0.45
@@ -230,7 +216,7 @@ ideas = {
 
             }
 
-            picture = GFX_idea_404
+            picture = Osetinian_Economy_koz_2
             
             modifier = {
                 political_power_factor = -0.4
