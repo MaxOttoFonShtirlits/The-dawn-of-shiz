@@ -27,10 +27,10 @@ characters = {
 	}
 
 	GAY_no_name = {
-		name = No_Name
+		name = Djagabiev
 		portraits={
 			army={
-				small="GFX_idea_walther_funk"
+				small="GFX_portrait_Djagabiev_small"
 			}
 		}
 		advisor={
@@ -41,6 +41,9 @@ characters = {
 			}
 			traits = {
 				war_industrialist 
+			}
+			available = {
+				has_completed_focus = GAY_Program_of_Djagabiev
 			}
 			ai_will_do = {
 				factor = 1.000
@@ -107,6 +110,30 @@ characters = {
 			}
 			traits = {
 				minister_of_finance_deressa 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
+	GAY_Kotz = {
+		name = Kotz
+		portraits={
+			army={
+				small= "GFX_portrait_Kotz_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = Kotz_hg
+			allowed = {
+				original_tag = GAY
+			}
+			traits = {
+				captain_of_industry 
+			}
+			available = {
+				has_completed_focus = GAY_Program_of_Kots
 			}
 			ai_will_do = {
 				factor = 1.000

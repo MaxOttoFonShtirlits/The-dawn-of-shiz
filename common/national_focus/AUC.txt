@@ -126,4 +126,42 @@ focus_tree = {
 
 		}
 	}
+	focus = {
+		id = AUC_BSB_Unichtozshino
+		prerequisite = {
+        focus = AUC_Last_Ditch_Preparations
+		}
+		prerequisite = {
+        
+		}
+		icon = GFX_focus
+		cost = 6
+		bypass = {
+			 
+		}
+		x = 5
+		y = 5
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = AUC_Operatsia_brosok_na_cheliabu_ne_vipolnen
+		prerequisite = {
+        focus = AUC_Last_Ditch_Preparations
+		}
+		prerequisite = {
+        always = no
+		}
+		icon = GFX_focus
+		cost = 6
+		bypass = {
+			 
+		}
+		x = 8
+		y = 5
+		completion_reward = {
+
+		}
+	}
 }
