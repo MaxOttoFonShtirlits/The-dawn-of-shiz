@@ -1,0 +1,23 @@
+focus_tree = {
+	id = AUC_Finalnaya_voyna
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AUC
+		}
+	}
+	default = no
+	focus = {
+		id = AUC_Virezat_Blyadskoe
+		icon = GFX_focus_
+		cost = 4
+		bypass = { has_war_with=AUC }
+		x = 7
+		y = 0
+		completion_reward = {
+
+		}
+
+	}
+}

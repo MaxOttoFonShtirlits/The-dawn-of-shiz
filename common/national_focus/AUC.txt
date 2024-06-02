@@ -142,7 +142,7 @@ focus_tree = {
 		x = 5
 		y = 5
 		completion_reward = {
-
+        load_focus_tree =AUC_Finalnaya_voyna
 		}
 	}
 	focus = {
@@ -158,10 +158,10 @@ focus_tree = {
 		bypass = {
 			 
 		}
-		x = 8
+		x = 9
 		y = 5
 		completion_reward = {
-
+        load_focus_tree = AUC_Oslinii_mechti
 		}
 	}
 }
