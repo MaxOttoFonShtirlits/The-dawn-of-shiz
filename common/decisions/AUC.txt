@@ -92,4 +92,9 @@ AUC_war_category = {
             }
 	    }
     }
+	add_power_balance_value = {
+	 id = AUC_Tailer_Derden_range
+	 value = +15
+	 tooltip_side = AUC_Adekvatni_side
+	}
 }
