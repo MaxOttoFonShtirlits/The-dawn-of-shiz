@@ -10,10 +10,7 @@ country_event = { #Stalin
 	
 	trigger = {
 	    tag = AUC
-		date > 2023.8.23
-		has_country_leader = {
-		    character = SOV_iosif_stalin
-		}
+		date > 2023.8.16
 	}
 
 	immediate = {
