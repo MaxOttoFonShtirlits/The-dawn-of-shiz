@@ -183,6 +183,9 @@ focus_tree = {
 		prerequisite = {
 			focus = VEP_built_line_of_kokesh
 		}
+		available = {
+			date > 2023.9.01
+		}
 		icon = GFX_focus_VEP_KOK
 		cost = 2
 		x = 8
