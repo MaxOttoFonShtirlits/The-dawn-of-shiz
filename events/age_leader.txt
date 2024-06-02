@@ -1,0 +1,29 @@
+add_namespace = age_leader
+country_event = { #Stalin
+	id = age_leader.1
+	title = age_leader.1.t
+	desc = age_leader.1.desc
+	
+	hidden = yes
+
+	is_triggered_only = no
+	
+	trigger = {
+	    tag = AUC
+		date > 2023.8.23
+		has_country_leader = {
+		    character = SOV_iosif_stalin
+		}
+	}
+
+	immediate = {
+	}
+	
+    fire_only_once = yes
+	option = {
+		name = age_leader.1.a
+		set_country_leader_portrait = {
+		    portrait = "gfx/leaders/AUC/Portrait_AUC_imgekta_2.dds"
+		}
+	}
+}
