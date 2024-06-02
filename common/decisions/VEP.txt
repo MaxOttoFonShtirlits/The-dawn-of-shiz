@@ -16,16 +16,6 @@ VEP_war_category = {
 		fire_only_once = yes
 		priority = 10
 		selectable_mission = yes
-		cancel_trigger = {
-		    OR = {
-				has_global_flag = chinese_civil_war_over
-				AUC = {
-					NOT = {
-						has_war_with = VEP
-					}
-				}
-			}
-	    }
 		days_mission_timeout = 27
 
 		complete_effect = {
@@ -56,5 +46,6 @@ VEP_war_category = {
 					}
 			    }
 			}
-    }
+		}
+   }
 }
