@@ -1,0 +1,62 @@
+guiTypes = {
+	
+
+	windowType = {
+		name = "load_screen"
+		backGround =""
+		position = { x = 0 y = 0 }
+		size = { x = 1980 y = 1080 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = yes
+		Orientation = "UPPER_LEFT"
+
+		windowType = {
+			name = "status"
+			backGround =""
+			position = { x = 0 y = 0 }
+			size = { x = 0 y = 0 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			Orientation = "CENTER_UP"
+		}
+			
+
+		windowType = {
+			name = "tip"
+			backGround =""
+			position = { x = 0 y = 20 }
+			size = { x = 1400 y = 388 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder = "0"
+			verticalBorder = ""
+			fullScreen = no
+			Orientation = "LOWER_LEFT"
+			
+			iconType = {
+				name ="bg_load_screen"
+				spriteType = "GFX_loadingtip_bg"
+				position = { x= -260 y = -360 }
+			}
+
+			instantTextBoxType = {
+				name = "text"
+				position = { x = 10 y = -160 }
+				textureFile = ""
+				font = "loadscreen_tip"
+				borderSize = {x = 0 y = 0}
+				text = ""	
+				maxWidth = 1000
+				maxHeight = 500
+				fixedsize = no
+				format = left
+			}
+		}	
+	}
+}
