@@ -132,12 +132,21 @@ focus_tree = {
         focus = AUC_Last_Ditch_Preparations
 		}
 		prerequisite = {
-        
+        572 = { is_fully_controlled_by = AUC } 
+		}
+		available = {
+			AUC = {
+					NOT = {
+						has_war_with = VEP
+					}
+				}
+		}
+		available = {
+			572 = { is_fully_controlled_by = AUC } 
 		}
 		icon = GFX_focus
 		cost = 6
-		bypass = {
-			 
+		bypass = { 
 		}
 		x = 5
 		y = 5
@@ -150,8 +159,18 @@ focus_tree = {
 		prerequisite = {
         focus = AUC_Last_Ditch_Preparations
 		}
-		prerequisite = {
-        always = no
+		available = {
+			date > 2023.9.01
+		}
+		available = {
+			AUC = {
+					NOT = {
+						has_war_with = VEP
+					}
+				}
+		}
+		available = {
+			572 = { is_fully_controlled_by = VEP } 
 		}
 		icon = GFX_focus
 		cost = 6
