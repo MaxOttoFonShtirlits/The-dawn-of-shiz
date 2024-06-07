@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = AUC_Moblization
-		icon = GFX_focus_
+		icon = GFX_Focus_mobiki
 		cost = 4
 		bypass = { has_war_with=AUC }
 		x = 7
@@ -58,7 +58,7 @@ focus_tree = {
 		prerequisite = {
 			focus = AUC_Moblization
 		}
-		icon = GFX_focus_VEP_MVD
+		icon = GFX_Focus_Mobiki2
 		cost = 4
 		bypass = { has_war_with=VEP }
 		x = 9
