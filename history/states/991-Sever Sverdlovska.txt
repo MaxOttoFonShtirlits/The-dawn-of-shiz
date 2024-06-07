@@ -1,0 +1,23 @@
+
+state={
+	id=991
+	name="STATE_991" # Sever of sverdlovsk
+	manpower = 156734
+	
+	state_category = rural
+
+	history={
+		owner = BOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = BOR
+	}
+
+	provinces={
+		1704 1771 1841 4813 7778 10648 10716 10720 12696
+	}
+
+	local_supplies=10.0 
+}

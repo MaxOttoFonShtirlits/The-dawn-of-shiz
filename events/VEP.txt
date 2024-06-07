@@ -1,0 +1,52 @@
+﻿###########################
+# AUC Events
+###########################
+
+add_namespace = AUC
+
+# President dies
+country_event = {
+	id = AUC.1
+	title = AUC.1.t
+	desc = AUC.1.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = AUC
+		AUC = {
+			controls_state = 988 
+		}
+	}	
+
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	option = {
+		name = AUC.1.a
+		white_peace = VEP
+		AUC = {
+			set_state_owner = 572
+			set_state_owner = 988
+			set_state_controller = 572
+			set_state_controller = 988
+		}
+		BOR = {
+			set_state_owner = 990
+			set_state_owner = 582
+			set_state_controller = 990
+			set_state_controller = 582
+			add_state_core = 990
+			add_state_core = 582
+		}
+		VEP = {
+			set_state_owner = 653
+			set_state_controller = 653
+			add_state_core = 653
+			remove_ideas = VEP_no_weapons_nation
+			set_cosmetic_tag = pyshma_VEP
+		}
+	}			
+}
