@@ -140,4 +140,28 @@ characters = {
 			}
 		}		
 	}
+	GAY_RK_Gomindan = {
+		name = ReallCart
+		portraits={
+			army={
+				small= "GFX_portrait_RK_Gomindan_small"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = RK_Gomindan_hg
+			allowed = {
+				original_tag = GAY
+			}
+			traits = {
+				Glava_Recrutinga_Gomindaniya 
+			}
+			available = {
+				has_completed_focus = GAY_Accept_Ustas_Proposition
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}		
+	}
 }

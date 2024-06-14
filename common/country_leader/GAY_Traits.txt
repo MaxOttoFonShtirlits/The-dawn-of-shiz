@@ -10,4 +10,9 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	Glava_Recrutinga_Gomindaniya = {
+		random = no
+		political_power_factor = 0.1
+		conscription_factor = 0.1
+	}
 }
