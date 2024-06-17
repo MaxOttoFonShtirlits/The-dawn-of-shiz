@@ -202,7 +202,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "navy"
-			position = { x= 854 y = 5}
+			position = { x= 720 y = 2}
 			clipping = no
 			size = { width=56 height=30 }
 			Orientation = UPPER_LEFT
@@ -229,7 +229,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "air"
-			position = { x= 912 y = 5}
+			position = { x= 770 y = 2}
 			clipping = no
 			size = { width=56 height=30 }
 			Orientation = UPPER_LEFT
