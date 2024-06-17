@@ -528,7 +528,7 @@ guiTypes = {
 				position = { x = -175 y = 5 }
 				textureFile = ""
 				font = "hoi_18mbs"
-				text = "7:00 29, September 1939"
+				text = "1:00 1, August 2023"
 				multiline = no
 				format = center
 				Orientation = "UPPER_RIGHT"
