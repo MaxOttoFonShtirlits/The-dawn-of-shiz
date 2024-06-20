@@ -329,31 +329,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/topbar/toolbar/construction_button.dds"
 		noOfFrames = 2
 	}
-
-	spriteType = {
-		name = "GFX_economy_button_USD"
-		texturefile = "gfx/interface/topbar/toolbar/economy_button_USD.dds"
-		noOfFrames = 2
-	}
-
-	spriteType = {
-		name = "GFX_economy_button_JPY"
-		texturefile = "gfx/interface/topbar/toolbar/economy_button_JPY.dds"
-		noOfFrames = 2
-	}
-
-	spriteType = {
-		name = "GFX_economy_button_RM"
-		texturefile = "gfx/interface/topbar/toolbar/economy_button_RM.dds"
-		noOfFrames = 2
-	}
-
-	spriteType = {
-		name = "GFX_economy_button_RUBLE"
-		texturefile = "gfx/interface/topbar/toolbar/economy_button_RUBLE.dds"
-		noOfFrames = 2
-	}
-
 	spriteType = {
 		name = "GFX_topbar_trade_button"
 		texturefile = "gfx/interface/topbar/toolbar/trade_button.dds"
