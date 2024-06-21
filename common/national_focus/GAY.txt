@@ -914,6 +914,89 @@ focus_tree = {
 			
 		}
 	}
+	focus = {
+		id = GAY_Focus_New_Caucaus
+		icon = GFX_goal_404
+		cost = 10
+		x = 20
+		y = 7
+		prerequisite = {
+			focus = GAY_Focus_make_width_frontline
+		}
+		mutually_exclusive = { focus = GAY_Islamist}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_New_Caucaus_identity
+		icon = GFX_goal_404
+		cost = 10
+		x = 20
+		y = 8
+		prerequisite = {
+			focus = GAY_Focus_New_Caucaus
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_New_Caucaus_no_faith
+		icon = GFX_goal_404
+		cost = 10
+		x = 22
+		y = 8
+		prerequisite = {
+			focus = GAY_Focus_New_Caucaus
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_KMT_Partnership
+		icon = GFX_goal_404
+		cost = 10
+		x = 24
+		y = 8
+		prerequisite = {
+			focus = GAY_Focus_New_Caucaus
+		}
+		prerequisite = {
+			focus = GAY_Accept_Ustas_Proposition
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_New_Caucaus_Blueshirts
+		icon = GFX_goal_404
+		cost = 10
+		x = 24
+		y = 10
+		prerequisite = {
+			focus = GAY_Focus_KMT_Partnership
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Islamist
+		icon = GFX_goal_404
+		cost = 10
+		x = 16
+		y = 7
+		prerequisite = {
+			focus = GAY_Focus_make_width_frontline
+		}
+		mutually_exclusive = { focus = GAY_Focus_New_Caucaus}
+		completion_reward = {
+			
+		}
+	}
    	focus = {
 		id = GAY_Deal_With_Kuomintang
 		icon = GFX_goal_404
@@ -966,6 +1049,35 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = GAY_Focus_rebel_of_kipap
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_NRA_Formation
+		icon = GFX_goal_404
+		cost = 10
+		x = 26
+		y = 10
+		prerequisite = {
+			focus = GAY_Better_Call_Shtirlits
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_KMT_Radicalazi
+		icon = GFX_goal_404
+		cost = 10
+		x = 26
+		y = 11
+		prerequisite = {
+			focus = GAY_Better_Call_Shtirlits
+		}
+		prerequisite = {
+			focus = GAY_Focus_New_Caucaus_Blueshirts
 		}
 		completion_reward = {
 			
