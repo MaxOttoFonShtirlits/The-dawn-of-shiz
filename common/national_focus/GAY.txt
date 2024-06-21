@@ -942,6 +942,19 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = GAY_Focus_New_Caucaus_Language
+		icon = GFX_goal_404
+		cost = 10
+		x = 20
+		y = 9
+		prerequisite = {
+			focus = GAY_Focus_New_Caucaus_identity
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
 		id = GAY_Focus_New_Caucaus_no_faith
 		icon = GFX_goal_404
 		cost = 10
@@ -1074,7 +1087,7 @@ focus_tree = {
 		x = 26
 		y = 11
 		prerequisite = {
-			focus = GAY_Better_Call_Shtirlits
+			focus = GAY_NRA_Formation
 		}
 		prerequisite = {
 			focus = GAY_Focus_New_Caucaus_Blueshirts

@@ -302,7 +302,7 @@ guiTypes = {
 		iconType ={
 			name ="convoys_icon"
 			spriteType = "GFX_topbar_convoys"
-			position = { x= 555 y = 9 }
+			position = { x= 556 y = 9 }
 			Orientation = "UPPER_LEFT"
 		}
 		
