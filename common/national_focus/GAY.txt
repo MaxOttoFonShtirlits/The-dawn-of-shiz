@@ -968,6 +968,64 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = GAY_Focus_New_Caucaus_Ugent
+		icon = GFX_goal_404
+		cost = 10
+		x = 22
+		y = 9
+		prerequisite = {
+			focus = GAY_Focus_New_Caucaus_no_faith
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_New_Caucaus_Destroy_Religion
+		icon = GFX_goal_404
+		cost = 10
+		x = 21
+		y = 10
+		prerequisite = {
+			focus = GAY_Focus_New_Caucaus_Ugent
+		}
+		prerequisite = {
+			focus = GAY_Focus_New_Caucaus_Language
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_New_Reich
+		icon = GFX_goal_404
+		cost = 10
+		x = 21
+		y = 14
+		prerequisite = {
+			focus = GAY_Focus_New_Caucaus_Destroy_Religion
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_Focus_Caucaus_Uber_ales
+		icon = GFX_goal_404
+		cost = 10
+		x = 27
+		y = 15
+		prerequisite = {
+			focus = GAY_Focus_New_Reich
+		}
+		prerequisite = {
+			focus= GAY_Focus_pobeda_on_communism
+		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
 		id = GAY_Focus_KMT_Partnership
 		icon = GFX_goal_404
 		cost = 10
@@ -1092,6 +1150,34 @@ focus_tree = {
 		prerequisite = {
 			focus = GAY_Focus_New_Caucaus_Blueshirts
 		}
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_KMT_Support_In_Struggle
+		icon = GFX_goal_404
+		cost = 10
+		x = 23
+		y = 12
+		prerequisite = {
+			focus = GAY_KMT_Radicalazi
+		}
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = GAY_KMT_Discredit_Kachanov
+		icon = GFX_goal_404
+		cost = 10
+		x = 26
+		y = 12
+		prerequisite = {
+			focus = GAY_KMT_Radicalazi
+		}
+
 		completion_reward = {
 			
 		}
