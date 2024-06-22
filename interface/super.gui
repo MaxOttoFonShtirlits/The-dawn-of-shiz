@@ -29,12 +29,12 @@ guiTypes = {
 		iconType = {
 			name = "sp_event_text_underlay"
 			spriteType = "GFX_sp_event_underlay"
-			position = { x = 195 y = 333 }
+			position = { x = 482 y = 370 }
 		}
 		
 		instantTextBoxType = {
 			name = "super_quote"
-			position = { x = 220 y = 355 }
+			position = { x = 520 y = 380 }
 			font = "hoi_18mbs"
 			borderSize = {x = 0 y = 0}
 			text = "[get_super_event_quote]"
@@ -46,7 +46,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "super_title"
-			position = { x = -52 y = 40 }
+			position = { x = 110 y = 25 }
 			font = "hoi_24header"
 			format = center
 			borderSize = {x = 0 y = 0}
@@ -59,9 +59,9 @@ guiTypes = {
 		buttonType = {
 			name = "sp_event_close_button"
 			spriteType = "GFX_sp_event_close_button"
-			position = { x = 187 y = 475 }
+			position = { x = -8 y = 507 }
 			clicksound = click_close
-			buttonText = "[get_super_event_remark]"
+			buttonText = ""
 			buttonFont = "hoi_20b"
 		}
 	}
