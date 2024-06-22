@@ -637,7 +637,7 @@ guiTypes = {
 			# 4th BUTTON (SMALL)
 			buttonType = {
 				name = "mapmode_button_5"
-				position = { x=608 y=42 }	
+				position = { x=600 y=6 }	
 				quadTextureSprite ="GFX_mapmode_buttons_deselected_small"
 				#shortcut = "r"
 				clicksound = ui_mapmode_supply
@@ -655,7 +655,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "mapmode_button_5_s"
-				position = { x=608 y=42 }	
+				position = { x=600 y=9 }	
 				quadTextureSprite ="GFX_mapmode_buttons_selected_small"
 				#shortcut = "r"
 				shortcut = "F4"
@@ -673,7 +673,7 @@ guiTypes = {
 			# 5th BUTTON (SMALL)
 			buttonType = {
 				name = "mapmode_button_6"
-				position = { x=608 y=63 }
+				position = { x=600 y=33 }
 				quadTextureSprite ="GFX_mapmode_buttons_deselected_small"
 				#shortcut = "t"
 				clicksound = ui_mapmode_terrain
@@ -688,7 +688,7 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "mapmode_button_6_s"
-				position = { x=608 y=63 }
+				position = { x=600 y=33 }
 				quadTextureSprite ="GFX_mapmode_buttons_selected_small"
 				#shortcut = "t"
 				shortcut = "F5"
@@ -708,7 +708,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "mapmode_button_7"
-				position = { x=608 y=86 }
+				position = { x=600 y=59 }
 				quadTextureSprite ="GFX_mapmode_buttons_deselected_small"
 				#shortcut = "y"
 				clicksound = ui_mapmode_resistance
@@ -723,7 +723,7 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "mapmode_button_7_s"
-				position = { x=608 y=86 }
+				position = { x=600 y=59 }
 				quadTextureSprite ="GFX_mapmode_buttons_selected_small"
 				#shortcut = "y"
 				shortcut = "F6"
@@ -739,7 +739,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "mapmode_button_8"
-				position = { x=608 y=107 }
+				position = { x=600 y=88 }
 				quadTextureSprite ="GFX_mapmode_buttons_deselected_small"
 				#shortcut = "y"
 				clicksound = ui_mapmode_compliance
@@ -754,7 +754,7 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "mapmode_button_8_s"
-				position = { x=608 y=107 }
+				position = { x=600 y=88 }
 				quadTextureSprite ="GFX_mapmode_buttons_selected_small"
 				#shortcut = "y"
 				shortcut = "F7"
@@ -771,7 +771,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "mapmode_button_9"
-				position = { x=608 y=129 }
+				position = { x=600 y=115 }
 				quadTextureSprite ="GFX_mapmode_buttons_deselected_small"
 				#shortcut = "s"
 				clicksound = ui_mapmode_resource
@@ -786,7 +786,7 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "mapmode_button_9_s"
-				position = { x=608 y=129 }
+				position = { x=600 y=115 }
 				quadTextureSprite ="GFX_mapmode_buttons_selected_small"
 				shortcut = "F8"
 				pdx_tooltip_anchor =
@@ -803,7 +803,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "mapmode_button_10"
-				position = { x=608 y=151 }
+				position = { x=600 y=143 }
 				quadTextureSprite ="GFX_mapmode_buttons_deselected_small"
 				#shortcut = "y"
 				clicksound = ui_mapmode_infrastructure
@@ -818,7 +818,7 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "mapmode_button_10_s"
-				position = { x=608 y=151 }
+				position = { x=600 y=143 }
 				quadTextureSprite ="GFX_mapmode_buttons_selected_small"
 				#shortcut = "y"
 				shortcut = "F9"
@@ -833,7 +833,7 @@ guiTypes = {
 			# 9th BUTTON (SMALL)
 			buttonType = {
 				name = "mapmode_button_11"
-				position = { x=608 y=173 }
+				position = { x=600 y=171 }
 				quadTextureSprite ="GFX_mapmode_buttons_deselected_small"
 				#shortcut = "y"
 				clicksound = ui_mapmode_factions
@@ -848,7 +848,7 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "mapmode_button_11_s"
-				position = { x=608 y=173 }
+				position = { x=600 y=171 }
 				quadTextureSprite ="GFX_mapmode_buttons_selected_small"
 				#shortcut = "y"
 				shortcut = "F10"
@@ -865,7 +865,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "day_night_toggle"
-			position = { x=557 y=220 }
+			position = { x=554 y=216 }
 			quadTextureSprite ="GFX_day_night_toggle"
 			shortcut = "n"
 			clicksound = click_default
@@ -880,7 +880,7 @@ guiTypes = {
 		}		
 		buttonType = {
 			name = "player_counters_toggle"
-			position = { x=557 y=198 }
+			position = { x=554 y=195 }
 			quadTextureSprite ="GFX_player_counters_toggle"
 			shortcut = "m"
 			clicksound = click_default
@@ -895,7 +895,7 @@ guiTypes = {
 		}	
 		buttonType = {
 			name = "button_counters_color_mode"
-			position = { x=582 y=197 }
+			position = { x=579 y=196 }
 			quadTextureSprite ="GFX_button_counters_color_mode"
 			shortcut = ","
 			clicksound = click_default
@@ -913,7 +913,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "button_allied_plans"
-			position = { x=607 y=198 }
+			position = { x=604 y=196 }
 			quadTextureSprite ="GFX_button_allied_plans"
 			shortcut = "."
 			clicksound = click_default
@@ -928,7 +928,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "button_fog"
-			position = { x=582 y=220 }
+			position = { x=579 y=217 }
 			quadTextureSprite ="GFX_button_fog_of_war"
 			clicksound = click_default
 			oversound = ui_menu_over
@@ -942,7 +942,7 @@ guiTypes = {
 		}	
 		buttonType = {
 			name = "button_radar"
-			position = { x=607 y=220 }
+			position = { x=603 y=217 }
 			quadTextureSprite ="GFX_button_toggle_radar"
 			clicksound = click_default
 			oversound = ui_menu_over
