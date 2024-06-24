@@ -163,7 +163,22 @@ spriteTypes = {
 	#	name = "GFX_USA_UNUSED_motorized_equipment_1_medium" #Rename to "UNUSED" to prevent showing up in searches
 	#	texturefile = "gfx/interface/technologies/USA_motorized_equipment_1.dds"
 	#}
-	
+	SpriteType = {
+		name = "GFX_GAY_advanced_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/Gay_infantry_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_GAY_improved_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/Gay_infantry_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_GAY_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/Gay_infantry_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GAY_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/Gay_infantry.dds"
+	}
 	SpriteType = {
 		name = "GFX_advanced_infantry_weapons_medium"
 		texturefile = "gfx/interface/technologies/infantry3.dds"
@@ -182,8 +197,23 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_infantry_weapons1_medium"
 		texturefile = "gfx/interface/technologies/infantry1.dds"
+	}
+	SpriteType = {
+		name = "GFX_armored_car5_medium"
+		texturefile = "gfx/interface/technologies/armored_car5.dds"
+	}
+	SpriteType = {
+		name = "GFX_armored_car4_medium"
+		texturefile = "gfx/interface/technologies/armored_car_equipment_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_mechanised_infantry5_medium"
+		texturefile = "gfx/interface/technologies/mechanized_equipment_5.dds"
 	}	
-	
+	SpriteType = {
+		name = "GFX_mechanised_infantry4_medium"
+		texturefile = "gfx/interface/technologies/mechanized_equipment_4.dds"
+	}
 	SpriteType = {
 		name = "GFX_mechanised_infantry3_medium"
 		texturefile = "gfx/interface/technologies/mechanized_equipment_3.dds"
@@ -197,7 +227,11 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_mechanised_infantry_medium"
 		texturefile = "gfx/interface/technologies/mechanized_equipment_1.dds"
-	}	
+	}
+	SpriteType = {
+		name = "GFX_GAY_mechanised_infantry2_medium"
+		texturefile = "gfx/interface/technologies/GAY_mechanized_equipment_1.dds"
+	}		
 	
 	SpriteType = {
 		name = "GFX_interwar_antitank_medium"
@@ -491,8 +525,15 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_support_weapons_medium"
 		texturefile = "gfx/interface/technologies/support_weapons.dds"
+	}
+	SpriteType = {
+		name = "GFX_night_vision4_medium"
+		texturefile = "gfx/interface/technologies/night_vision4.dds"
 	}		
-	
+	SpriteType = {
+		name = "GFX_night_vision3_medium"
+		texturefile = "gfx/interface/technologies/night_vision3.dds"
+	}
 	SpriteType = {
 		name = "GFX_night_vision2_medium"
 		texturefile = "gfx/interface/technologies/night_vision2.dds"
@@ -7459,6 +7500,54 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_FIN_super_heavy_tank_2_medium"
 		texturefile = "gfx/interface/technologies/FIN_super_heavy_tank_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_anti_tank_medium"
+		texturefile = "gfx/interface/technologies/infantry_anti_tank_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_GAY_infantry_anti_tank_medium"
+		texturefile = "gfx/interface/technologies/GAY_infantry_anti_tank_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_GAY_infantry_anti_tank_1_medium"
+		texturefile = "gfx/interface/technologies/GAY_infantry_anti_tank_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GAY_infantry_anti_tank_2_medium"
+		texturefile = "gfx/interface/technologies/GAY_infantry_anti_tank_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GAY_infantry_anti_tank_3_medium"
+		texturefile = "gfx/interface/technologies/GAY_infantry_anti_tank_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_anti_tank_1_medium"
+		texturefile = "gfx/interface/technologies/infantry_anti_tank_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_anti_tank_2_medium"
+		texturefile = "gfx/interface/technologies/infantry_anti_tank_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_anti_tank_3_medium"
+		texturefile = "gfx/interface/technologies/infantry_anti_tank_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_anti_air_equipment_medium"
+		texturefile = "gfx/interface/technologies/infantry_anti_air_equipment.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_anti_air_equipment_1_medium"
+		texturefile = "gfx/interface/technologies/infantry_anti_air_equipment_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_anti_air_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/infantry_anti_air_equipment_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantry_anti_air_equipment_3_medium"
+		texturefile = "gfx/interface/technologies/infantry_anti_air_equipment_3.dds"
 	}
 
 }
