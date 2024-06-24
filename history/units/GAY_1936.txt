@@ -8,12 +8,10 @@
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
 		infantry = { x = 0 y = 3 }
-		infantry = { x = 0 y = 4 }
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 		infantry = { x = 1 y = 3 }
-		infantry = { x = 1 y = 4 }
 	}
 }
 
@@ -90,67 +88,12 @@ units = {
 	}        
 		
 }
-units = {
-	##### Natsional'naya Revolyutsionnaya Armiya Caucasus #####
-	division = {
-		name = "1ya Revolyutsionnaya Polk"
-		location = 1599
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 0.9
-
-        }
-	division = {
-		name = "2ya Revolyutsionnaya Polk"
-		location = 9628
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 1
-
-	}        
-		
-}
-units = {
-	##### Natsional'naya Revolyutsionnaya Armiya Caucasus #####
-	division = {
-		name = "1ya Revolyutsionnaya Polk"
-		location = 1599
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 0.9
-
-        }
-	division = {
-		name = "2ya Revolyutsionnaya Polk"
-		location = 9628
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 1
-
-	}        
-		
-}
-units = {
-	##### Natsional'naya Revolyutsionnaya Armiya Caucasus #####
-	division = {
-		name = "1ya Revolyutsionnaya Polk"
-		location = 1599
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 0.9
-
-        }
-	division = {
-		name = "2ya Revolyutsionnaya Polk"
-		location = 9628
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 1
-
-	}        
-		
-}
-
 ##### No air force #####
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_0
-			creator = "SIB"
+			creator = "GAY"
 		}
 		requested_factories = 1
 		progress = 0.31
@@ -163,137 +106,12 @@ units = {
 		name = "1ya Revolyutsionnaya Polk"
 		location = 1599
 		division_template = "orly kafkasa"		
-		start_equipment_factor = 0.9
-
-        }
-	division = {
-		name = "2ya Revolyutsionnaya Polk"
-		location = 9628
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 1
-
-	}        
-		
-}
-units = {
-	##### Natsional'naya Revolyutsionnaya Armiya Caucasus #####
-	division = {
-		name = "1ya Revolyutsionnaya Polk"
-		location = 1599
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 0.9
-
-        }
-	division = {
-		name = "2ya Revolyutsionnaya Polk"
-		location = 9628
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 1
-
-	}        
-		
-}
-units = {
-	##### Natsional'naya Revolyutsionnaya Armiya Caucasus #####
-	division = {
-		name = "1ya Revolyutsionnaya Polk"
-		location = 1599
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 0.9
-
-        }
-	division = {
-		name = "2ya Revolyutsionnaya Polk"
-		location = 9628
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 1
-
-	}        
-		
-}
-units = {
-	##### Natsional'naya Revolyutsionnaya Armiya Caucasus #####
-	division = {
-		name = "1ya Revolyutsionnaya Polk"
-		location = 1599
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 1
-        }
-	division = {
-		name = "2ya Revolyutsionnaya Polk"
-		location = 9628
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 1
-
-	}        
-		
-}
-units = {
-	##### Natsional'naya Revolyutsionnaya Armiya Caucasus #####
-	division = {
-		name = "1ya Revolyutsionnaya Polk"
-		location = 1599
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 1
-
-        }
-	division = {
-		name = "2ya Revolyutsionnaya Polk"
-		location = 9628
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 1
-
-	}        
-		
-}
-units = {
-	##### Natsional'naya Revolyutsionnaya Armiya Caucasus #####
-	division = {
-		name = "1ya Revolyutsionnaya Polk"
-		location = 1599
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 1
-
-        }
-	division = {
-		name = "2ya Revolyutsionnaya Polk"
-		location = 9628
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 1
-
-	}        
-		
-}
-units = {
-	##### Natsional'naya Revolyutsionnaya Armiya Caucasus #####
-	division = {
-		name = "1ya Revolyutsionnaya Polk"
-		location = 1599
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 1
-
-        }
-	division = {
-		name = "2ya Revolyutsionnaya Polk"
-		location = 9628
-		division_template = "orly kafkasa"		
-		start_equipment_factor = 1
-
-	}        
-		
-}
-units = {
-	##### Natsional'naya Revolyutsionnaya Armiya Caucasus #####
-	division = {
-		name = "1ya Revolyutsionnaya Polk"
-		location = 1599
-		division_template = "orly kafkasa"		
 		start_equipment_factor = 1
 
         }
 	division = {
 		name = "Akhmat"
-		location = 9628
+		location = 6674
 		division_template = "orly kafkasa"		
 		start_equipment_factor = 1
 
@@ -316,18 +134,32 @@ units = {
 	##### Natsional'naya Revolyutsionnaya Armiya Caucasus #####
 	division = {
 		name = "Division Of Imam Shamil"
-		location = 1599
+		location = 772
 		division_template = "abreki"		
 		start_equipment_factor = 1
 
         }
 	division = {
 		name = "Division Of Caucasus Fascists"
-		location = 9628
+		location = 654
 		division_template = "abreki"		
 		start_equipment_factor = 1
 
-	}        
+	}   
+	division = {
+		name = "Division Of Caucaus Nationalist"
+		location = 1599
+		division_template = "abreki"		
+		start_equipment_factor = 1
+
+        }
+	division = {
+		name = "Counter terorist division of Abhazia"
+		location = 11664
+		division_template = "abreki"		
+		start_equipment_factor = 1
+
+	}      
 		
 }
 
