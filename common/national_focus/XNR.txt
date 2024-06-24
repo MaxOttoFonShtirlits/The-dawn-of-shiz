@@ -8,4 +8,190 @@ focus_tree = {
 		}
 	}
 	default = no
+
+	focus = {
+		id = XNR_Fine-tuning_the_country
+		cost = 3
+		x = 13
+		y = 1
+		completion_reward = { 
+			
+		}
+		
+	}
+	focus = {
+		id = XNR_Invest_in_the_economy
+		cost = 3
+		x = 2
+		y = 1
+		prerequisite = {
+			focus = XNR_Fine-tuning_the_country
+		}
+		completion_reward = { 
+
+		}
+		relative_position_id = XNR_Fine-tuning_the_country
+	}
+	focus = {
+		id = XNR_Build_new_roads
+		cost = 3
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = XNR_Invest_in_the_economy
+		}
+		completion_reward = { 
+
+		}
+		relative_position_id = XNR_Invest_in_the_economy
+	}
+	focus = {
+		id = XNR_Sell_artificial_oil
+		cost = 3
+		x = 0
+		y = 2
+		prerequisite = {
+			focus = XNR_Build_new_roads
+		}
+		completion_reward = { 
+
+		}
+		relative_position_id = XNR_Invest_in_the_economy
+	}
+	focus = {
+		id = XNR_naebat_goev
+		cost = 3
+		x = -2
+		y = 3
+		prerequisite = {
+			focus = XNR_Sell_artificial_oil
+		}
+		prerequisite = {
+			focus = XNR_Ban_the_sale_of_kavun
+		}
+		prerequisite = {
+			focus = XNR_Teach_all_residents_to_make_kipap
+		}
+		completion_reward = { 
+
+		}
+		relative_position_id = XNR_Invest_in_the_economy
+	}
+	focus = {
+		id = XNR_Build_another_pyramid
+		cost = 3
+		x = -2
+		y = 4
+		prerequisite = {
+			focus = XNR_naebat_goev
+		}
+		completion_reward = { 
+
+		}
+		relative_position_id = XNR_Invest_in_the_economy
+	}
+	focus = {
+		id = XNR_Investment_in_kavun
+		cost = 3
+		x = -2
+		y = 1
+		prerequisite = {
+			focus = XNR_Fine-tuning_the_country
+		}
+		completion_reward = { 
+
+		}
+		relative_position_id = XNR_Fine-tuning_the_country
+	}
+	focus = {
+		id = XNR_Ban_the_sale_of_kavun
+		cost = 3
+		x = 1
+		y = 1
+		prerequisite = {
+			focus = XNR_Investment_in_kavun
+		}
+		completion_reward = { 
+
+		}
+		relative_position_id = XNR_Investment_in_kavun
+	}
+	focus = {
+		id =XNR_Sell_kavuns_to_all_countries
+		cost = 3
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = XNR_Investment_in_kavun
+		}
+		completion_reward = { 
+
+		}
+		relative_position_id = XNR_Investment_in_kavun
+	}
+	focus = {
+		id =XNR_Teach_all_residents_to_make_kipap
+		cost = 3
+		x = -1
+		y = 2
+		prerequisite = {
+			focus = XNR_Sell_kavuns_to_all_countries
+		}
+		completion_reward = { 
+
+		}
+		relative_position_id = XNR_Investment_in_kavun
+	}
+	focus = {
+		id = XNR_Buy_expensive_companies
+		cost = 3
+				x = -2
+y = 5
+		prerequisite = {
+			focus = XNR_Build_another_pyramid
+		}
+		completion_reward = { 
+
+		}
+		relative_position_id = XNR_Invest_in_the_economy
+	}
+	focus = {
+		id = XNR_Sell_Coke_gojam
+		cost = 3
+		x = 0
+		y = 7
+		prerequisite = {
+			focus = XNR_Artificially_increase_company_capitalization
+		}
+		completion_reward = { 
+
+		}
+		relative_position_id = XNR_Invest_in_the_economy
+	}
+	focus = {
+		id = XNR_Artificially_increase_company_capitalization
+		cost = 3
+		x = -2
+		y = 6
+		prerequisite = {
+			focus = XNR_Buy_expensive_companies
+		}
+		completion_reward = { 
+
+		}
+		relative_position_id = XNR_Invest_in_the_economy
+	}
+	focus = {
+		id = XNR_Sell_companies_to_the_goyim
+		cost = 3
+		x = -4
+		y = 7
+		prerequisite = {
+			focus = XNR_Artificially_increase_company_capitalization
+		}
+		completion_reward = { 
+
+		}
+		relative_position_id = XNR_Invest_in_the_economy
+	}
 }
