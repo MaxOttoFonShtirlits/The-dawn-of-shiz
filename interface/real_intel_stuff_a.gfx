@@ -4,4 +4,3 @@ spriteTypes = {
 		texturefile = "gfx/interface/operatives/agencies/agency_logo_fsb.dds"
 		noOfFrames = 2
 	}
-}

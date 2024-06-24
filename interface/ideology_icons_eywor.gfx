@@ -15,4 +15,3 @@ spriteTypes = {
         name = "GFX_ideology_sanmin_military_rule"
         texturefile = "gfx/interface/ideologies/tutelage.dds"
     }
-}
