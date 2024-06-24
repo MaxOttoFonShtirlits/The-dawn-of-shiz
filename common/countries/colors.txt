@@ -37,5 +37,9 @@ KIP = {
 }
 KOK = {
 	color = rgb { 252 186 3 }
-	color_ui = rgb { 173, 127, 0 }
+	color_ui = rgb { 173 127 0 }
+}
+XNR = {
+       color = rgb { 148 56 56 }
+       color_ui = rgb { 255 0 0 }
 }

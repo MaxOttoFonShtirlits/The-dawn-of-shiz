@@ -1,0 +1,11 @@
+focus_tree = {
+	id = XNR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = XNR
+		}
+	}
+	default = no
+}

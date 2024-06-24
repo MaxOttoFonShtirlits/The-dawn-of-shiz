@@ -110,3 +110,20 @@
  pyshma_VEP_democratic_ADJ: "Верхнепышминск"
  pyshma_VEP_neutrality_ADJ: "Верхнепышминск"
  pyshma_VEP_communism_ADJ: "Верхнепышминск"
+
+
+
+ XNR_fascism: "Харьковский рейх"
+ XNR_fascism_DEF: "Харьковский рейх"
+ XNR_democratic: "Республика харьков"
+ XNR_democratic_DEF: "Республика харьков"
+ XNR_neutrality: "Харьковская империя"
+ XNR_neutrality_DEF: "Харьковская империя"
+ XNR_communism: "Социалистическая республика харьков"
+ XNR_communism_DEF: "Социалистическая республика харьков"
+ XNR_fascism_ADJ: "Харьковск"
+ XNR_democratic_ADJ: "Харьковск"
+ XNR_neutrality_ADJ: "Харьковск"
+ XNR_communism_ADJ: "Харьковск"
+ XNR: "харьков"
+ XNR_DEF: "харьков"

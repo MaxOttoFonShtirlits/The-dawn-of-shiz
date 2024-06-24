@@ -55,6 +55,14 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"XNR"={
+			history = "ХУЙ"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
