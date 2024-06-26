@@ -1,5 +1,4 @@
 spriteTypes = {
-
 	spriteType = {
 		name = "GFX_portrait_Pshenycin_small"
 		texturefile = "gfx/leaders/VEP/Portrait_VEP_pshenicyn.dds"
@@ -312,3 +311,4 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
+}
