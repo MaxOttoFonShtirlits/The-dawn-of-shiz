@@ -21,7 +21,7 @@ country_event = {
 	}	
 
 	mean_time_to_happen = {
-		days = 5
+		days = 3
 	}
 
 	option = {
@@ -30,20 +30,15 @@ country_event = {
 		AUC = {
 			set_state_owner = 572
 			set_state_owner = 988
-			set_state_controller = 572
-			set_state_controller = 988
 		}
 		BOR = {
 			set_state_owner = 990
 			set_state_owner = 582
-			set_state_controller = 990
-			set_state_controller = 582
 			add_state_core = 990
 			add_state_core = 582
 		}
 		VEP = {
 			set_state_owner = 653
-			set_state_controller = 653
 			add_state_core = 653
 			remove_ideas = VEP_no_weapons_nation
 			set_cosmetic_tag = pyshma_VEP

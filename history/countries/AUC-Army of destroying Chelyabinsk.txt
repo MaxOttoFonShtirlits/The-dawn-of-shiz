@@ -43,7 +43,17 @@ add_ideas = {
 }
 
 recruit_character = zapolnitel
-
+create_field_marshal = {
+	name = "imgekta"
+		picture = "Portrait_AUC_imgekta.dds"
+	traits = { scavenger }
+	skill = 2
+	
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 4
+}
 create_country_leader = {
 	name = "imgekta"
 	picture = "Portrait_AUC_imgekta.dds"
@@ -52,17 +62,6 @@ create_country_leader = {
 	traits = { 
 		Democrasy_Enemy_Number_1
 	}
-}
-create_corps_commander = {
-	name = "Obasov Alexander"
-		picture = "Portrait_AUC_obasov.dds"
-	traits = { infantry_leader war_hero }
-	skill = 3
-	
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 1
-	logistics_skill = 3
 }
 create_corps_commander = {
     name = "Ivan Ferstapen"
@@ -76,7 +75,7 @@ create_corps_commander = {
     planning_skill = 3
     logistics_skill = 2
 }
-create_field_marshal = {
+create_corps_commander = {
     name = "Dmitry Soldatenko"
     id = 984
         picture = "dmitry_soldatenko.dds"
@@ -86,29 +85,5 @@ create_field_marshal = {
     attack_skill = 2
     defense_skill = 6
     planning_skill = 4
-    logistics_skill = 2
-}
-create_corps_commander = {
-    name = "Anton Ivanov"
-    id = 789
-        picture = "anton_ivanov.dds"
-    traits = { infantry_leader }
-    skill = 5
-
-    attack_skill = 5
-    defense_skill = 5
-    planning_skill = 2
-    logistics_skill = 1
-}
-create_field_marshal = {
-    name = "Vyacheslav Konev"
-    id = 237
-        picture = "vyacheslav_konev.dds"
-    traits = { armor_leader armor_officer  }
-    skill = 2
-
-    attack_skill = 4
-    defense_skill = 1
-    planning_skill = 2
     logistics_skill = 2
 }

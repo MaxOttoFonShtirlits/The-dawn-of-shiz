@@ -148,7 +148,10 @@ spriteTypes = {
 		name = "GFX_motorized_rocket_unit_medium"
 		texturefile = "gfx/interface/technologies/motorized_rocket_unit.dds"
 	}	
-	
+	SpriteType = {
+		name = "GFX_tech_trucks_medium"
+		texturefile = "gfx/interface/technologies/Begining_Truck.dds"
+	}
 	SpriteType = {
 		name = "GFX_motorized_equipment_1_medium"
 		texturefile = "gfx/interface/technologies/motorized_equipment_1.dds"
