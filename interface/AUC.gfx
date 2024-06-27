@@ -17,7 +17,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_Focus_mobiki"
-		texturefile = "gfx/bop/AUC_Morbiki.dds"
+		texturefile = "gfx/interface/goals/AUC_Morbiki.dds"
 	}
 	SpriteType = {
 		name = "GFX_Focus_mobiki_shine"
@@ -51,7 +51,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_Focus_Mobiki2"
-		texturefile = "gfx/bop/AUC_Mobiki2.dds"
+		texturefile = "gfx/interface/goals/AUC_Mobiki2.dds"
 	}
 	SpriteType = {
 		name = "GFX_Focus_Mobiki2_shine"
@@ -83,3 +83,4 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
+}

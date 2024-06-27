@@ -293,7 +293,7 @@ spriteTypes = {
 	}
 		SpriteType = {
 		name = "GFX_focus_GAY_Kipap_Abhazia_shine"
-		texturefile = "gfx/interface/goals/Kipap_Abhazia.dds"
+		texturefile = "gfx/interface/goals/Abhazia.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/Kipap_Abhazia.dds"
@@ -328,4 +328,5 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_portrait_Kotz_small"
 		texturefile = "gfx/leaders/GAY/Kotz.dds"
-	}			
+	}
+}		

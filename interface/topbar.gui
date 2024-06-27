@@ -798,14 +798,6 @@ guiTypes = {
 					clicksound = click_close
 					oversound = ui_menu_over
 				}
-				
-				iconType = {
-					name = "production_button_glow"
-					position = { x = 120 y = -3 }
-					spriteType = "GFX_decisions_glow_yellow"
-					alwaystransparent = yes
-				}
-				
 				buttonType = {
 					name = "production_button"
 					position = { x = 115 y = 2 }
@@ -818,7 +810,7 @@ guiTypes = {
 				
 				buttonType = {
 					name = "deployment_button"
-					position = { x = 170 y = -1 }
+					position = { x = 167 y = -1 }
 					quadTextureSprite ="GFX_deployment_button"
 					Orientation = "UPPER_LEFT"
 					shortcut = "u"
@@ -828,7 +820,7 @@ guiTypes = {
 				
 				buttonType = {
 					name = "logistics_button"
-					position = { x = 225 y = 2 }
+					position = { x = 225 y = 0 }
 					quadTextureSprite ="GFX_ledger_button"
 					Orientation = "UPPER_LEFT"
 					shortcut = "i"
