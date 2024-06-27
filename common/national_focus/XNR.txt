@@ -8,14 +8,30 @@ focus_tree = {
 		}
 	}
 	default = no
+	continuous_focus_position = {
+		x = 20
+		y = 1825
+	}
 
+
+    #########
+	#ECONOMY#
+	#########
 	focus = {
 		id = XNR_Fine-tuning_the_country
 		cost = 3
 		x = 13
 		y = 1
 		completion_reward = { 
-			
+		add_political_power = 100
+		add_stability = 0.05
+	    random_owned_state = {
+			add_building_construction = {
+				type = industrial_complex
+				level = 2
+			}
+			add_extra_state_shared_building_slots = 2
+		}
 		}
 		
 	}
@@ -97,10 +113,7 @@ focus_tree = {
 		y = 1
 		prerequisite = {
 			focus = XNR_Fine-tuning_the_country
-		}
-		completion_reward = { 
-
-		}
+	}
 		relative_position_id = XNR_Fine-tuning_the_country
 	}
 	focus = {
@@ -194,4 +207,260 @@ y = 5
 		}
 		relative_position_id = XNR_Invest_in_the_economy
 	}
+	
+    ##########
+	#POLITICS#
+    ##########
+
+	focus = {
+		id = XNR_The_Rise_of_Gods_kavun
+		icon = GFX_surrender_tiny_flag
+		cost = 3
+		x = 25
+		y = 1
+		completion_reward = { }
+	}
+	focus = {
+		id = XNR_Power_Overthrow
+		icon = GFX_surrender_tiny_flag
+		cost = 3
+		prerequisite = {
+			focus = XNR_The_Rise_of_Gods_kavun
+		}
+		x = 0
+		y = 1
+		completion_reward = { }
+		relative_position_id = XNR_The_Rise_of_Gods_kavun
+	}
+	focus = {
+		id = XNR_Rise_to_Power_of_Makhno
+		icon = GFX_surrender_tiny_flag
+		cost = 3
+		prerequisite = {
+			focus = XNR_Power_Overthrow
+		}
+		mutually_exclusive = {
+			focus = XNR_Rise_to_Power_of_Updaster
+		}
+		x = 2
+		y = 2
+		completion_reward = { }
+		relative_position_id = XNR_The_Rise_of_Gods_kavun
+	}
+	focus = {
+		id = XNR_Propaganda_in_the_Newspaper
+		icon = GFX_surrender_tiny_flag
+		cost = 3
+		prerequisite = {
+			focus = XNR_Rise_to_Power_of_Makhno
+		}
+		x = 1
+		y = 1
+		completion_reward = { 
+			add_stability = 0.05
+		}
+		relative_position_id = XNR_Rise_to_Power_of_Makhno
+	}
+	focus = {
+		id = XNR_Second_Attempt_to_Acquire_Power_by_Updaster
+		icon = GFX_surrender_tiny_flag
+		cost = 3
+		prerequisite = {
+			focus = XNR_Rise_to_Power_of_Makhno
+		}
+		x = -1
+		y = 1
+		completion_reward = { }
+		relative_position_id = XNR_Rise_to_Power_of_Makhno
+	}
+	focus = {
+		id = XNR_Finish_Off_the_Survivors
+		icon = GFX_surrender_tiny_flag
+		cost = 3
+		prerequisite = {
+			focus = XNR_Second_Attempt_to_Acquire_Power_by_Makhno
+			focus = XNR_Propaganda_in_the_Newspaper
+		}
+		x = 1
+		y = 3
+		completion_reward = { }
+		relative_position_id = XNR_Rise_to_Power_of_Makhno
+	}
+	focus = {
+		id = XNR_Complete_Freedom_of_the_People
+		icon = GFX_surrender_tiny_flag
+		cost = 3
+		prerequisite = {
+			focus = XNR_Finish_Off_the_Survivors
+		}
+		x = 1
+		y = 4
+		completion_reward = { }
+		relative_position_id = XNR_Rise_to_Power_of_Makhno
+	}
+	focus = {
+		id = XNR_Elimination_of_the_Police
+		icon = GFX_surrender_tiny_flag
+		cost = 3
+		prerequisite = {
+			focus = XNR_Complete_Freedom_of_the_People
+		}
+		x = 1
+		y = 5
+		completion_reward = { }
+		relative_position_id = XNR_Rise_to_Power_of_Makhno
+	}
+	focus = {
+		id = XNR_Rise_to_Power_of_Updaster
+		icon = GFX_surrender_tiny_flag
+		cost = 3
+		prerequisite = {
+			focus = XNR_Power_Overthrow
+		}
+		mutually_exclusive = {
+			focus = XNR_Rise_to_Power_of_Makhno
+		}
+		x = -2
+		y = 2
+		completion_reward = { 
+		}
+		relative_position_id = XNR_The_Rise_of_Gods_kavun
+	}
+	focus = {
+		id = XNR_Active_Propaganda_on_Television
+		icon = GFX_surrender_tiny_flag
+		cost = 3
+		prerequisite = {
+			focus = XNR_Rise_to_Power_of_Updaster
+		}
+		x = -1
+		y = 1
+		completion_reward = { 
+			add_stability = 0.05
+		}
+		relative_position_id = XNR_Rise_to_Power_of_Updaster
+	}
+	focus = {
+		id = XNR_Second_Attempt_to_Acquire_Power_by_Makhno
+		icon = GFX_surrender_tiny_flag
+		cost = 3
+		prerequisite = {
+			focus = XNR_Rise_to_Power_of_Updaster
+		}
+		x = 1
+		y = 1
+		completion_reward = { 
+		}
+		relative_position_id = XNR_Rise_to_Power_of_Updaster
+	}
+	focus = {
+		id = XNR_Kill_Updasters_Enemies
+		icon = GFX_surrender_tiny_flag
+		cost = 3
+		prerequisite = {
+			focus = XNR_Rise_to_Power_of_Updaster
+			focus = XNR_Second_Attempt_to_Acquire_Power_by_Updaster
+		}
+		x = -1
+		y = 3
+		completion_reward = { 
+			add_stability = 0.05
+			add_war_support = -0.10
+		}
+		relative_position_id = XNR_Rise_to_Power_of_Updaster
+	}
+	focus = {
+		id = XNR_Campaign_for_New_Lands
+		icon = GFX_surrender_tiny_flag
+		cost = 3
+		prerequisite = {
+			focus = XNR_Kill_Updasters_Enemies
+		}
+		x = -1
+		y = 4
+		completion_reward = { 
+		}
+		relative_position_id = XNR_Rise_to_Power_of_Updaster
+	}
+	focus = {
+		id = XNR_Reconstruction_of_Peoples_Opinions
+		icon = GFX_surrender_tiny_flag
+		cost = 3
+		prerequisite = {
+			focus = XNR_Campaign_for_New_Lands
+		}
+		x = -1
+		y = 5
+		completion_reward = { 
+		}
+		relative_position_id = XNR_Rise_to_Power_of_Updaster
+	}
+	focus = {
+		id = XNR_Tightening_of_Peoples_Rights
+		icon = GFX_surrender_tiny_flag
+		cost = 3
+		prerequisite = {
+			focus = XNR_Reconstruction_of_Peoples_Opinions
+		}
+		x = -1
+		y = 6
+		completion_reward = { 
+		}
+		relative_position_id = XNR_Rise_to_Power_of_Updaster
+	}
+	focus = {
+	id = XNR_Removal_of_Updaster_and_Creation_of_Congress
+	icon = GFX_surrender_tiny_flag
+	cost = 3
+	prerequisite = {
+		focus = XNR_Tightening_of_Peoples_Rights
+	}
+	x = -1
+	y = 7
+	completion_reward = { 
+	}
+	relative_position_id = XNR_Rise_to_Power_of_Updaster
 }
+focus = {
+	id = XNR_Creation_of_Military_Police
+	icon = GFX_surrender_tiny_flag
+	cost = 3
+	prerequisite = {
+		focus = XNR_Removal_of_Updaster_and_Creation_of_Congress
+	}
+	x = -1
+	y = 8
+	completion_reward = { 
+	}
+	relative_position_id = XNR_Rise_to_Power_of_Updaster
+}
+focus = {
+	id = XNR_Elimination_of_Individuality
+	icon = GFX_surrender_tiny_flag
+	cost = 3
+	prerequisite = {
+		focus = XNR_Creation_of_Military_Police
+	}
+	x = -1
+	y = 9
+	completion_reward = { 
+	}
+	relative_position_id = XNR_Rise_to_Power_of_Updaster
+}
+focus = {
+	id = XNR_Elimination_of_Individuality
+	icon = GFX_surrender_tiny_flag
+	cost = 3
+	prerequisite = {
+		focus = XNR_Creation_of_Military_Police
+	}
+	x = -1
+	y = 9
+	completion_reward = { 
+	}
+	relative_position_id = XNR_Rise_to_Power_of_Updaster
+}
+
+
+
+}  

@@ -1,0 +1,50 @@
+add_namespace = hohli
+
+country_event = {
+	id = XNR_economy.1
+	title = XNR_economy.1.t
+	desc = XNR_economy.1.D
+
+	is_triggered_only = 	YES
+	immediate = {
+		XNR = {
+			# Initialising of variables
+			set_variable = { var_integrate_commune_cost = 30 }
+			set_variable = { var_aba_conscription = 0 }
+			set_variable = { var_aba_training = 0 }
+			set_variable = { var_aba_organization = 0 }
+			set_variable = { var_aba_morale = 0 }
+			set_variable = { var_aba_core_defence = 0 }
+			set_variable = { var_aba_speed = 0 }
+			set_variable = { var_aba_cav_attack = 0 }
+			set_variable = { var_aba_cav_defence = 0 }
+			set_variable = { var_aba_supply = 0 }
+			set_variable = { var_aba_dig_speed = 0 }
+			set_variable = { var_aba_resistance_damage = 0 }
+			set_variable = { var_aba_leaders_cost = 0 }
+			set_variable = { var_aba_start_planning = 0 }
+			set_variable = { var_aba_mines_factor = 0 }
+			set_variable = { var_aba_network_gain = 0 }
+			set_variable = { var_aba_out_of_supply = 0 }
+			set_variable = { var_aba_female_commanders = 0 }
+			set_variable = { var_as_ncmanpower = 0 }
+			set_variable = { var_as_conscription_factor = 0 }
+			set_variable = { var_as_build_slots = 0 }
+			set_variable = { var_as_surrender = 0 }
+			set_variable = { var_as_research_speed = 0 }
+			set_variable = { var_as_drift_defence = 0 }
+			set_variable = { var_as_build_speed = 0 }
+			set_variable = { var_as_industry_capacity = 0 }
+			set_variable = { var_as_consumer_goods = 0 }
+			set_variable = { var_as_max_efficiency = 0 }
+			set_variable = { var_as_start_efficiency = 0 }
+			set_variable = { var_as_resources = 0 }
+			set_variable = { var_as_oil_refinery_build = 0 }
+			set_variable = { var_as_wargoal_time = 0 }
+			set_variable = { var_as_resistance = 0 }
+			set_variable = { var_as_compliance_gain = 0 }
+			set_variable = { var_as_politpower = 0 }
+			set_variable = { var_as_bunkers = 0 }
+		}
+	}
+}
