@@ -445,4 +445,8 @@ spriteTypes = {
 		name = "GFX_army_right"
 		texturefile = "gfx//interface//topbar//army_right.dds"
 	}
+	spriteType = {
+		name = "GFX_equipment_icon"
+		texturefile = "gfx/interface/topbar/equipment_state_icon.dds"
+	}
 }

@@ -107,7 +107,7 @@ guiTypes = {
 		iconType ={
 			name ="pol_power_icon"
 			spriteType = "GFX_pol_power_icon"
-			position = { x= 98 y = 0 }
+			position = { x= 98 y = 3 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -141,7 +141,7 @@ guiTypes = {
 		iconType ={
 			name ="stability_icon"
 			spriteType = "GFX_stability_icon"
-			position = { x= 160 y = 3 }
+			position = { x= 160 y = 4 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -202,7 +202,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "navy"
-			position = { x= 600 y = 2}
+			position = { x= 610 y = 2}
 			clipping = no
 			size = { width=56 height=30 }
 			Orientation = UPPER_LEFT
@@ -229,7 +229,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "air"
-			position = { x= 645 y = 2}
+			position = { x= 660 y = 2}
 			clipping = no
 			size = { width=56 height=30 }
 			Orientation = UPPER_LEFT
@@ -329,13 +329,13 @@ guiTypes = {
 		iconType = {
 			name ="fuel_icon"
 			spriteType = "GFX_fuel_state"
-			position = { x= 430 y = 6 }
+			position = { x= 420 y = 4 }
 			Orientation = "UPPER_LEFT"
 		}		
 		
 		instantTextBoxType = {
 			name ="fuel_value"
-			position = { x= 455 y = 7 }
+			position = { x= 445 y = 7 }
 			font = "hoi_18mbs"
 			text = "999d"
 			format = center
@@ -347,7 +347,7 @@ guiTypes = {
 		iconType = {
 			name ="fuel_ratio_bar"
 			spriteType = "GFX_topbar_fuel_bar"
-			position = { x= 455 y = 20 }
+			position = { x= 425 y = 20 }
 			frame = 50
 			alwaystransparent = yes
 		}
@@ -356,7 +356,7 @@ guiTypes = {
 		iconType = {
 			name ="supply_icon"
 			spriteType = "GFX_equipment_icon"
-			position = { x= 500 y = 7 }
+			position = { x= 490 y = 7 }
 			Orientation = "UPPER_LEFT"
 		}		
 		
