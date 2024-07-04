@@ -40,6 +40,10 @@ KOK = {
 	color_ui = rgb { 173 127 0 }
 }
 XNR = {
-       color = rgb { 148 56 56 }
-       color_ui = rgb { 255 0 0 }
+    color = rgb { 148 56 56 }
+    color_ui = rgb { 255 0 0 }
+}
+CIA = {
+    color = rgb { 0 72 143 }
+	color_ui = rgb { 12 60 110 }
 }
