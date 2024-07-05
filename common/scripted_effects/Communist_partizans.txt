@@ -1,0 +1,3 @@
+Communist_partizans = {
+989 = { add_dynamic_modifier = prc_hainan_independent_column_modifier }
+}
