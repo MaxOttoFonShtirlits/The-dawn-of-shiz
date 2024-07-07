@@ -1,14 +1,27 @@
-prc_hainan_independent_column_modifier = { 
-	remove_trigger = {
-	    989 = { is_fully_controlled_by = FSB } 
+Kommunist_Rebel_Activity = { 
+	enable = { always = yes }
+	icon = GFX_modifiers_communist
+	compliance_growth = -0.25
+	resistance_growth =  0.4
+	resistance_damage_to_garrison = 0.25
+	attrition_for_controller = 0.4
+}
+Kermenist_Stronhold = { 
+	enable = { country_exists = KER }
+	remove_trigger = {	
+		OR = {
+			GAY = {
+				has_full_control_of_state = 988
+			}
+			NOT = { country_exists = KER }
+			GAY = { has_completed_focus = GAY_Focus_make_constitution}
+		}	
 	}
 	icon = GFX_modifiers_communist
-    army_attack_factor = 0.25
-	army_defence_factor = 0.25
-	army_org_factor = 0.1
-	compliance_growth = 0.25
-	resistance_growth = -0.2
-	resistance_damage_to_garrison = -0.15
-	attrition_for_controller = -0.3
-	local_factories = 0.3
+	max_dig_in = 4
+	army_org_Factor = 0.2
+	conscription_factor = 0.5
+	army_core_defence_factor = 0.3
+	attrition_for_controller = - 0.4
+    
 }
