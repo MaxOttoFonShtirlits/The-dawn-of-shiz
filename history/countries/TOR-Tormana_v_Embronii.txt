@@ -45,7 +45,7 @@ add_ideas = {
 
 create_country_leader = {
 	name = "Tormana"
-	picture = "Embro.dds"
+	picture = "Tormana.dds"
 	expire = "2022.3.1"
 	ideology = Despotism 
 	traits = { 

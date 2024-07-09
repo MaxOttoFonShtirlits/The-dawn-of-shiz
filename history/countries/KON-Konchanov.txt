@@ -40,8 +40,8 @@ add_ideas = {
 }
 
 create_country_leader = {
-	name = "Kachanov"
-	picture = "Embro.dds"
+	name = "Совет Администрации"
+	picture = "Sovet_Kachanova.dds"
 	expire = "2022.3.1"
 	ideology = Despotism 
 	traits = { 
