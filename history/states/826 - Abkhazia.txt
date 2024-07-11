@@ -13,9 +13,7 @@ state = {
 			
 
 		}
-		add_core_of = GAY
-		add_core_of = GEO
-		add_core_of = ABK
+		add_core_of = KIP
 		set_demilitarized_zone = yes
 		1939.1.1 = {
 			buildings = {

@@ -16,4 +16,32 @@ GAY_rebel_category = {
 	    }
 		is_good=yes
     }
+	GAY_Kipap_mission = {
+		priority = 10
+		icon = GFX_decision_revolt
+		allowed = {
+			tag = GAY
+		}
+        fire_only_once = yes
+		available = {
+			hidden_trigger = { always = no }
+		}
+		activation = {
+			826 = { is_fully_controlled_by = GAY } 
+		}
+	    days_mission_timeout = 22
+		priority = 10
+		timeout_effect = {
+           826 = {
+				transfer_state_to = KIP
+			}
+			KIP = {
+				load_oob=KIP_1936
+				declare_war_on = {
+					target = GAY
+					type = annex_everything
+				}
+			}
+	    }
+    }
 }
