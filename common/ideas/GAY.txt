@@ -27,9 +27,24 @@ ideas = {
             picture = Kipap
             
             modifier = {
-				communism_drift=0.02
-				stability_factor=-0.07
+				communism_drift=0.1
+				stability_factor=-0.1
 				war_support_factor=-0.04
+            }
+        }
+        KMT = {
+
+            removal_cost = -1
+
+            allowed = {
+
+            }
+
+            picture = Kipap
+            
+            modifier = {
+                drift_defence_factor = -0.5
+				war_support_factor=-0.15
             }
         }
 		Repressed_Kermenists = {

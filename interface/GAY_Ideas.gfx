@@ -52,4 +52,8 @@ spriteTypes = {
 		name = "GFX_idea_Osetinian_Economy_koz_5"
 		texturefile = "gfx/interface/ideas/idea_Osetian_Economy_Kots_5.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_KMT"
+		texturefile = "gfx/interface/ideas/idea_Shtirlits.dds"
+	}
 }

@@ -41,6 +41,7 @@ add_ideas = {
 	Kipap
 	partial_economic_mobilisation
 	Full_economic_chaos
+	KMT
 }
 
 recruit_character = GAY_alan_alanov
