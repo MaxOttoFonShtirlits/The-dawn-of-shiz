@@ -17,9 +17,6 @@ state={
 		add_dynamic_modifier = {
 		    modifier = Kommunist_Rebel_Activity
 		}
-		 add_dynamic_modifier = {
-		    modifier = Kermenist_Stronhold
-		}
 	}
 
 	provinces={

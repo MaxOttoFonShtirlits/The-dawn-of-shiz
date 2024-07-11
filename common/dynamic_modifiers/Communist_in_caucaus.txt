@@ -7,15 +7,11 @@ Kommunist_Rebel_Activity = {
 	attrition_for_controller = 0.4
 }
 Kermenist_Stronhold = { 
-	enable = { country_exists = KER }
+	enable = { always = yes }
 	remove_trigger = {	
-		OR = {
-			GAY = {
-				has_full_control_of_state = 988
-			}
-			NOT = { country_exists = KER }
-			GAY = { has_completed_focus = GAY_Focus_make_constitution}
-		}	
+		GAY = {
+		has_full_control_of_state = 989
+		}
 	}
 	icon = GFX_modifiers_communist
 	max_dig_in = 4

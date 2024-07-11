@@ -17,6 +17,39 @@ GAY_rebel_category = {
 		is_good=yes
     }
 	GAY_Kipap_mission = {
+		icon = generic_prepare_civil_war
+		allowed = {
+			tag = GAY
+		}
+
+		available = {
+		GAY = { has_completed_focus = GAY_Focus_neutralize_kipap } 
+		}
+		activation = {
+			826 = { is_fully_controlled_by = GAY } 
+		}
+		cost = 0
+		fire_only_once = yes
+		priority = 10
+		selectable_mission = no
+		days_mission_timeout = 111
+		complete_effect = {
+
+		}
+		timeout_effect = {
+           826 = {
+				transfer_state_to = KIP
+			}
+			KIP = {
+				load_oob=KIP_1936
+				declare_war_on = {
+					target = GAY
+					type = annex_everything
+				}
+			}
+	    }
+    }
+	GAY_Stalinist_mission = {
 		priority = 10
 		icon = GFX_decision_revolt
 		allowed = {
@@ -24,19 +57,22 @@ GAY_rebel_category = {
 		}
         fire_only_once = yes
 		available = {
-			hidden_trigger = { always = no }
+		GAY = { has_completed_focus = GAY_Focus_repress_everyone_who_was_with_stalker } 
 		}
 		activation = {
-			826 = { is_fully_controlled_by = GAY } 
+			989 = { is_fully_controlled_by = GAY } 
 		}
-	    days_mission_timeout = 22
-		priority = 10
+	    days_mission_timeout = 57
+		complete_effect = {
+
+		}
 		timeout_effect = {
-           826 = {
-				transfer_state_to = KIP
+           989 = {
+			transfer_state_to = KER
+			add_dynamic_modifier = { modifier = Kermenist_Stronhold}
 			}
-			KIP = {
-				load_oob=KIP_1936
+			KER = {
+				load_oob=KER_1936
 				declare_war_on = {
 					target = GAY
 					type = annex_everything
