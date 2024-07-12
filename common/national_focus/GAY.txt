@@ -80,6 +80,77 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = GAY_Real_World_Position
+		icon = GFX_goal_404
+		cost = 3
+		x = 18
+		y = 4
+		prerequisite = {
+			focus = GAY_Focus_our_geopolitic
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = GAY_Russia_or_Ukraine?
+		icon = GFX_goal_404
+		cost = 3
+		x = 19
+		y = 5
+		prerequisite = {
+			focus = GAY_Real_World_Position
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = GAY_Decide_our_ideology_friends
+		icon = GFX_goal_404
+		cost = 3
+		x = 16
+		y = 5
+		prerequisite = {
+			focus = GAY_Real_World_Position
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = GAY_Start_Recruting_Islamists
+		icon = GFX_goal_404
+		cost = 3
+		x = 16
+		y = 6
+		prerequisite = {
+			focus = GAY_Real_World_Position
+		}
+		allow_branch = {
+			has_completed_focus = GAY_Islamist
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = GAY_Start_Recruting_Nazi
+		icon = GFX_goal_404
+		cost = 3
+		x = 16
+		y = 6
+		prerequisite = {
+			focus = GAY_Real_World_Position
+		}
+		allow_branch = {
+			has_completed_focus = GAY_Focus_New_Caucaus
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
 		id = GAY_Focus_solve_problems
 		icon = GFX_focus_GAY_Vnutreniy_put
 		cost = 10
@@ -631,7 +702,7 @@ focus_tree = {
 		id = GAY_Focus_rebel_of_kipap
 		icon = GFX_focus_GAY_Kipap_Vostal
 		cost = 35
-		x = 27
+		x = 28
 		y = 8
 		available = { has_war_with = KIP }
 		allow_branch = {
@@ -1043,6 +1114,9 @@ focus_tree = {
 		prerequisite = {
 			focus = GAY_Focus_KMT_Partnership
 		}
+		prerequisite = {
+			focus = GAY_Focus_New_Caucaus_Ugent
+		}
 		completion_reward = {
 			
 		}
@@ -1138,12 +1212,10 @@ focus_tree = {
 		id = GAY_KMT_Radicalazi
 		icon = GFX_goal_404
 		cost = 10
-		x = 26
+		x = 24
 		y = 11
 		prerequisite = {
 			focus = GAY_NRA_Formation
-		}
-		prerequisite = {
 			focus = GAY_Focus_New_Caucaus_Blueshirts
 		}
 		completion_reward = {
@@ -1151,10 +1223,10 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = GAY_KMT_Support_In_Struggle
+		id = GAY_KMT_Promice_Support_In_Struggle
 		icon = GFX_goal_404
 		cost = 10
-		x = 23
+		x = 22
 		y = 12
 		prerequisite = {
 			focus = GAY_KMT_Radicalazi
