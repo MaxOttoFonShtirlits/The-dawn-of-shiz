@@ -705,7 +705,7 @@ focus_tree = {
 		x = 28
 		y = 8
 		allow_branch = {
-			has_war_with = KIP 
+			GAY  = { has_war_with = KIP  }
 		}
 		mutually_exclusive = { focus = GAY_Focus_neutralize_kipap }
 		completion_reward = {
