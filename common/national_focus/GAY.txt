@@ -704,7 +704,6 @@ focus_tree = {
 		cost = 35
 		x = 28
 		y = 8
-		available = { has_war_with = KIP }
 		allow_branch = {
 			has_war_with = KIP 
 		}
@@ -1197,7 +1196,7 @@ focus_tree = {
 	}
 	focus = {
 		id = GAY_NRA_Formation
-		icon = GFX_goal_404
+		icon = GFX_focus_GAY_NRA
 		cost = 10
 		x = 26
 		y = 10
