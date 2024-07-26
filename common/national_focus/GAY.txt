@@ -93,6 +93,32 @@ focus_tree = {
 		}
 	}
 	focus = {
+		id = GAY_Chelyabinsk_SVO
+		icon = GFX_goal_404
+		cost = 3
+		x = 13
+		y = 4
+		prerequisite = {
+			focus = GAY_Focus_our_geopolitic
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
+		id = GAY_Kokesh
+		icon = GFX_goal_404
+		cost = 3
+		x = 9
+		y = 4
+		prerequisite = {
+			focus = GAY_Focus_our_geopolitic
+		}
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = {
 		id = GAY_Russia_or_Ukraine?
 		icon = GFX_goal_404
 		cost = 3
@@ -1188,7 +1214,7 @@ focus_tree = {
 		}
 		allow_branch = {
 			has_completed_focus = GAY_Accept_Ustas_Proposition
-			has_war_with = KIP 
+			GAY  = { has_war_with = KIP  } 
 		}
 		completion_reward = {
 			

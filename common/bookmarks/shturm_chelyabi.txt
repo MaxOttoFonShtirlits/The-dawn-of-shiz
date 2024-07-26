@@ -4,10 +4,19 @@ bookmarks = {
 		desc = "SHTURM_CHELYABI_DESC"
 		date = 2023.8.1.1
 		picture = "GFX_select_date_chelyaba"
-		default_country = "AUC"
+		default_country = "GAY"
 		default = yes
-		
+		"GAY"={
+			minor = yes
+			history = "GAY_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		"AUC"={
+			minor = yes
 			history = "AUC_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
@@ -16,6 +25,7 @@ bookmarks = {
 			}
 		}
 		"VEP"={
+			minor = yes
 			history = "VEP_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
@@ -23,40 +33,9 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"DNR"={
-			history = "DNR_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"GAY"={
-			history = "GAY_GATHERING_STORM_DESC"
-			ideology = fascism
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"FSB"={
-			history = "FSB_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
 		"PLT"={
+			minor = yes
 			history = "PLT_GATHERING_STORM_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
-		"XNR"={
-			history = "ХУЙ"
 			ideology = neutrality
 			ideas = {
 			}
