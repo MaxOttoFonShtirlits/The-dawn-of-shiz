@@ -3,3 +3,33 @@
 ###########################
 
 add_namespace = news
+
+# Prigo is down
+news_event = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = GFX_news_event_025
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+		trigger = {
+			NOT = {
+				TAG = AUC
+				TAG = FSB
+			}
+		}
+	}
+	option = {
+		name = news.1.b
+		trigger = { TAG = AUC }
+	}
+	option = {
+		name = news.1.c
+		trigger = { TAG = FSB }
+	}
+}
