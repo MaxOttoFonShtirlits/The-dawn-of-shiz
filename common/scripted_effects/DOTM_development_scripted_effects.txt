@@ -1,0 +1,453 @@
+#improvement#
+
+
+
+people_support_development_improvement = {
+		if = {
+		limit = {check_variable = { people_support_development < 50 }}
+		add_to_variable = { people_support_development = 3 }}
+	 	if = {
+		limit = {check_variable = { people_support_development > 49 }}
+		country_event = upgrade.1  subtract_from_variable = { people_support_development = 50 }  }
+	}
+
+industry_development_improvement = {
+		if = {
+		limit = {check_variable = { industry_development < 50 }}
+		add_to_variable = { industry_development = 3 }}
+	 	if = {
+		limit = {check_variable = { industry_development > 49 }}
+		country_event = upgrade.2  subtract_from_variable = { industry_development = 50 }  }
+	}
+
+army_development_improvement = {
+		if = {
+		limit = {check_variable = { army_development < 50 }}
+		add_to_variable = { army_development = 3 }}
+	 	if = {
+		limit = {check_variable = { army_development > 49 }}
+		country_event = upgrade.3 subtract_from_variable = { army_development = 50} }
+	}
+
+scientific_base_development_improvement = {
+		if = {
+		limit = {check_variable = { scientific_base_development < 50 }}
+		add_to_variable = { scientific_base_development = 3 }}
+	 	if = {
+		limit = {check_variable = { scientific_base_development > 49 }}
+		country_event = upgrade.4   subtract_from_variable = { scientific_base_development = 50 }  }
+	}
+
+poverty_rate_development_improvement = {
+		if = {
+		limit = {check_variable = { poverty_rate_development < 50 }}
+		add_to_variable = { poverty_rate_development = 3 }}
+	 	if = {
+		limit = {check_variable = { poverty_rate_development > 49 }}
+		country_event = upgrade.5   subtract_from_variable = { poverty_rate_development = 50 } }
+	}
+
+administrative_control_development_improvement = {
+		if = {
+		limit = {check_variable = { administrative_control_development < 50 }}
+		add_to_variable = { administrative_control_development = 3 }}
+	 	if = {
+		limit = {check_variable = { administrative_control_development > 49 }}
+		country_event = upgrade.6   subtract_from_variable = { administrative_control_development = 50 } }
+	}
+
+
+
+#improvement_significant#
+
+
+people_support_development_improvement_significant = {
+		if = {
+		limit = {check_variable = { people_support_development < 50 }}
+		add_to_variable = { people_support_development = 10 }}
+	 	if = {
+		limit = {check_variable = { people_support_development > 49 }}
+		country_event = upgrade.1  subtract_from_variable = { people_support_development = 50 }  }
+	}
+
+industry_development_improvement_significant = {
+		if = {
+		limit = {check_variable = { industry_development < 50 }}
+		add_to_variable = { industry_development = 10 }}
+	 	if = {
+		limit = {check_variable = { industry_development > 49 }}
+		country_event = upgrade.2  subtract_from_variable = { industry_development = 50 }  }
+	}
+
+army_development_improvement_significant = {
+		if = {
+		limit = {check_variable = { army_development < 50 }}
+		add_to_variable = { army_development = 10 }}
+	 	if = {
+		limit = {check_variable = { army_development > 49 }}
+		country_event = upgrade.3 subtract_from_variable = { army_development = 50} }
+	}
+
+scientific_base_development_improvement_significant = {
+		if = {
+		limit = {check_variable = { scientific_base_development < 50 }}
+		add_to_variable = { scientific_base_development = 10 }}
+	 	if = {
+		limit = {check_variable = { scientific_base_development > 49 }}
+		country_event = upgrade.4   subtract_from_variable = { scientific_base_development = 50 }  }
+	}
+
+poverty_rate_development_improvement_significant = {
+		if = {
+		limit = {check_variable = { poverty_rate_development < 50 }}
+		add_to_variable = { poverty_rate_development = 10 }}
+	 	if = {
+		limit = {check_variable = { poverty_rate_development > 49 }}
+		country_event = upgrade.5   subtract_from_variable = { poverty_rate_development = 50 } }
+	}
+
+administrative_control_development_improvement_significant = {
+		if = {
+		limit = {check_variable = { administrative_control_development < 50 }}
+		add_to_variable = { administrative_control_development = 10}}
+	 	if = {
+		limit = {check_variable = { administrative_control_development > 49 }}
+		country_event = upgrade.6   subtract_from_variable = { administrative_control_development = 50 } }
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	#degradation#
+	
+people_support_development_degradation = {
+		if = {
+		limit = {check_variable = { people_support_development > -1 }}
+		subtract_from_variable = { people_support_development = 3 }}
+	 	if = {
+		limit = {check_variable = { people_support_development < 0 }}
+		country_event = degradation.1  add_to_variable = { people_support_development = 50 }  }
+	}
+
+industry_development_degradation = {
+		if = {
+		limit = {check_variable = { people_support_development > -1 }}
+		add_to_variable = { industry_development = 3 }}
+	 	if = {
+		limit = {check_variable = { industry_development < 0 }}
+		country_event = degradation.2  add_to_variable = { industry_development = 50 }  }
+	}
+
+army_development_degradation = {
+		if = {
+		limit = {check_variable = { people_support_development > -1 }}
+		subtract_from_variable = { army_development = 3 }}
+	 	if = {
+		limit = {check_variable = { army_development < 0 }}
+		country_event = degradation.3 add_to_variable = { army_development = 50} }
+	}
+
+scientific_base_development_degradation = {
+		if = {
+		limit = {check_variable = { people_support_development > -1 }}
+		subtract_from_variable = { scientific_base_development = 3 }}
+	 	if = {
+		limit = {check_variable = { scientific_base_development < 1 }}
+		country_event = degradation.4   add_to_variable = { scientific_base_development = 50 }  }
+	}
+
+poverty_rate_development_degradation = {
+		if = {
+		limit = {check_variable = { people_support_development > -1 }}
+		subtract_from_variable = { poverty_rate_development = 3 }}
+	 	if = {
+		limit = {check_variable = { poverty_rate_development < 1 }}
+		country_event = degradation.5   add_to_variable = { poverty_rate_development = 50 } }
+	}
+
+administrative_control_development_degradation = {
+		if = {
+		limit = {check_variable = { people_support_development > -1 }}
+		subtract_from_variable = { administrative_control_development = 3 }}
+	 	if = {
+		limit = {check_variable = { people_support_development < 1 }}
+		country_event = degradation.6   add_to_variable = { administrative_control_development = 50 } }
+	}
+	
+	
+	
+	
+	
+#degradation_significant#
+
+people_support_development_degradation_significant = {
+		if = {
+		limit = {check_variable = { people_support_development > -1 }}
+		subtract_from_variable = { people_support_development = 10 }}
+	 	if = {
+		limit = {check_variable = { people_support_development < 1 }}
+		country_event = degradation.1  add_to_variable = { people_support_development = 50 }  }
+	}
+
+industry_development_degradation_significant = {
+		if = {
+		limit = {check_variable = { people_support_development > -1 }}
+		add_to_variable = { industry_development = 10 }}
+	 	if = {
+		limit = {check_variable = { industry_development < 1 }}
+		country_event = degradation.2  add_to_variable = { industry_development = 50 }  }
+	}
+
+army_development_degradation_significant = {
+		if = {
+		limit = {check_variable = { people_support_development > -1 }}
+		subtract_from_variable = { army_development = 10 }}
+	 	if = {
+		limit = {check_variable = { army_development < 1 }}
+		country_event = degradation.3 add_to_variable = { army_development = 50} }
+	}
+
+scientific_base_development_degradation_significant = {
+		if = {
+		limit = {check_variable = { people_support_development > -1 }}
+		subtract_from_variable = { scientific_base_development = 10 }}
+	 	if = {
+		limit = {check_variable = { scientific_base_development < 1 }}
+		country_event = degradation.4   add_to_variable = { scientific_base_development = 50 }  }
+	}
+
+poverty_rate_development_degradation_significant = {
+		if = {
+		limit = {check_variable = { people_support_development > -1 }}
+		subtract_from_variable = { poverty_rate_development = 10 }}
+	 	if = {
+		limit = {check_variable = { poverty_rate_development < 1 }}
+		country_event = degradation.5   add_to_variable = { poverty_rate_development = 50 } }
+	}
+
+administrative_control_development_degradation_significant = {
+		if = {
+		limit = {check_variable = { people_support_development > -1 }}
+		subtract_from_variable = { administrative_control_development = 10 }}
+	 	if = {
+		limit = {check_variable = { people_support_development < 1 }}
+		country_event = degradation.6   add_to_variable = { administrative_control_development = 50 } }
+	}
+	
+	
+	
+
+people_support_development_improvement_upgrade = {
+	if = { limit = { has_idea = people_support_mass_opposition } swap_ideas = {remove_idea = people_support_mass_opposition add_idea = people_support_strong_opposition}}
+    else_if = { limit = { has_idea = people_support_strong_opposition } swap_ideas = {remove_idea = people_support_strong_opposition add_idea = people_support_nonexistent}}
+    else_if = { limit = { has_idea = people_support_nonexistent } swap_ideas = {remove_idea = people_support_nonexistent add_idea = people_support_extremely_low}}
+	else_if = { limit = { has_idea = people_support_extremely_low } swap_ideas = {remove_idea = people_support_extremely_low add_idea = people_support_low}}
+	else_if = { limit = { has_idea = people_support_low } swap_ideas = {remove_idea = people_support_low add_idea = people_support_undefined}}
+	else_if = { limit = { has_idea = people_support_undefined } swap_ideas = {remove_idea = people_support_undefined add_idea = people_support_small}}
+	else_if = { limit = { has_idea = people_support_small } swap_ideas = {remove_idea = people_support_small add_idea = people_support_average}}
+	else_if = { limit = { has_idea = people_support_average } swap_ideas = {remove_idea = people_support_average add_idea = people_support_high}}
+	else_if = { limit = { has_idea = people_support_high } swap_ideas = {remove_idea = people_support_high add_idea = people_support_very_high}}
+	else_if = { limit = { has_idea = people_support_very_high } swap_ideas = {remove_idea = people_support_very_high add_idea = people_support_absolute}}
+	else_if = { limit = { has_idea = people_support_absolute } add_political_power = 100}
+    }
+	
+	
+	
+
+industry_development_improvement_upgrade = {
+	if = { limit = { has_idea = industry_nonexistent } swap_ideas = {remove_idea = industry_nonexistent add_idea = industry_abandoned}}
+    else_if = { limit = { has_idea = industry_abandoned } swap_ideas = {remove_idea = industry_abandoned add_idea = industry_miserable}}
+    else_if = { limit = { has_idea = industry_miserable } swap_ideas = {remove_idea = industry_miserable add_idea = industry_ancient}}
+	else_if = { limit = { has_idea = industry_ancient } swap_ideas = {remove_idea = industry_ancient add_idea = industry_weak}}
+	else_if = { limit = { has_idea = industry_weak } swap_ideas = {remove_idea = industry_weak add_idea = industry_unremarkable}}
+	else_if = { limit = { has_idea = industry_unremarkable } swap_ideas = {remove_idea = industry_unremarkable add_idea = industry_arising}}
+	else_if = { limit = { has_idea = industry_arising } swap_ideas = {remove_idea = industry_arising add_idea = industry_developing}}
+	else_if = { limit = { has_idea = industry_developing } swap_ideas = {remove_idea = industry_developing add_idea = industry_stable}}
+	else_if = { limit = { has_idea = industry_stable } swap_ideas = {remove_idea = industry_stable add_idea = industry_prosperous}}
+	else_if = { limit = { has_idea = industry_prosperous } swap_ideas = {remove_idea = industry_prosperous add_idea = industry_mighty}}
+	else_if = { limit = { has_idea = industry_mighty } add_political_power = 100}
+    }
+
+
+
+
+army_development_improvement_upgrade = {
+	if = { limit = { has_idea = army_falling_apart } swap_ideas = {remove_idea = army_falling_apart add_idea = army_discoordinated}}
+    else_if = { limit = { has_idea = army_discoordinated } swap_ideas = {remove_idea = army_discoordinated add_idea = army_miserable}}
+    else_if = { limit = { has_idea = army_miserable } swap_ideas = {remove_idea = army_miserable add_idea = army_outdated}}
+	else_if = { limit = { has_idea = army_outdated } swap_ideas = {remove_idea = army_outdated add_idea = army_weak}}
+	else_if = { limit = { has_idea = army_weak } swap_ideas = {remove_idea = army_weak add_idea = army_unremarkable}}
+	else_if = { limit = { has_idea = army_unremarkable } swap_ideas = {remove_idea = army_unremarkable add_idea = army_forming}}
+	else_if = { limit = { has_idea = army_forming } swap_ideas = {remove_idea = army_forming add_idea = army_developing}}
+	else_if = { limit = { has_idea = army_developing } swap_ideas = {remove_idea = army_developing add_idea = army_stable}}
+	else_if = { limit = { has_idea = army_stable } swap_ideas = {remove_idea = army_stable add_idea = army_supplied}}
+	else_if = { limit = { has_idea = army_supplied } swap_ideas = {remove_idea = army_supplied add_idea = army_allmighty}}
+	else_if = { limit = { has_idea = army_allmighty } add_political_power = 100}
+    }
+	
+	
+
+scientific_base_development_improvement_upgrade = {
+	if = { limit = { has_idea = scientific_base_nonexistent } swap_ideas = {remove_idea = scientific_base_nonexistent add_idea = scientific_base_abandoned}}
+    else_if = { limit = { has_idea = scientific_base_abandoned } swap_ideas = {remove_idea = scientific_base_abandoned add_idea = scientific_base_miserable}}
+    else_if = { limit = { has_idea = scientific_base_miserable } swap_ideas = {remove_idea = scientific_base_miserable add_idea = scientific_base_ancient}}
+	else_if = { limit = { has_idea = scientific_base_ancient } swap_ideas = {remove_idea = scientific_base_ancient add_idea = scientific_base_weak}}
+	else_if = { limit = { has_idea = scientific_base_weak } swap_ideas = {remove_idea = scientific_base_weak add_idea = scientific_base_unremarkable}}
+	else_if = { limit = { has_idea = scientific_base_unremarkable } swap_ideas = {remove_idea = scientific_base_unremarkable add_idea = scientific_base_recovering}}
+	else_if = { limit = { has_idea = scientific_base_recovering } swap_ideas = {remove_idea = scientific_base_recovering add_idea = scientific_base_developing}}
+	else_if = { limit = { has_idea = scientific_base_developing } swap_ideas = {remove_idea = scientific_base_developing add_idea = scientific_base_developed}}
+	else_if = { limit = { has_idea = scientific_base_developed } swap_ideas = {remove_idea = scientific_base_developed add_idea = scientific_base_advanced}}
+	else_if = { limit = { has_idea = scientific_base_advanced } swap_ideas = {remove_idea = scientific_base_advanced add_idea = scientific_base_matchless}}
+	else_if = { limit = { has_idea = scientific_base_matchless } add_political_power = 100}
+    }
+	
+	
+	
+poverty_rate_development_improvement_upgrade = {
+	if = { limit = { has_idea = poverty_rate_absolute_poverty } swap_ideas = {remove_idea = poverty_rate_absolute_poverty add_idea = poverty_rate_mass_poverty}}
+    else_if = { limit = { has_idea = poverty_rate_mass_poverty } swap_ideas = {remove_idea = poverty_rate_mass_poverty add_idea = poverty_rate_widespread_poverty}}
+    else_if = { limit = { has_idea = poverty_rate_widespread_poverty } swap_ideas = {remove_idea = poverty_rate_widespread_poverty add_idea = poverty_rate_spread_poverty}}
+	else_if = { limit = { has_idea = poverty_rate_spread_poverty } swap_ideas = {remove_idea = poverty_rate_spread_poverty add_idea = poverty_rate_common_poverty}}
+	else_if = { limit = { has_idea = poverty_rate_common_poverty } swap_ideas = {remove_idea = poverty_rate_common_poverty add_idea = poverty_rate_medium_poverty}}
+	else_if = { limit = { has_idea = poverty_rate_medium_poverty } swap_ideas = {remove_idea = poverty_rate_medium_poverty add_idea = poverty_rate_decreasing_poverty}}
+	else_if = { limit = { has_idea = poverty_rate_decreasing_poverty } swap_ideas = {remove_idea = poverty_rate_decreasing_poverty add_idea = poverty_rate_increasing_wealth}}
+	else_if = { limit = { has_idea = poverty_rate_increasing_wealth } swap_ideas = {remove_idea = poverty_rate_increasing_wealth add_idea = poverty_rate_ill_distributed_wealth}}
+	else_if = { limit = { has_idea = poverty_rate_ill_distributed_wealth } swap_ideas = {remove_idea = poverty_rate_ill_distributed_wealth add_idea = poverty_rate_widespread_wealth}}
+	else_if = { limit = { has_idea = poverty_rate_widespread_wealth } swap_ideas = {remove_idea = poverty_rate_widespread_wealth add_idea = poverty_rate_absolute_wealth}}
+	else_if = { limit = { has_idea = poverty_rate_absolute_wealth } add_political_power = 100}
+    }
+	
+
+administrative_control_development_improvement_upgrade = {
+	if = { limit = { has_idea = administrative_control_nonexistent } swap_ideas = {remove_idea = administrative_control_nonexistent add_idea = administrative_control_falling_apart}}
+    else_if = { limit = { has_idea = administrative_control_falling_apart } swap_ideas = {remove_idea = administrative_control_falling_apart add_idea = administrative_control_discoordinated}}
+    else_if = { limit = { has_idea = administrative_control_discoordinated } swap_ideas = {remove_idea = administrative_control_discoordinated add_idea = administrative_control_miserable}}
+	else_if = { limit = { has_idea = administrative_control_miserable } swap_ideas = {remove_idea = administrative_control_miserable add_idea = administrative_control_weak}}
+	else_if = { limit = { has_idea = administrative_control_weak } swap_ideas = {remove_idea = administrative_control_weak add_idea = administrative_control_unremarkable}}
+	else_if = { limit = { has_idea = administrative_control_unremarkable } swap_ideas = {remove_idea = administrative_control_unremarkable add_idea = administrative_control_forming}}
+	else_if = { limit = { has_idea = administrative_control_forming } swap_ideas = {remove_idea = administrative_control_forming add_idea = administrative_control_developing}}
+	else_if = { limit = { has_idea = administrative_control_developing } swap_ideas = {remove_idea = administrative_control_developing add_idea = administrative_control_stable}}
+	else_if = { limit = { has_idea = administrative_control_stable } swap_ideas = {remove_idea = administrative_control_stable add_idea = administrative_control_widespread}}
+	else_if = { limit = { has_idea = administrative_control_widespread } swap_ideas = {remove_idea = administrative_control_widespread add_idea = administrative_control_absolute}}
+	else_if = { limit = { has_idea = administrative_control_absolute } add_political_power = 100}
+    }
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+people_support_development_degradation_worsening = {
+	if = { limit = { has_idea = people_support_absolute } swap_ideas = {remove_idea = people_support_absolute add_idea = people_support_very_high}}
+    else_if = { limit = { has_idea = people_support_very_high } swap_ideas = {remove_idea = people_support_very_high add_idea = people_support_high}}
+    else_if = { limit = { has_idea = people_support_high } swap_ideas = {remove_idea = people_support_high add_idea = people_support_average}}
+	else_if = { limit = { has_idea = people_support_average } swap_ideas = {remove_idea = people_support_average add_idea = people_support_small}}
+	else_if = { limit = { has_idea = people_support_small } swap_ideas = {remove_idea = people_support_small add_idea = people_support_undefined}}
+	else_if = { limit = { has_idea = people_support_undefined } swap_ideas = {remove_idea = people_support_undefined add_idea = people_support_low}}
+	else_if = { limit = { has_idea = people_support_low } swap_ideas = {remove_idea = people_support_low add_idea = people_support_extremely_low}}
+	else_if = { limit = { has_idea = people_support_extremely_low } swap_ideas = {remove_idea = people_support_extremely_low add_idea = people_support_nonexistent}}
+	else_if = { limit = { has_idea = people_support_nonexistent } swap_ideas = {remove_idea = people_support_nonexistent add_idea = people_support_strong_opposition}}
+	else_if = { limit = { has_idea = people_support_strong_opposition } swap_ideas = {remove_idea = people_support_strong_opposition add_idea = people_support_mass_opposition}}
+	else_if = { limit = { has_idea = people_support_mass_opposition } add_political_power = 100}
+    }
+	
+	
+	
+
+industry_development_degradation_worsening = {
+	if = { limit = { has_idea = industry_mighty } swap_ideas = {remove_idea = industry_mighty add_idea = industry_prosperous}}
+    else_if = { limit = { has_idea = industry_prosperous } swap_ideas = {remove_idea = industry_prosperous add_idea = industry_stable}}
+    else_if = { limit = { has_idea = industry_stable } swap_ideas = {remove_idea = industry_stable add_idea = industry_developing}}
+	else_if = { limit = { has_idea = industry_developing } swap_ideas = {remove_idea = industry_developing add_idea = industry_arising}}
+	else_if = { limit = { has_idea = industry_arising } swap_ideas = {remove_idea = industry_arising add_idea = industry_unremarkable}}
+	else_if = { limit = { has_idea = industry_unremarkable } swap_ideas = {remove_idea = industry_unremarkable add_idea = industry_weak}}
+	else_if = { limit = { has_idea = industry_weak } swap_ideas = {remove_idea = industry_weak add_idea = industry_ancient}}
+	else_if = { limit = { has_idea = industry_ancient } swap_ideas = {remove_idea = industry_ancient add_idea = industry_miserable}}
+	else_if = { limit = { has_idea = industry_miserable } swap_ideas = {remove_idea = industry_miserable add_idea = industry_abandoned}}
+	else_if = { limit = { has_idea = industry_abandoned } swap_ideas = {remove_idea = industry_abandoned add_idea = industry_nonexistent}}
+	else_if = { limit = { has_idea = industry_nonexistent } add_political_power = 100}
+    }
+
+
+
+
+army_development_degradation_worsening = {
+	if = { limit = { has_idea = army_allmighty } swap_ideas = {remove_idea = army_allmighty add_idea = army_supplied}}
+    else_if = { limit = { has_idea = army_supplied } swap_ideas = {remove_idea = army_supplied add_idea = army_stable}}
+    else_if = { limit = { has_idea = army_stable } swap_ideas = {remove_idea = army_stable add_idea = army_developing}}
+	else_if = { limit = { has_idea = army_developing } swap_ideas = {remove_idea = army_developing add_idea = army_forming}}
+	else_if = { limit = { has_idea = army_forming } swap_ideas = {remove_idea = army_forming add_idea = army_unremarkable}}
+	else_if = { limit = { has_idea = army_unremarkable } swap_ideas = {remove_idea = army_unremarkable add_idea = army_weak}}
+	else_if = { limit = { has_idea = army_weak } swap_ideas = {remove_idea = army_weak add_idea = army_outdated}}
+	else_if = { limit = { has_idea = army_outdated } swap_ideas = {remove_idea = army_outdated add_idea = army_miserable}}
+	else_if = { limit = { has_idea = army_miserable } swap_ideas = {remove_idea = army_miserable add_idea = army_discoordinated}}
+	else_if = { limit = { has_idea = army_discoordinated } swap_ideas = {remove_idea = army_discoordinated add_idea = army_falling_apart}}
+	else_if = { limit = { has_idea = army_falling_apart } add_political_power = 100}
+    }
+	
+	
+
+scientific_base_development_degradation_worsening = {
+	if = { limit = { has_idea = scientific_base_matchless } swap_ideas = {remove_idea = scientific_base_matchless add_idea = scientific_base_advanced}}
+    else_if = { limit = { has_idea = scientific_base_advanced } swap_ideas = {remove_idea = scientific_base_advanced add_idea = scientific_base_developed}}
+    else_if = { limit = { has_idea = scientific_base_developed } swap_ideas = {remove_idea = scientific_base_developed add_idea = scientific_base_developing}}
+	else_if = { limit = { has_idea = scientific_base_developing } swap_ideas = {remove_idea = scientific_base_developing add_idea = scientific_base_recovering}}
+	else_if = { limit = { has_idea = scientific_base_recovering } swap_ideas = {remove_idea = scientific_base_recovering add_idea = scientific_base_unremarkable}}
+	else_if = { limit = { has_idea = scientific_base_unremarkable } swap_ideas = {remove_idea = scientific_base_unremarkable add_idea = scientific_base_weak}}
+	else_if = { limit = { has_idea = scientific_base_weak } swap_ideas = {remove_idea = scientific_base_weak add_idea = scientific_base_ancient}}
+	else_if = { limit = { has_idea = scientific_base_ancient } swap_ideas = {remove_idea = scientific_base_ancient add_idea = scientific_base_miserable}}
+	else_if = { limit = { has_idea = scientific_base_miserable } swap_ideas = {remove_idea = scientific_base_miserable add_idea = scientific_base_abandoned}}
+	else_if = { limit = { has_idea = scientific_base_abandoned } swap_ideas = {remove_idea = scientific_base_abandoned add_idea = scientific_base_nonexistent}}
+	else_if = { limit = { has_idea = scientific_base_nonexistent } add_political_power = 100}
+    }
+	
+	
+	
+poverty_rate_development_degradation_worsening = {
+	if = { limit = { has_idea = poverty_rate_absolute_wealth } swap_ideas = {remove_idea = poverty_rate_absolute_wealth add_idea = poverty_rate_widespread_wealth}}
+    else_if = { limit = { has_idea = poverty_rate_widespread_wealth } swap_ideas = {remove_idea = poverty_rate_widespread_wealth add_idea = poverty_rate_ill_distributed_wealth}}
+    else_if = { limit = { has_idea = poverty_rate_ill_distributed_wealth } swap_ideas = {remove_idea = poverty_rate_ill_distributed_wealth add_idea = poverty_rate_increasing_wealth}}
+	else_if = { limit = { has_idea = poverty_rate_increasing_wealth } swap_ideas = {remove_idea = poverty_rate_increasing_wealth add_idea = poverty_rate_decreasing_poverty}}
+	else_if = { limit = { has_idea = poverty_rate_decreasing_poverty } swap_ideas = {remove_idea = poverty_rate_decreasing_poverty add_idea = poverty_rate_medium_poverty}}
+	else_if = { limit = { has_idea = poverty_rate_medium_poverty } swap_ideas = {remove_idea = poverty_rate_medium_poverty add_idea = poverty_rate_common_poverty}}
+	else_if = { limit = { has_idea = poverty_rate_common_poverty } swap_ideas = {remove_idea = poverty_rate_common_poverty add_idea = poverty_rate_spread_poverty}}
+	else_if = { limit = { has_idea = poverty_rate_spread_poverty } swap_ideas = {remove_idea = poverty_rate_spread_poverty add_idea = poverty_rate_widespread_poverty}}
+	else_if = { limit = { has_idea = poverty_rate_widespread_poverty } swap_ideas = {remove_idea = poverty_rate_widespread_poverty add_idea = poverty_rate_mass_poverty}}
+	else_if = { limit = { has_idea = poverty_rate_mass_poverty } swap_ideas = {remove_idea = poverty_rate_mass_poverty add_idea = poverty_rate_absolute_poverty}}
+	else_if = { limit = { has_idea = poverty_rate_absolute_poverty } add_political_power = 100}
+    }
+	
+
+administrative_control_development_degradation_worsening = {
+	if = { limit = { has_idea = administrative_control_absolute } swap_ideas = {remove_idea = administrative_control_absolute add_idea = administrative_control_widespread}}
+    else_if = { limit = { has_idea = administrative_control_widespread } swap_ideas = {remove_idea = administrative_control_widespread add_idea = administrative_control_stable}}
+    else_if = { limit = { has_idea = administrative_control_stable } swap_ideas = {remove_idea = administrative_control_stable add_idea = administrative_control_developing}}
+	else_if = { limit = { has_idea = administrative_control_developing } swap_ideas = {remove_idea = administrative_control_developing add_idea = administrative_control_forming}}
+	else_if = { limit = { has_idea = administrative_control_forming } swap_ideas = {remove_idea = administrative_control_forming add_idea = administrative_control_unremarkable}}
+	else_if = { limit = { has_idea = administrative_control_unremarkable } swap_ideas = {remove_idea = administrative_control_unremarkable add_idea = administrative_control_weak}}
+	else_if = { limit = { has_idea = administrative_control_weak } swap_ideas = {remove_idea = administrative_control_weak add_idea = administrative_control_miserable}}
+	else_if = { limit = { has_idea = administrative_control_miserable } swap_ideas = {remove_idea = administrative_control_miserable add_idea = administrative_control_discoordinated}}
+	else_if = { limit = { has_idea = administrative_control_discoordinated } swap_ideas = {remove_idea = administrative_control_discoordinated add_idea = administrative_control_falling_apart}}
+	else_if = { limit = { has_idea = administrative_control_falling_apart } swap_ideas = {remove_idea = administrative_control_falling_apart add_idea = administrative_control_nonexistent}}
+	else_if = { limit = { has_idea = administrative_control_nonexistent } add_political_power = 100}
+    }
+
+
+
+
+
+
+
+
+

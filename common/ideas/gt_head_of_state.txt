@@ -1,5 +1,4 @@
 ideas = {
-
     gt_head_of_state = {
         law = yes
         use_list_view = yes
@@ -14,7 +13,6 @@ ideas = {
                         tag = FSB
                         tag = CIA
                         }
-                        
                     }
                 }
             }
@@ -47,15 +45,12 @@ ideas = {
             cancel_if_invalid = yes
             }
         }
-        president = {
+        Hearts_of_iron_Youtuber = {
 
             available = {
                 OR = {
-                  tag = TUR
-                  NOT = {
-                    has_government = fascism
-                    has_government = communism
-                  }
+                  tag = EMB
+                  tag = KON
                 }
             }
 
@@ -66,62 +61,13 @@ ideas = {
                 stability_factor = 0.10
                 war_support_factor = 0.10
             }
-
-            ai_will_do = {
-                
-                base = 40
-
-                modifier = {
-                    has_government = democratic
-                    tag = USA
-                    add = 200
-                }
-
-                modifier = {
-                    has_government = neutrality
-                    add = 80
-                }
-
-                modifier = {
-                    has_government = democratic
-                    
-                    OR = {
-                        tag = BRA
-                        tag = ARG 
-                        tag = CHL
-                        tag = PRU 
-                        tag = MEX
-                        tag = URG
-                        tag = PAR 
-                        tag = BOL 
-                        tag = ECU 
-                        tag = COL 
-                        tag = VEN 
-                        tag = CUB 
-                    }
-                    add = 40
-                }
-
-                modifier = {
-                    has_government = neutrality
-                    tag = TUR 
-                    add = 100
-                }
-
-                modifier = {
-                    factor = 4
-                }
-            }
-
             cancel_if_invalid = yes
         }
 
-        military_head = {
+        Political_Youtuber = {
 
             available = {
-                NOT = {
-                    has_government = democratic
-                }
+            always = no 
             }
 
             cost = 150

@@ -1,0 +1,64 @@
+development_category = {
+	
+	developing_people_support = {
+		icon = GFX_decision_dotm_сivil_button
+		available = {}
+		visible = {NOT = {has_idea = people_support_absolute}}
+        ai_will_do = {factor = 10}		
+		fire_only_once = no
+		cost = 50
+		days_remove = 120
+		remove_effect = { people_support_development_improvement_significant = yes custom_effect_tooltip = people_support_development_improvement_significant}}
+	
+	
+	developing_industry = {
+		icon = GFX_decision_dotm_industry_button
+		available = {}
+		visible = {NOT = {has_idea = industry_mighty}}
+        ai_will_do = {factor = 10}		
+		fire_only_once = no
+		cost = 50
+		days_remove = 120
+		remove_effect = { industry_development_improvement_significant = yes custom_effect_tooltip = industry_development_improvement_significant }}
+	
+	developing_army = {
+		icon = GFX_decision_dotm_army_button
+		available = {}
+		visible = {NOT = {has_idea = army_allmighty}}
+        ai_will_do = {factor = 10}		
+		fire_only_once = no
+		cost = 50
+		days_remove = 120
+		remove_effect = { army_development_improvement_significant = yes custom_effect_tooltip = army_development_improvement_significant }}
+	
+	developing_scientific_base = {
+		icon = GFX_decision_dotm_science_button
+		available = {}
+		visible = {NOT = {has_idea = scientific_base_matchless}}
+        ai_will_do = {factor = 10}		
+		fire_only_once = no
+		cost = 50
+		days_remove = 120
+		remove_effect = { scientific_base_development_improvement_significant = yes custom_effect_tooltip = scientific_base_development_improvement_significant }}
+	
+	developing_poverty_rate = {
+		icon = GFX_decision_dotm_money_button
+		available = {}
+		visible = {NOT = {has_idea = poverty_rate_absolute_wealth}}
+        ai_will_do = {factor = 10}		
+		fire_only_once = no
+		cost = 50
+		days_remove = 120
+		remove_effect = { poverty_rate_development_improvement_significant = yes custom_effect_tooltip = poverty_rate_development_improvement_significant }}
+	
+	developing_administrative_control = {
+		icon = GFX_decision_dotm_administrative_button
+		available = {}
+		visible = {NOT = {has_idea = administrative_control_absolute}}
+        ai_will_do = {factor = 10}		
+		fire_only_once = no
+		cost = 50
+		days_remove = 120
+		remove_effect = { administrative_control_development_improvement_significant = yes custom_effect_tooltip = administrative_control_development_improvement_significant }}
+		
+}

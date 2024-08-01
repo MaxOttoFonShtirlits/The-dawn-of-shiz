@@ -1,0 +1,157 @@
+﻿division_template = {
+	name = "orly kafkasa"		# Army was a single infantry regiment of militia	
+
+	division_names_group = GAY_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+
+units = {
+	##### Natsional'naya Revolyutsionnaya Armiya Caucasus #####
+	division = {
+		name = "1ya Revolyutsionnaya Polk"
+		location = 9997
+		division_template = "orly kafkasa"		
+		start_equipment_factor = 0.7
+
+        }
+	division = {
+		name = "2ya Revolyutsionnaya Polk"
+		location = 12014
+		division_template = "orly kafkasa"		
+		start_equipment_factor = 0.7
+
+	}        
+	division = {
+		name = "1ya Revolyutsionnaya Polk"
+		location = 10080
+		division_template = "orly kafkasa"		
+		start_equipment_factor = 0.7
+
+    }
+	division = {
+		name = "2ya Revolyutsionnaya Polk"
+		location = 12095
+		division_template = "orly kafkasa"		
+		start_equipment_factor = 0.7
+
+	}        
+	division = {
+		name = "1ya Revolyutsionnaya Polk"
+		location = 1202
+		division_template = "orly kafkasa"		
+		start_equipment_factor = 0.7
+
+    }
+	division = {
+		name = "2ya Revolyutsionnaya Polk"
+		location = 7108
+		division_template = "orly kafkasa"		
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "1ya Revolyutsionnaya Polk"
+		location = 9997
+		division_template = "orly kafkasa"		
+		start_equipment_factor = 0.7
+
+        }
+	division = {
+		name = "2ya Revolyutsionnaya Polk"
+		location = 12014
+		division_template = "orly kafkasa"		
+		start_equipment_factor = 0.7
+
+	}        
+	division = {
+		name = "1ya Revolyutsionnaya Polk"
+		location = 10080
+		division_template = "orly kafkasa"		
+		start_equipment_factor = 0.7
+
+    }
+	division = {
+		name = "2ya Revolyutsionnaya Polk"
+		location = 12095
+		division_template = "orly kafkasa"		
+		start_equipment_factor = 0.7
+
+	}        
+	division = {
+		name = "1ya Revolyutsionnaya Polk"
+		location = 1202
+		division_template = "orly kafkasa"		
+		start_equipment_factor = 0.7
+
+    }
+	division = {
+		name = "2ya Revolyutsionnaya Polk"
+		location = 7108
+		division_template = "orly kafkasa"		
+		start_equipment_factor = 0.7
+
+	}                
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "TOR"
+		}
+		requested_factories = 1
+		progress = 0.31
+		efficiency = 100
+	}
+}
+division_template = {
+	name = "abreki"		# Army was a single infantry regiment of militia	
+
+	division_names_group = GAY_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+units = {
+	##### Natsional'naya Revolyutsionnaya Armiya Caucasus #####
+	division = {
+		name = "Division Of Imam Shamil"
+		location = 4189
+		division_template = "abreki"		
+		start_equipment_factor = 0.8
+
+    }
+	division = {
+		name = "Division Of Caucasus Fascists"
+		location = 7135
+		division_template = "abreki"		
+		start_equipment_factor = 0.7
+
+	}   
+	division = {
+		name = "Division Of Caucaus Nationalist"
+		location = 11981
+		division_template = "abreki"		
+		start_equipment_factor = 0.7
+
+    }
+	division = {
+		name = "Counter terorist division of Abhazia"
+		location = 10062
+		division_template = "abreki"		
+		start_equipment_factor = 0.25
+
+	}      		
+}
