@@ -30,10 +30,11 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 5
+	democratic = 3
 	fascism = 70
 	communism = 15
-	neutrality = 10
+	neutrality = 2
+	Islamism = 10
 }
 
 add_ideas = {
@@ -42,6 +43,7 @@ add_ideas = {
 	partial_economic_mobilisation
 	Full_economic_chaos
 	KMT
+	Starting_Discord_Political_Community
 }
 
 recruit_character = GAY_alan_alanov

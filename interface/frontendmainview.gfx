@@ -1,12 +1,129 @@
 #background sprite is in frontendmainviewbg.gfx
 
 spriteTypes = {
+
+
+	containerWindowType = {
+		name ="frontend_background_tile_01"
+		position = { x=-934 y =0 }	
+		size = { 
+			width = 52 
+			height = 800 
+			preserve_aspect_ratio = yes
+		}
+		Orientation = center
+		Origo = center
+		clipping = no 
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_frontend_bg_tile_01"
+			alwaystransparent = yes
+		}
+	}
+
+
+
+
 	textSpriteType = {
 		name = "GFX_main_lobby_button"
 		textureFile = "gfx/interface/main_lobby_button.dds"
 		noOfFrames = 3
 		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
 	}
+
+	textSpriteType = {
+		name = "GFX_single_player_lobby_button"
+		textureFile = "gfx/interface/single_player_lobby_button.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
+		name = "GFX_multi_player_lobby_button"
+		textureFile = "gfx/interface/multi_player_lobby_button.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	textSpriteType = {
+		name = "GFX_career_player_lobby_button"
+		textureFile = "gfx/interface/career_player_lobby_button.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+
+	textSpriteType = {
+		name = "GFX_sp_lobby_button"
+		textureFile = "gfx/interface/sp_lobby_button.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+
+	textSpriteType = {
+		name = "GFX_sp_new_lobby_button"
+		textureFile = "gfx/interface/sp_new_lobby_button.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+
+	textSpriteType = {
+		name = "GFX_sp_load_lobby_button"
+		textureFile = "gfx/interface/sp_load_lobby_button.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	
+
+
+	textSpriteType = {
+		name = "GFX_settings_lobby_button"
+		textureFile = "gfx/interface/settings_lobby_button.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+
+	textSpriteType = {
+		name = "GFX_sp_tutorial_lobby_button"
+		textureFile = "gfx/interface/sp_tutorial_lobby_button.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+
+	textSpriteType = {
+		name = "GFX_sp_back_lobby_button"
+		textureFile = "gfx/interface/sp_back_lobby_button.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	
+
+	textSpriteType = {
+		name = "GFX_exit_lobby_button"
+		textureFile = "gfx/interface/exit_lobby_button.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+	spriteType = {
+		name = "es_discord"
+		texturefile = "gfx/interface/icon_discord.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "es_moddb"
+		texturefile = "gfx/interface/icon_moddb.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "es_github"
+		texturefile = "gfx/interface/icon_github.dds"
+		noOfFrames = 1
+	}
+	spriteType = {
+		name = "es_vk"
+		texturefile = "gfx/interface/icon_vk.dds"
+		noOfFrames = 1
+	}
+
+
 
 	SpriteType = {
 		name = "GFX_main_lobby_button_highlight"
@@ -16,9 +133,9 @@ spriteTypes = {
 			animationmaskfile = "gfx/interface/main_lobby_button_white.dds"
 			animationtexturefile = "gfx/interface/main_lobby_button_highlight.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = yes			# yes or no ;)
-			animationtime = 1				# in seconds
-			animationdelay = 0.5			# in seconds
+			animationlooping = yes
+			animationtime = 1	
+			animationdelay = 0.5
 			animationblendmode = "normal"       #add, multiply, overlay
 			animationtype = "scrolling"      #scrolling, rotating, pulsing
 			animationrotationoffset = { x = 0.0 y = 0.0 }
@@ -34,13 +151,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_frontend_game_logo"
-		texturefile = "gfx/interface/logo_game.dds"
-	}
-
-	spriteType = {
-		name = "GFX_frontend_dev_logo"
-		texturefile = "gfx/interface/pdx_dev_logo.dds"
+		name = "GFX_frontend_mod_logo"
+		texturefile = "gfx/interface/logo_mod.dds"
 	}
 
 	spriteType = {
@@ -52,7 +164,10 @@ spriteTypes = {
 		name = "GFX_socialview_icon"
 		texturefile = "gfx/interface/icons/pi_icon.dds"
 	}
-
+	spriteType = {
+		name = "reddit"
+		texturefile = "gfx/interface/icon_reddit.dds"
+	}
 	frameAnimatedSpriteType = {
 		name = "GFX_subscription_widget"
 		textureFile = "gfx/interface/sub/main/subscription_widget.dds"
@@ -68,92 +183,15 @@ spriteTypes = {
 		name = "GFX_subscription_widget_active"
 		textureFile = "gfx/interface/sub/main/subscription_widget_active.dds"
 	}
-	
-	### DLC Banners
-	
-	spriteType = { #Tfv
-		name = "GFX_frontend_banner_dlc018"
-		texturefile = "gfx/interface/dlc_banners/dlc018.dds"
-	}
-	
-	spriteType = { #Dod
-		name = "GFX_frontend_banner_dlc020"
-		texturefile = "gfx/interface/dlc_banners/dlc020.dds"
-	}
-	
-	spriteType = { #WTT
-		name = "GFX_frontend_banner_dlc022"
-		texturefile = "gfx/interface/dlc_banners/dlc022.dds"
-	}
-	
-	spriteType = { #Mtg
-		name = "GFX_frontend_banner_dlc023"
-		texturefile = "gfx/interface/dlc_banners/dlc023.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_frontend_medal_dlc023"
-		texturefile = "gfx/interface/goals/focus_DLC_man_the_guns.dds"
-	}
-	
-	spriteType = { #LaR
-		name = "GFX_frontend_banner_dlc028"
-		texturefile = "gfx/interface/dlc_banners/dlc028.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_frontend_medal_dlc028"
-		texturefile = "gfx/interface/goals/focus_DLC_la_resistance.dds"
-	}
-	
-	spriteType = { #BftB
-		name = "GFX_frontend_banner_dlc031"
-		texturefile = "gfx/interface/dlc_banners/dlc031.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_frontend_medal_dlc031"
-		texturefile = "gfx/interface/goals/focus_DLC_battle_for_the_bosporous.dds"
-	}
-	
-	spriteType = { #NsB
-		name = "GFX_frontend_banner_dlc034"
-		texturefile = "gfx/interface/dlc_banners/dlc034.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_frontend_medal_dlc034"
-		texturefile = "gfx/interface/goals/focus_DLC_no_step_back.dds"
-	}
-	
-	spriteType = { #BbA
-		name = "GFX_frontend_banner_dlc036"
-		texturefile = "gfx/interface/dlc_banners/dlc036.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_frontend_medal_dlc036"
-		texturefile = "gfx/interface/goals/focus_DLC_by_blood_alone.dds"
-	}
-	
-	spriteType = { #AaT
-		name = "GFX_frontend_banner_dlc038"
-		texturefile = "gfx/interface/dlc_banners/dlc038.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_frontend_medal_dlc038"
-		texturefile = "gfx/interface/career_profile/profile_pictures/goals/focus_FIN_a_cry_for_help.dds"
-	}
-	
-	spriteType = { #ToA
-		name = "GFX_frontend_banner_dlc040"
-		texturefile = "gfx/interface/dlc_banners/dlc018.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_frontend_medal_dlc040"
-		texturefile = "gfx/interface/goals/focus_DLC_trial_of_allegiance.dds"
-	}
+	frameAnimatedSpriteType = {
+		name = "GFX_test_anim1"
+		textureFile = "gfx/interface/test_animation/test1.dds"
+		noOfFrames = 23
+		animation_rate_fps = 23
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0
+		
+		}
 
 }

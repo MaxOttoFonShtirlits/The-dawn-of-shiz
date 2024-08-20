@@ -1,6 +1,6 @@
 ﻿capital = 592
 
-oob = "KIP_1936"
+oob = "EMB_1936"
 
 set_research_slots = 3
 

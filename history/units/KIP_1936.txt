@@ -18,95 +18,63 @@ units = {
 	##### Natsional'naya Revolyutsionnaya Armiya Caucasus #####
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 11617
+		location = 11599
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
         }
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 11617
+		location = 672
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
 	}        
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 11617
+		location = 11664
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
 	}
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 11617
-		division_template = "kipap"		
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Division Of Guram Tabolov"
-		location = 11617
+		location = 11599
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
         }
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 11617
+		location = 672
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
 	}        
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 11617
+		location = 11664
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
 	}
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 11617
-		division_template = "kipap"		
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Division Of Guram Tabolov"
-		location = 11617
+		location = 11599
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
         }
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 11617
+		location = 672
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
 	}        
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 11617
-		division_template = "kipap"		
-		start_equipment_factor = 1
-
-	}
-	division = {
-		name = "Division Of Guram Tabolov"
-		location = 11617
-		division_template = "kipap"		
-		start_equipment_factor = 1
-	}
-	division = {
-		name = "Division Of Guram Tabolov"
-		location = 11617
-		division_template = "kipap"		
-		start_equipment_factor = 1
-
-        }
-	division = {
-		name = "Division Of Guram Tabolov"
-		location = 11617
+		location = 11664
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
