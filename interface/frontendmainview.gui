@@ -163,7 +163,7 @@ guiTypes = {
 			orientation = lower_right
 		}
 		ButtonType = {
-			name = "vk_button"
+			name = "tg_button"
 			position = { x= -325 y=-100 }
 			quadTextureSprite = "es_vk"
 			clicksound = click_default
@@ -179,16 +179,6 @@ guiTypes = {
 			clicksound = click_default
 			pdx_tooltip = "ES_MENU_DISCORD"
 			web_link = "https://github.com/MaxOttoFonShtirlits/The-dawn-of-shiz"
-			scale = 1
-			orientation = lower_right
-		}
-		ButtonType = {
-			name = "moddb_button"
-			position = { x= -125 y=-100 }
-			quadTextureSprite = "es_moddb"
-			clicksound = click_default
-			pdx_tooltip = "ES_MENU_DISCORD"
-			web_link = "https://www.moddb.com/mods/east-showdown/downloads/east-showdown"
 			scale = 1
 			orientation = lower_right
 		}	
