@@ -1,88 +1,81 @@
 guiTypes = {
-	
-
 	windowType = {
 		name = "load_screen"
 		backGround =""
 		position = { x = 0 y = 0 }
-		size = { x = 1980 y = 1080 }
+		size = { x = 1024 y = 768 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder = "0"
 		verticalBorder = ""
 		fullScreen = yes
-		Orientation = "UPPER_LEFT"
+		Orientation = "UPPER_LEFT"				
+	windowType = {
+		name = "tip"
+		backGround =""
+		position = { x = 0 y = 20 }
+		size = { x = 1400 y = 388 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		Orientation = "LOWER_LEFT"
+			
+		iconType = {
+		name ="bg_load_screen"
+		spriteType = "GFX_loadingtip_bg"
+		position = { x= -294 y = -360 }
+		}
 
-		windowType = {
-			name = "status"
-			backGround =""
-			position = { x = 0 y = 0 }
-			size = { x = 1024 y = 768 }
-			moveable = 0
-			dontRender = ""
-			horizontalBorder = "0"
-			verticalBorder = ""
-			fullScreen = no
-			Orientation = "CENTER_UP"
-			
-			iconType = {
-				name ="bg_load_screen2"
-				spriteType = "GFX_loadingstatus_bg"
-				position = { x= -700 y = -360 }
-			}
-			
-			instantTextBoxType = {
-				name = "text"
-				position = { x = -1374 y = 1230 }
-				textureFile = ""
-				font = "loadscreen_header"
-				borderSize = {x = 0 y = 0}
-				text = ""	
-				maxWidth = 800
-				maxHeight = 40
-				fixedsize = yes
-				format = centre
-			}	
-		
-			iconType = 
-			{
-				name = "progressbar"
-				spriteType = "GFX_loadingstatus_progress"
-				position = { x=-1460 y=1258 }
-			}
+		instantTextBoxType = {
+		name = "text"
+		position = { x = 10 y = -160 }
+		textureFile = ""
+		font = "loadscreen_tip"
+		borderSize = {x = 0 y = 0}
+		text = "kon"	
+		maxWidth = 860
+		maxHeight = 500
+		fixedsize = no
+		format = left
+		}
+	}
+	windowType = {
+		name = "status"
+		backGround =""
+		position = { x = 0 y = 0 }
+		size = { x = 1024 y = 768 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = "0"
+		verticalBorder = ""
+		fullScreen = no
+		Orientation = "CENTER_UP"
+		iconType = {
+			name ="bg_load_screen2"
+			spriteType = "GFX_loadingstatus_bg"
+			position = { x= -700 y = -360 }
 		}
 			
-
-		windowType = {
-			name = "tip"
-			backGround =""
-			position = { x = 0 y = 20 }
-			size = { x = 1400 y = 388 }
-			moveable = 0
-			dontRender = ""
-			horizontalBorder = "0"
-			verticalBorder = ""
-			fullScreen = no
-			Orientation = "LOWER_LEFT"
-			
-			iconType = {
-				name ="bg_load_screen"
-				spriteType = "GFX_loadingtip_bg"
-				position = { x= -304 y = -360 }
-			}
-
-			instantTextBoxType = {
-				name = "text"
-				position = { x = 10 y = -160 }
-				textureFile = ""
-				font = "loadscreen_tip"
-				borderSize = {x = 0 y = 0}
-				text = ""	
-				maxWidth = 1000
-				maxHeight = 500
-				fixedsize = no
-				format = left
-			}
+		instantTextBoxType = {
+			name = "text"
+			position = { x = -1395 y = 1300 }
+			textureFile = ""
+			font = "loadscreen_header"
+			borderSize = {x = 0 y = 0}
+			text = ""	
+			maxWidth = 800
+			maxHeight = 40
+			fixedsize = yes
+			format = centre
 		}	
+		
+		iconType = {
+			name = "progressbar"
+			spriteType = "GFX_loadingstatus_progress"
+			position = { x=-1401 y=1333 }
+		}	
+	}
 	}
 }
