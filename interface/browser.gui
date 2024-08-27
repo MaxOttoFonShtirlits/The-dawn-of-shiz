@@ -21,14 +21,14 @@ guiTypes = {
 		buttonType = {
 			name = "back"
 			quadTextureSprite = "GFX_browser_back"
-			position = { x = -7 y = 22 }
+			position = { x = -7 y = 32 }
 			pdx_tooltip = "BROWSER_BACK"
 		}
 		
 		buttonType = {
 			name = "forward"
 			quadTextureSprite = "GFX_browser_forward"
-			position = { x = 30 y = 22 }
+			position = { x = 30 y = 32 }
 			pdx_tooltip = "BROWSER_FORWARD"
 		}
 		
@@ -36,23 +36,22 @@ guiTypes = {
 		{
 			name = "reload"
 			quadTextureSprite = "GFX_browser_refresh"
-			position = { x = 67 y = 22 }
+			position = { x = 67 y = 31 }
 			pdx_tooltip = "BROWSER_RELOAD"			
 		}
 		
 		buttonType =
 		{
 			name = "forum"
-			quadTextureSprite = "forum"
-			position = { x = 140 y = 11 }
+			quadTextureSprite = "GFX_HOI4_Forum"
+			position = { x = 960 y = 8 }
 			pdx_tooltip = "BROWSER_FORUM"			
 		}
 		
-		buttonType =
-		{
+		buttonType = {
 			name = "home"
-			quadTextureSprite = "homepage"
-			position = { x = 180 y = 11 }
+			quadTextureSprite = "GFX_HOI4_Wiki"
+			position = { x = 1045 y = 8 }
 			pdx_tooltip = "BROWSER_HOME"				
 		}
 		
@@ -68,8 +67,8 @@ guiTypes = {
 		buttonType =
 		{
 			name = "close"
-			quadTextureSprite = "GFX_closebutton"
-			position = { x = 10 y = 8 }
+			quadTextureSprite = "GFX_Browser_Close"
+			position = { x = -9 y = -29 }
 			clicksound = click_close
 		}		
 		
