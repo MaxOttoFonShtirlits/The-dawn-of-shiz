@@ -47,7 +47,13 @@ guiTypes = {
 			position = { x = 960 y = 8 }
 			pdx_tooltip = "BROWSER_FORUM"			
 		}
-		
+		buttonType =
+		{
+			name = "Youtube"
+			quadTextureSprite = "GFX_Youtube"
+			position = { x = 850 y = 4 }
+			web_link = "https://www.youtube.com/"			
+		}
 		buttonType = {
 			name = "home"
 			quadTextureSprite = "GFX_HOI4_Wiki"
@@ -68,7 +74,7 @@ guiTypes = {
 		{
 			name = "close"
 			quadTextureSprite = "GFX_Browser_Close"
-			position = { x = -9 y = -29 }
+			position = { x = 8 y = 8 }
 			clicksound = click_close
 		}		
 		

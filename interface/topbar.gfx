@@ -259,14 +259,17 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_button_speedup"
-		texturefile = "gfx/interface/button_speedup.tga"
+		texturefile = "gfx/interface/topbar/button_up.dds"
 		noOfFrames = 1
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
-
+	spriteType = {
+		name = "GFX_web_browser"
+		texturefile = "gfx/interface/topbar/firefox.dds"
+	}
 	spriteType = {
 		name = "GFX_button_speeddown"
-		texturefile = "gfx/interface/button_speeddown.tga"
+		texturefile = "gfx/interface/topbar/button_down.dds"
 		noOfFrames = 1
 		effectFile = "gfx/FX/buttonstate.lua"
 	}

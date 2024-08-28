@@ -36,4 +36,8 @@ spriteTypes = {
 		name = "GFX_Browser_Close"
 		texturefile = "gfx/interface/Browser_Close.dds"
 	}
+	spriteType = {
+		name = "GFX_Youtube"
+		texturefile = "gfx/interface/Youtube_logo.dds"
+	}
 }
