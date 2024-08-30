@@ -47,6 +47,9 @@ GAY_rebel_category = {
 					type = annex_everything
 				}
 			}
+			country_event = {
+			id = GAY.1
+			}
 	    }
     }
 	GAY_Stalinist_mission = {
