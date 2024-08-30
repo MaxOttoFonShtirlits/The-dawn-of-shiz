@@ -1,8 +1,13 @@
-﻿capital = 219
-oob = "PLT_1936"
+﻿capital = 593
+
+oob = "FSB_1936"
+
 set_research_slots = 3
-create_intelligence_agency = yes
-puppet = ZOV
+set_autonomy = {
+target = ZOV
+autonomous_state = autonomy_puppet
+freedom_level = 0.35
+}
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -22,7 +27,7 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = neutrality 
 	last_election = "2023.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -30,21 +35,20 @@ set_politics = {
 
 set_popularities = {
 	democratic = 0
-	fascism = 0
-	communism = 0
-	neutrality = 100
+	fascism = 30
+	communism = 40
+	neutrality = 30
 }
 
 add_ideas = {
 }
 
 create_country_leader = {
-	name = "Alexander Bortnikov"
-	picture = "Portrait_FSB_Bortnikov.dds"
+	name = "Про-Русские медиа"
+	picture = "Propogondoni.dds"
 	expire = "2022.3.1"
-	ideology = centrism
+	ideology = Despotism 
 	traits = { 
-		Leader_of_FSB
 	}
 }
 create_corps_commander = {
