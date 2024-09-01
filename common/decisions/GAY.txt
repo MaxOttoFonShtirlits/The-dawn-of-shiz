@@ -39,6 +39,11 @@ GAY_rebel_category = {
 		timeout_effect = {
            826 = {
 				transfer_state_to = KIP
+				add_dynamic_modifier = { 
+					modifier = Kermenist_Stronhold
+					scope = KIP
+					days = 30
+				}
 			}
 			KIP = {
 				load_oob=KIP_1936
@@ -71,9 +76,13 @@ GAY_rebel_category = {
 
 		}
 		timeout_effect = {
-           989 = {
-			transfer_state_to = KER
-			add_dynamic_modifier = { modifier = Kermenist_Stronhold}
+            989 = {
+				transfer_state_to = KER
+				add_dynamic_modifier = { 
+					modifier = Kermenist_Stronhold
+					scope = KER
+					days = 30
+				}
 			}
 			KER = {
 				load_oob=KER_1936

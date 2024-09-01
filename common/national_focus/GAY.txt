@@ -873,10 +873,20 @@ focus_tree = {
 			826 = {
 				transfer_state_to = KIP
 				add_core_of = KIP
+				add_dynamic_modifier = { 
+					modifier = Kermenist_Stronhold
+					scope = KIP
+					days = 30
+				}
 			}
 			989 = {
 				transfer_state_to = KER
 				add_core_of = KER
+				add_dynamic_modifier = { 
+					modifier = Kermenist_Stronhold
+					scope = KER
+					days = 30
+				}
 			}
 			KIP = {
 				load_oob=KIP_1936
