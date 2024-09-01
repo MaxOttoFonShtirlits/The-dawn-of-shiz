@@ -59,3 +59,7 @@ KON = {
    color = rgb { 50 205 50 }
    color_ui = rgb { 50 205 50 }
 }
+SVO = {
+   color = rgb { 138 190 252 }
+   color_ui = rgb { 138 190 252 }
+}

@@ -32,7 +32,7 @@ GAY_rebel_category = {
 		fire_only_once = yes
 		priority = 10
 		selectable_mission = no
-		days_mission_timeout = 111
+		days_mission_timeout = 126
 		complete_effect = {
 
 		}
@@ -50,6 +50,7 @@ GAY_rebel_category = {
 			country_event = {
 			id = GAY.1
 			}
+			set_global_flag = kipap_rebel
 	    }
     }
 	GAY_Stalinist_mission = {
@@ -81,6 +82,7 @@ GAY_rebel_category = {
 					type = annex_everything
 				}
 			}
+			set_global_flag = kermenists_rebel
 	    }
     }
 }

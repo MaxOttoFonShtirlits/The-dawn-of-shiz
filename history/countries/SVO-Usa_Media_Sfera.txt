@@ -1,8 +1,13 @@
-﻿capital = 362
-oob = "PLT_1936"
+﻿capital = 361
+
+oob = "SVO_1936"
+
 set_research_slots = 3
-create_intelligence_agency = yes
-puppet = SVO
+set_autonomy = {
+target = SVO
+autonomous_state = autonomy_puppet
+freedom_level = 0.35
+}
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -22,29 +27,28 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic 
 	last_election = "2023.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 0
-	fascism = 0
-	communism = 0
-	neutrality = 100
+	democratic = 95
+	fascism = 3
+	communism = 2
+	neutrality = 0
 }
 
 add_ideas = {
 }
 
 create_country_leader = {
-	name = "William Burns"
-	picture = "Portrait_CIA_Burns.dds"
+	name = "Про-Западные медиа"
+	picture = "Prozapadniemedia.dds"
 	expire = "2022.3.1"
-	ideology = centrism
+	ideology = Liberalism 
 	traits = { 
-		Leader_of_FSB
 	}
 }
 create_corps_commander = {

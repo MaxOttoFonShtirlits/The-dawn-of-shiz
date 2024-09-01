@@ -153,7 +153,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAY_Real_World_Position
 		}
-		allow_branch = {
+		available = {
 			has_completed_focus = GAY_Islamist
 		}
 		completion_reward = {
@@ -169,7 +169,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAY_Real_World_Position
 		}
-		allow_branch = {
+		available = {
 			has_completed_focus = GAY_Focus_New_Caucaus
 		}
 		completion_reward = {
@@ -671,7 +671,7 @@ focus_tree = {
 	focus = {
 		id = GAY_Focus_abhazian_maoizm
 		icon = GFX_focus_GAY_Abhazia
-		cost = 35
+		cost = 10
 		x = 30
 		y = 5
 		prerequisite = {
@@ -697,9 +697,12 @@ focus_tree = {
 	focus = {
 		id = GAY_Focus_comendant_hour
 		icon = GFX_goal_404
-		cost = 35
+		cost = 10
 		x = 30
 		y = 6
+		available = { 
+			NOT = { has_global_flag = kipap_rebel }
+		}
 		prerequisite = {
 			focus = GAY_Focus_abhazian_maoizm
 		}
@@ -711,9 +714,12 @@ focus_tree = {
 	focus = {
 		id = GAY_Focus_shell_maoists
 		icon = GFX_goal_404
-		cost = 35
+		cost = 10
 		x = 30
 		y = 7
+		available = { 
+			NOT = { has_global_flag = kipap_rebel }
+		}
 		prerequisite = {
 			focus = GAY_Focus_comendant_hour
 		}
@@ -727,12 +733,11 @@ focus_tree = {
 	focus = {
 		id = GAY_Focus_rebel_of_kipap
 		icon = GFX_focus_GAY_Kipap_Vostal
-		cost = 35
+		cost = 7
 		x = 28
 		y = 8
-		allow_branch = {
-			GAY  = { has_war_with = KIP  }
-		}
+		bypass = { has_global_flag = kipap_rebel }
+		available = { has_global_flag = kipap_rebel }
 		mutually_exclusive = { focus = GAY_Focus_neutralize_kipap }
 		completion_reward = {
 			add_war_support=0.1
@@ -741,25 +746,29 @@ focus_tree = {
 	focus = {
 		id = GAY_Focus_dekipapization
 		icon = GFX_goal_404
-		cost = 35
+		cost = 7
 		x = 28
 		y = 9
 		prerequisite = {
 			focus = GAY_Focus_rebel_of_kipap
 		}
 		completion_reward = {
-			add_ideas=GAY_Idea_dekipapization
+			add_timed_idea= {
+				idea=GAY_Idea_dekipapization
+				days=30
+			}
 		}
 	}
 	focus = {
 		id = GAY_Focus_total_war
 		icon = GFX_goal_404
-		cost = 35
+		cost = 7
 		x = 30
 		y = 9
 		prerequisite = {
 			focus = GAY_Focus_rebel_of_kipap
 		}
+		available = { KIP = { exists = yes } }
 		completion_reward = {
 			add_ideas=war_economy
 			add_war_support=0.1
@@ -768,7 +777,7 @@ focus_tree = {
 	focus = {
 		id = GAY_Focus_public_execution
 		icon = GFX_goal_404
-		cost = 35
+		cost = 7
 		x = 28
 		y = 10
 		prerequisite = {
@@ -784,7 +793,7 @@ focus_tree = {
 	focus = {
 		id = GAY_Focus_solve_kipap
 		icon = GFX_goal_404
-		cost = 35
+		cost = 7
 		x = 28
 		y = 11
 		available = {
@@ -800,7 +809,7 @@ focus_tree = {
 	focus = {
 		id = GAY_Focus_prison_of_kipap
 		icon = GFX_goal_404
-		cost = 35
+		cost = 7
 		x = 28
 		y = 12
 		prerequisite = {
@@ -814,7 +823,7 @@ focus_tree = {
 	focus = {
 		id = GAY_Focus_execution_of_kipap
 		icon = GFX_goal_404
-		cost = 35
+		cost = 7
 		x = 30
 		y = 12
 		prerequisite = {
@@ -828,10 +837,12 @@ focus_tree = {
 	focus = {
 		id = GAY_Focus_neutralize_kipap
 		icon = GFX_focus_GAY_Kipapa_Artoi
-		cost = 35
+		cost = 10
 		x = 30
 		y = 8
-		available = { has_war = no }
+		available = { 
+			NOT = { has_global_flag = kipap_rebel }
+		}
 		prerequisite = {
 			focus = GAY_Focus_shell_maoists
 		}
@@ -845,17 +856,19 @@ focus_tree = {
 	focus = {
 		id = GAY_Focus_war_campaing_against_communism
 		icon = GFX_goal_404
-		cost = 35
+		cost = 10
 		x = 32
 		y = 6
 		prerequisite = {
 			focus = GAY_Focus_abhazian_maoizm
-		}
-		prerequisite = {
 			focus = GAY_Focus_osetin_stalinism
 		}
 		mutually_exclusive = { focus = GAY_Focus_comendant_hour }
 		mutually_exclusive = { focus = GAY_Focus_kill_stalinists_in_caves }
+		available = { 
+			NOT = { has_global_flag = kipap_rebel }
+			NOT = { has_global_flag = kermenists_rebel }
+		}
 		completion_reward = {
 			826 = {
 				transfer_state_to = KIP
@@ -879,6 +892,8 @@ focus_tree = {
 					type = annex_everything
 				}
 			}
+			set_global_flag = kipap_rebel
+			set_global_flag = kermenists_rebel
 		}
 	}
 	focus = {
@@ -888,10 +903,10 @@ focus_tree = {
 		x = 34
 		y = 6
 		prerequisite = {
-			focus = GAY_Focus_abhazian_maoizm
-		}
-		prerequisite = {
 			focus = GAY_Focus_osetin_stalinism
+		}
+		bypass = { 
+			has_global_flag = kermenists_rebel
 		}
 		mutually_exclusive = { focus = GAY_Focus_war_campaing_against_communism }
 		completion_reward = {
@@ -907,6 +922,9 @@ focus_tree = {
 		prerequisite = {
 			focus = GAY_Focus_kill_stalinists_in_caves
 		}
+		bypass = { 
+			has_global_flag = kermenists_rebel
+		}
 		completion_reward = {
 			remove_ideas=Kermenists
 		}
@@ -914,12 +932,13 @@ focus_tree = {
 	focus = {
 		id = GAY_Focus_repress_everyone_who_was_with_stalker
 		icon = GFX_goal_404
-		cost = 10
+		cost = 5
 		x = 34
 		y = 8
 		prerequisite = {
 			focus = GAY_Focus_obvalit_enters_and_exits
 		}
+		available = { KER = { exists = no } }
 		completion_reward = {
 			add_ideas=Repressed_Kermenists
 		}
@@ -932,6 +951,9 @@ focus_tree = {
 		y = 6
 		prerequisite = {
 			focus = GAY_Focus_osetin_stalinism
+		}
+		prerequisite = {
+			focus = GAY_Focus_abhazian_maoizm
 		}
 		completion_reward = {
 			add_popularity = {
@@ -972,6 +994,14 @@ focus_tree = {
 			remove_ideas = Kipap
 			remove_ideas = Kermenists
 			remove_ideas = Repressed_Kermenists
+			826 = {
+				add_core_of = GAY
+				set_demilitarized_zone = no
+			}
+			989 = {
+				add_core_of = GAY
+				set_demilitarized_zone = no
+			}
 		}
 	}
 	focus = {
@@ -1120,7 +1150,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAY_Focus_New_Caucaus
 		}
-		allow_branch = {
+		available = {
 			has_completed_focus = GAY_Accept_Ustas_Proposition
 		}
 		prerequisite = {
@@ -1212,7 +1242,7 @@ focus_tree = {
 		prerequisite = {
 			focus = GAY_Focus_rebel_of_kipap
 		}
-		allow_branch = {
+		available = {
 			has_completed_focus = GAY_Accept_Ustas_Proposition
 			GAY  = { has_war_with = KIP  } 
 		}
