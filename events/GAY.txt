@@ -13,3 +13,212 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = GAY.2
+	title = GAY.2.t
+	desc = GAY.2.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = GAY
+		GAY = {
+			surrender_progress > 0.7
+			has_war_with = KER
+			has_war_with = KIP
+		}
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = GAY.2.a
+		white_peace = KER
+		white_peace = KIP
+		KIP = {
+			transfer_state = 982
+			transfer_state = 827
+			transfer_state = 828
+			add_state_core = 982
+			add_state_core = 827
+			add_state_core = 828
+		}
+		KER = {
+			transfer_state = 231
+			add_state_core = 231
+		}
+		981 = {
+			set_demilitarized_zone = yes
+		}
+		230 = {
+			set_demilitarized_zone = yes
+		}
+	}			
+}
+
+country_event = {
+	id = GAY.3
+	title = GAY.3.t
+	desc = GAY.3.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = GAY
+		GAY = {
+			surrender_progress > 0.7
+			has_war_with = KIP
+			NOT = { has_war_with = KER }
+		}
+		KER = { exists = no }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = GAY.3.a
+		white_peace = KIP
+		KIP = {
+			transfer_state = 982
+			transfer_state = 827
+			transfer_state = 828
+			add_state_core = 982
+			add_state_core = 827
+			add_state_core = 828
+		}
+		981 = {
+			set_demilitarized_zone = yes
+		}
+		989 = {
+			set_demilitarized_zone = yes
+		}
+		230 = {
+			set_demilitarized_zone = yes
+		}
+		231 = {
+			set_demilitarized_zone = yes
+		}
+	}			
+}
+
+country_event = {
+	id = GAY.4
+	title = GAY.4.t
+	desc = GAY.4.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = GAY
+		GAY = {
+			surrender_progress > 0.7
+			has_war_with = KER
+			NOT = { has_war_with = KIP }
+		}
+		KIP = { exists = no }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = GAY.4.a
+		white_peace = KER
+		KER = {
+			transfer_state = 231
+			add_state_core = 231
+		}
+		981 = {
+			set_demilitarized_zone = yes
+		}
+		230 = {
+			set_demilitarized_zone = yes
+		}
+		826 = {
+			set_demilitarized_zone = yes
+		}
+	}			
+}
+
+country_event = {
+	id = GAY.5
+	title = GAY.5.t
+	desc = GAY.5.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = GAY
+		GAY = {
+			surrender_progress > 0.7
+			has_war_with = KIP
+			NOT = { has_war_with = KER }
+		}
+		KER = { exists = yes }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = GAY.5.a
+		white_peace = KIP
+		KIP = {
+			transfer_state = 982
+			transfer_state = 827
+			transfer_state = 828
+			add_state_core = 982
+			add_state_core = 827
+			add_state_core = 828
+		}
+	}			
+}
+
+country_event = {
+	id = GAY.6
+	title = GAY.6.t
+	desc = GAY.6.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = GAY
+		GAY = {
+			surrender_progress > 0.7
+			has_war_with = KER
+			NOT = { has_war_with = KIP }
+		}
+		KIP = { exists = yes }
+	}	
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = GAY.6.a
+		white_peace = KER
+		KER = {
+			transfer_state = 231
+			add_state_core = 231
+		}
+		981 = {
+			set_demilitarized_zone = yes
+		}
+		230 = {
+			set_demilitarized_zone = yes
+		}
+	}			
+}
