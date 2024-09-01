@@ -167,7 +167,7 @@ focus_tree = {
 		x = 16
 		y = 6
 		prerequisite = {
-			focus = GAY_Real_World_Position
+			focus =  GAY_Decide_our_ideology_friends
 		}
 		available = {
 			has_completed_focus = GAY_Focus_New_Caucaus
