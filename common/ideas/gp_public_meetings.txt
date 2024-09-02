@@ -1,122 +1,183 @@
 ideas = {
 
-    gp_public_meetings = {
-        law = yes
-        use_list_view = yes
-
-        allowed = {
-
-            available = {
-                NOT = {
-                    has_government = fascism
-                }
-            }
-
-            level = 3
-
-            modifier = {
-                political_power_factor = 0.10
-                army_morale_factor = 0.05
-                drift_defence_factor = -0.10
-            }
-
-            ai_will_do = {
-
-                base = 20
-
-                modifier = {
-                    has_government = democratic
-                    add = 80
-                }
-
-                modifier = {
-                    has_government = communism
-                    add = 20
-                }
-
-                modifier = {
-                    factor = 3
-                }
-
-            
-            }
-
-            cancel_if_invalid = yes
-        }
-
-        monitored = {
-            
-            available = {
-                
-            }
-
-            level = 2
-
-            modifier = {
-                political_power_factor = -0.05
-                army_morale_factor = -0.05
-                drift_defence_factor = 0.05
-                stability_factor = 0.05
-            }
-
-            ai_will_do = {
-                base = 30
-
-                modifier = {
-                    has_government = fascism
-                    add = 60
-                }
-
-                modifier = {
-                    has_government = communism
-                    add = 40
-                }
-
-                modifier = {
-                    has_government = neutrality
-                    add = 20
-                }
-
-                modifier = {
-                    factor = 3
-                }
-            }
-
-            cancel_if_invalid = yes
-        }
-
-        banned = {
-
-            available = {
-                NOT = {
-                    has_government = democratic
-                }
-            }
-
-            level = 1
-
-            modifier = {
-                political_power_factor = -0.10
-                army_morale_factor = -0.10
-                drift_defence_factor = 0.15
-                stability_factor = 0.10
-            }
-
-            ai_will_do = {
-
-                base = 20
-
-                modifier = {
-                    has_government = fascism
-                    add = 80
-                }
-
-                modifier = {
-                    factor = 3
-                }
-            }
-
-            cancel_if_invalid = yes
-        }
+    gp_public_meetings = { 
+		law = yes
+		use_list_view = yes
+		
+		
+		scientific_base_nonexistent = {
+		picture = scientific_base_nonexistent
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			research_speed_factor = -0.1
+			political_power_factor = 0.1
+			drift_defence_factor = -0.1
+			supply_consumption_factor = 0.1
+			production_speed_buildings_factor = -0.1
+			coordination_bonus = -0.01
+	          }
+		   }
+		
+		scientific_base_abandoned = {
+		picture = scientific_base_abandoned
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			research_speed_factor = -0.08
+			political_power_factor = 0.08
+			drift_defence_factor = -0.08
+			supply_consumption_factor = 0.08
+			production_speed_buildings_factor = -0.08
+	          }
+		   }
+		
+	    scientific_base_miserable = {
+		picture = scientific_base_miserable
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			research_speed_factor = -0.06
+			political_power_factor = 0.06
+			drift_defence_factor = -0.06
+			supply_consumption_factor = 0.06
+	          }
+		   }
+		
+		scientific_base_ancient = {
+		picture = scientific_base_ancient
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			research_speed_factor = -0.04
+			political_power_factor = 0.04
+			drift_defence_factor = -0.04
+	          }
+		   }
+		
+		scientific_base_weak = {
+		picture = scientific_base_weak
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			research_speed_factor = -0.02
+			political_power_factor = 0.02
+	          }
+		   }
+		
+		scientific_base_unremarkable = {
+		picture = scientific_base_unremarkable
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian		
+		modifier = {}
+		   }
+		   
+		scientific_base_recovering = {
+		picture = scientific_base_recovering
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			 	research_speed_factor = 0.02
+				political_power_factor = -0.01
+				
+	          }
+		   }
+		   
+		scientific_base_developing = {
+		picture = scientific_base_developing
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			research_speed_factor = 0.04
+			political_power_factor = -0.02
+			drift_defence_factor = 0.04
+	          }
+		   }
+		   
+		scientific_base_developed = {
+		picture = scientific_base_developed
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+			ledger = civilian
+		modifier = {
+			research_speed_factor = 0.06
+			political_power_factor = -0.03
+			drift_defence_factor = 0.06
+			supply_consumption_factor = -0.06
+	          }
+		   }
+		   
+		scientific_base_advanced = {
+		picture = scientific_base_advanced
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+			ledger = civilian
+		modifier = {
+			research_speed_factor = 0.08
+			political_power_factor = -0.04
+			drift_defence_factor = 0.08
+			supply_consumption_factor = -0.08
+			production_speed_buildings_factor = 0.08
+	          }
+		   }
+		   
+		scientific_base_matchless = {
+		picture = scientific_base_matchless
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			research_speed_factor = 0.1
+			political_power_factor = -0.05
+			drift_defence_factor = 0.1
+			supply_consumption_factor = -0.1
+			production_speed_buildings_factor = 0.1
+			coordination_bonus = 0.01
+	          }
+		   }
+		
+		   
+		   
     }
 }

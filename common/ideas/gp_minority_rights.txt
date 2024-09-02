@@ -1,207 +1,182 @@
 ideas = {
 
-    gp_minority_rights = {
-        law = yes
-        use_list_view = yes
-
-        affirmative_action = {
-            
-            available = {
-                OR = {
-                    NOT = {
-                        has_government = fascism
-                        has_government = neutrality
-                    }
-                    has_country_leader_ideology = anarchism
-                }
-            }
-
-            level = 5
-
-            modifier = {
-                political_power_factor = -0.20
-                non_core_manpower = 0.25
-                stability_factor = 0.10
-                resistance_damage_to_garrison = -0.30
-            }
-
-            ai_will_do = { 
-                base = 10
-                
-                modifier = {
-                    has_government = democratic
-                    add = 30
-                }
-
-                modifier = {
-                    has_government = communism
-                    add = 70
-                }
-
-                modifier = {
-                    factor = 3
-                }
-            }
-
-            cancel_if_invalid = yes
-        }
-
-        significant_rights = {
-
-            available = {
-                NOT = {
-                    has_government = fascism
-                }
-            }
-
-            level = 4
-
-            modifier = {
-                political_power_factor = -0.10
-                non_core_manpower = 0.15
-                stability_factor = 0.05
-                resistance_damage_to_garrison = -0.15
-            }
-
-            ai_will_do = {
-                base = 20
-
-                modifier = {
-                    OR = {
-                        has_government = democratic
-                        has_government = communism
-                    }
-                    add = 40
-                } 
-                
-                modifier = {
-                    factor = 3
-                }
-            }
-
-            cancel_if_invalid = yes
-        }
-
-        neutral_stance = {
-            available = {
-            }
-
-            level = 3
-
-            modifier = {
-                #political_power_factor = 0.05
-                non_core_manpower = 0.05
-                stability_factor = 0.025
-                #resistance_damage_to_garrison #= #-0.15
-            }
-
-            ai_will_do = {
-                base = 30
-
-                modifier = {
-                    has_government = neutrality
-                    add = 70
-                }
-
-                modifier = {
-                    has_government = democratic
-                    add = 20
-                }
-
-                modifier = {
-                    factor = 3
-                }
-            }
-
-            cancel_if_invalid = yes
-        }
-
-        racial_segregation = {
-            available = {
-                NOT = {
-                    has_government = communism
-                }
-                
-            }
-
-            level = 2
-
-            modifier = {
-                political_power_factor = 0.10
-                non_core_manpower = -0.25
-                resistance_damage_to_garrison = 0.15
-            }
-
-            ai_will_do = {
-                base = 10
-
-                modifier = {
-                    has_government = neutrality
-                    add = 30
-                }
-
-                modifier = {
-                    has_government = fascism
-                    add = 60
-                }
-
-                modifier = {
-                    has_government = democratic
-                    original_tag = ENG
-                    add = 30
-                }
-
-                modifier = {
-                    factor = 3
-                }
-
-            }
-
-            cancel_if_invalid = yes
-        }
-
-        racial_hierarchy = {
-            available = {
-                has_government = fascism
-            }
-
-            level = 1
-            
-            modifier = {
-                political_power_factor = 0.20
-                non_core_manpower = -0.50
-                conscription_factor = 0.10
-                stability_factor = -0.05
-                resistance_damage_to_garrison = 0.40
-            }
-
-            ai_will_do = {
-                base = 1
-
-                modifier = {
-                    has_government = fascism
-                    add = 80
-                }
-
-                modifier = {
-                  has_government = fascism
-                  original_tag = GER
-                  add = 100
-                }
-
-                modifier = {
-                    has_government = fascism
-                    original_tag = JAP
-                    add = 100
-                }
-
-                modifier = {
-                    factor = 3
-                }
-            }
-
-            cancel_if_invalid = yes
-        }
-
+   gp_minority_rights = { 
+		law = yes
+		use_list_view = yes
+		
+		
+		army_falling_apart = {
+		picture = army_falling_apart
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			army_attack_factor = -0.15
+			army_defence_factor = -0.15
+			army_speed_factor = -0.10
+			army_morale_factor = -0.15
+			army_org_factor = -0.15
+			conscription = -0.01
+	          }
+		   }
+		
+		army_discoordinated = {
+		picture = army_discoordinated
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			army_attack_factor = -0.12
+			army_defence_factor = -0.12
+			army_morale_factor = -0.12
+			army_org_factor = -0.12
+			conscription = -0.005
+	          }
+		   }
+		
+	    army_miserable = {
+		picture = army_miserable
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			army_attack_factor = -0.09
+			army_defence_factor = -0.09
+			army_morale_factor = -0.09
+			army_org_factor = -0.09
+	          }
+		   }
+		
+		army_outdated = {
+		picture = army_outdated
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			army_attack_factor = -0.06
+			army_defence_factor = -0.06
+			army_org_factor = -0.06
+	          }
+		   }
+		
+		army_weak = {
+		picture = army_weak
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			army_attack_factor = -0.03
+			army_defence_factor = -0.03
+	          }
+		   }
+		
+		army_unremarkable = {
+		picture = army_unremarkable
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {}
+		   }
+		   
+		army_forming = {
+		picture = army_forming
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			army_attack_factor = 0.03
+			army_defence_factor = 0.03
+	          }
+		   }
+		   
+		army_developing = {
+		picture = army_developing
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			army_attack_factor = 0.06
+			army_defence_factor = 0.06
+			army_org_factor = 0.06
+	          }
+		   }
+		   
+		army_stable = {
+		picture = army_stable
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			army_attack_factor = 0.09
+			army_defence_factor = 0.09
+			army_morale_factor = 0.09
+			army_org_factor = 0.09
+	          }
+		   }
+		   
+		army_supplied = {
+		picture = army_supplied
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			army_attack_factor = 0.12
+			army_defence_factor = 0.12
+			army_morale_factor = 0.12
+			army_org_factor = 0.12
+			conscription = 0.005
+	          }
+		   }
+		   
+		army_allmighty = {
+		picture = army_allmighty
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			army_attack_factor = 0.15
+			army_defence_factor = 0.15
+			army_speed_factor = 0.10
+			army_morale_factor = 0.15
+			army_org_factor = 0.15
+			conscription = 0.01
+	          }
+		   }
+		
+		   
+		   
     }
 }

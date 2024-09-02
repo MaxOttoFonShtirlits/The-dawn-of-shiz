@@ -1,220 +1,193 @@
 ideas = {
 
-    gp_gender_equality = {
-        law = yes
-        use_list_view = yes
-
-        affirmative_actionF = {
-            
-            available = {
-                OR = {
-                    NOT = {
-                        has_government = fascism
-                        has_government = neutrality
-                    }
-                    has_country_leader_ideology = anarchism
-                }
-            }
-
-            level = 5
-
-            modifier = {
-                political_power_factor = -0.1
-                monthly_population = -0.3
-                conscription_factor = 0.1
-                industrial_capacity_factory = 0.10
-                production_factory_max_efficiency_factor = 0.10
-                production_factory_efficiency_gain_factor = 0.05
-
-            }
-
-            ai_will_do = {
-
-                base = 10
-
-                modifier = {
-                    has_government = democratic
-                    add = 20
-                }
-
-                modifier = {
-                    has_government = communism
-                    add = 60
-                }
-
-                modifier = {
-                    factor = 3
-                }
-            }
-
-            cancel_if_invalid = yes
-        }
-
-        full_equality = {
-             
-             available = {
-                NOT = {
-                    has_government = fascism
-                }
-             }
-
-             level = 4
-
-             modifier = {
-                political_power_factor = -0.05
-                monthly_population = -0.15
-                conscription_factor = 0.05
-                industrial_capacity_factory = 0.05
-                production_factory_max_efficiency_factor = 0.05
-             }
-
-             ai_will_do = {
-
-                base = 20
-
-                modifier = {
-                    has_government = democratic
-                    add = 40
-                }
-
-                modifier = {
-                    has_government = communism
-                    add = 30
-                }
-
-                modifier = {
-                    factor = 3
-                }
-
-             }
-
-             cancel_if_invalid = yes
-        }
-
-        limited_womens_rights = {
-            
-            available = {
-                NOT = {
-                    has_government = communism
-                }
-            }
-
-            level = 3
-
-            modifier = {
-                monthly_population = 0.05
-                stability_factor = 0.02
-                industrial_capacity_factory = 0.025
-            }
-
-            ai_will_do = {
-
-                base = 30
-
-                modifier = {
-                    has_government = democratic
-                    add = 15
-                }
-
-                modifier = {
-                    has_government = neutrality
-                    factor = 40
-                }
-
-                modifier = {
-                    has_government = fascism
-                    add = 10
-                }
-
-                modifier = {
-                    factor = 3
-                }
-            }
-
-            cancel_if_invalid = yes
-        }
-
-        no_legal_protections = {
-
-            available = {
-                NOT = {
-                    has_government = communism
-                }
-            }
-
-            level = 2
-
-            modifier = {
-                political_power_factor = 0.10
-                monthly_population = 0.2
-                stability_factor = -0.05
-                industrial_capacity_factory = -0.05
-                production_factory_max_efficiency_factor = -0.10
-                production_factory_efficiency_gain_factor = -0.05
-            }
-            
-            ai_will_do = {
-
-                base = 20
-
-                modifier = {
-                    has_government = neutrality
-                    add = 30
-                }
-
-                modifier = {
-                    has_government = fascism
-                    add = 50
-                }
-
-                modifier = {
-                    factor = 3
-                }
-            }
-            
-            cancel_if_invalid = yes
-        }
-
-        patriarchal_society = {
-
-            available = {
-                NOT = {
-                    has_government = communism
-                }
-            }
-
-            level = 1
-
-            modifier = {
-                political_power_factor = 0.20
-                monthly_population = 0.4
-                stability_factor = 0.05
-                industrial_capacity_factory = -0.15
-                production_factory_max_efficiency_factor = -0.15
-                production_factory_efficiency_gain_factor = -0.10
-
-            }
-
-            ai_will_do = {
-
-                base = 10
-
-                modifier = {
-                    has_government = fascism
-                    add = 90
-                }
-
-                modifier = {
-                    has_government = neutrality 
-                    add = 10
-                }
-
-                modifier = {
-                    factor = 3
-                }
-            }
-
-            cancel_if_invalid = yes
-        }
+    gp_gender_equality = { 
+		law = yes
+		use_list_view = yes
+		
+		
+		industry_nonexistent = {
+		picture = industry_nonexistent
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			consumer_goods_factor = 0.10
+			production_speed_buildings_factor = -0.15
+			industrial_capacity_factory = -0.15
+			production_factory_efficiency_gain_factor = -0.1
+			production_factory_max_efficiency_factor = -0.1 
+			production_factory_start_efficiency_factor = -0.1
+			production_lack_of_resource_penalty_factor = 0.1 
+	          }
+		   }
+		
+		industry_abandoned = {
+		picture = industry_abandoned
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			consumer_goods_factor = 0.08
+			production_speed_buildings_factor = -0.12
+			industrial_capacity_factory = -0.12
+			production_factory_efficiency_gain_factor = -0.05
+			production_factory_start_efficiency_factor = -0.05
+			production_lack_of_resource_penalty_factor = 0.05 
+	          }
+		   }
+		
+	    industry_miserable = {
+		picture = industry_miserable
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			consumer_goods_factor = 0.06
+			production_speed_buildings_factor = -0.09
+			industrial_capacity_factory = -0.09
+			production_factory_start_efficiency_factor = -0.03
+			production_lack_of_resource_penalty_factor = 0.03
+	          }
+		   }
+		
+		industry_ancient = {
+		picture = industry_ancient
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			consumer_goods_factor = 0.04
+			production_speed_buildings_factor = -0.06
+			industrial_capacity_factory = -0.06
+			production_lack_of_resource_penalty_factor = 0.01
+	          }
+		   }
+		
+		industry_weak = {
+		picture = industry_weak
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			consumer_goods_factor = 0.02
+			production_speed_buildings_factor = -0.03
+			industrial_capacity_factory = -0.03
+	          }
+		   }
+		
+		industry_unremarkable = {
+		picture = industry_unremarkable
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {}
+		   }
+		   
+		industry_arising = {
+		picture = industry_arising
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+		    consumer_goods_factor = -0.02
+			production_speed_buildings_factor = 0.03
+			industrial_capacity_factory = 0.03
+			 }
+		   }
+		   
+		industry_developing = {
+		picture = industry_developing
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			consumer_goods_factor = -0.04
+			production_speed_buildings_factor = 0.06
+			industrial_capacity_factory = 0.06
+			production_lack_of_resource_penalty_factor = -0.01
+	          }
+		   }
+		   
+		industry_stable = {
+		picture = industry_stable
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			consumer_goods_factor = -0.06
+			production_speed_buildings_factor = 0.09
+			industrial_capacity_factory = 0.09
+			production_factory_max_efficiency_factor = 0.03
+			production_lack_of_resource_penalty_factor = -0.03
+	          }
+		   }
+		   
+		industry_prosperous = {
+		picture = industry_prosperous
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			consumer_goods_factor = -0.08
+			production_speed_buildings_factor = 0.12
+			industrial_capacity_factory = 0.12
+			production_factory_efficiency_gain_factor = 0.05
+			production_factory_max_efficiency_factor = 0.05 
+			production_factory_start_efficiency_factor = 0.05
+			production_lack_of_resource_penalty_factor = -0.05 
+	          }
+		   }
+		   
+		industry_mighty = {
+		picture = industry_mighty
+		available = {always = no}
+			cost = 0
+			removal_cost = -1
+			cancel_if_invalid = no
+			ai_will_do = {factor = 2}
+		ledger = civilian	
+		modifier = {
+			consumer_goods_factor = -0.10
+			production_speed_buildings_factor = 0.15
+			industrial_capacity_factory = 0.15
+			production_factory_efficiency_gain_factor = 0.1
+			production_factory_max_efficiency_factor = 0.1
+			production_factory_start_efficiency_factor = 0.1
+			production_lack_of_resource_penalty_factor = -0.1
+	          }
+		   }
+		
+		   
+		   
     }
 }
