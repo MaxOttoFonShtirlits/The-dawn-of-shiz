@@ -57,6 +57,10 @@ country_event = {
 		230 = {
 			set_demilitarized_zone = yes
 		}
+		set_global_flag = GAY_lost_to_kipap
+		remove_ideas = Kipap
+		remove_ideas = Kermenists
+		remove_ideas = Repressed_Kermenists
 	}			
 }
 
@@ -105,6 +109,8 @@ country_event = {
 		231 = {
 			set_demilitarized_zone = yes
 		}
+		set_global_flag = GAY_lost_to_kipap
+		remove_ideas = Kipap
 	}			
 }
 
@@ -146,6 +152,9 @@ country_event = {
 		826 = {
 			set_demilitarized_zone = yes
 		}
+		set_global_flag = GAY_lost_to_kipap
+		remove_ideas = Kermenists
+		remove_ideas = Repressed_Kermenists
 	}			
 }
 
@@ -165,6 +174,7 @@ country_event = {
 			NOT = { has_war_with = KER }
 		}
 		KER = { exists = yes }
+		set_global_flag = GAY_lost_to_kipap
 	}	
 
 	mean_time_to_happen = {
@@ -181,6 +191,14 @@ country_event = {
 			add_state_core = 982
 			add_state_core = 827
 			add_state_core = 828
+		}
+		set_global_flag = GAY_lost_to_kipap
+		remove_ideas = Kipap
+		981 = {
+			set_demilitarized_zone = yes
+		}
+		230 = {
+			set_demilitarized_zone = yes
 		}
 	}			
 }
@@ -214,6 +232,15 @@ country_event = {
 			transfer_state = 231
 			add_state_core = 231
 		}
+		981 = {
+			set_demilitarized_zone = yes
+		}
+		230 = {
+			set_demilitarized_zone = yes
+		}
+		set_global_flag = GAY_lost_to_kipap
+		remove_ideas = Kermenists
+		remove_ideas = Repressed_Kermenists
 		981 = {
 			set_demilitarized_zone = yes
 		}
