@@ -51,16 +51,10 @@ guiTypes = {
 		horizontalBorder = "0"
 		verticalBorder = ""
 		fullScreen = no
-		Orientation = "CENTER_UP"
-		iconType = {
-			name ="bg_load_screen2"
-			spriteType = "GFX_loadingstatus_bg"
-			position = { x= -700 y = -360 }
-		}
-			
+		Orientation = "LOWER_LEFT"	
 		instantTextBoxType = {
 			name = "text"
-			position = { x = -1395 y = 1300 }
+			position = {  x=0 y = -275  }
 			textureFile = ""
 			font = "loadscreen_header"
 			borderSize = {x = 0 y = 0}
@@ -74,7 +68,7 @@ guiTypes = {
 		iconType = {
 			name = "progressbar"
 			spriteType = "GFX_loadingstatus_progress"
-			position = { x=-1401 y=1333 }
+			position = { x=-1 y = -240  }
 		}	
 	}
 	}
