@@ -752,6 +752,12 @@ focus_tree = {
 		prerequisite = {
 			focus = GAY_Focus_rebel_of_kipap
 		}
+		bypass = { 
+			has_global_flag = kipap_rebel 
+			NOT = {
+				has_war_with = KIP
+			}
+		}
 		completion_reward = {
 			add_timed_idea= {
 				idea=GAY_Idea_dekipapization
@@ -768,6 +774,12 @@ focus_tree = {
 		prerequisite = {
 			focus = GAY_Focus_rebel_of_kipap
 		}
+		bypass = { 
+			has_global_flag = kipap_rebel 
+			NOT = {
+				has_war_with = KIP
+			}
+		}
 		available = { KIP = { exists = yes } }
 		completion_reward = {
 			add_ideas=war_economy
@@ -782,6 +794,12 @@ focus_tree = {
 		y = 10
 		prerequisite = {
 			focus = GAY_Focus_dekipapization
+		}
+		bypass = { 
+			has_global_flag = kipap_rebel 
+			NOT = {
+				has_war_with = KIP
+			}
 		}
 		completion_reward = {
 			KIP = {
