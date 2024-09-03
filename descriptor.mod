@@ -1,9 +1,9 @@
-version="1.14.6"
+version="0.1.0"
 tags={
 	"Translation"
 	"Sound"
 	"Events"
 }
 name="WestRise"
-supported_version="1.14.6"
+supported_version="1.14.8"
 remote_file_id="3232156905"
