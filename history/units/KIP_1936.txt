@@ -25,35 +25,35 @@ units = {
         }
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 326
+		location = 672
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
 	}        
-	division = {
-		name = "Division Of Guram Tabolov"
-		location = 11664
-		division_template = "kipap"		
-		start_equipment_factor = 1
-
-	}
-	division = {
-		name = "Division Of Guram Tabolov"
-		location = 11599
-		division_template = "kipap"		
-		start_equipment_factor = 1
-
-        }
 	division = {
 		name = "Division Of Guram Tabolov"
 		location = 728
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
+	}
+	division = {
+		name = "Division Of Guram Tabolov"
+		location = 11599
+		division_template = "kipap"		
+		start_equipment_factor = 1
+
+        }
+	division = {
+		name = "Division Of Guram Tabolov"
+		location = 672
+		division_template = "kipap"		
+		start_equipment_factor = 1
+
 	}        
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 11664
+		location = 729
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
@@ -67,14 +67,14 @@ units = {
         }
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 729
+		location = 672
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
 	}        
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 11664
+		location = 326
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
