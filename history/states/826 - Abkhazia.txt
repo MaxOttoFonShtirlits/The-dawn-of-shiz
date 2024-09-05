@@ -5,7 +5,7 @@ state = {
 	history = {
 		owner = GAY
 		victory_points = {
-			11617 1 
+			13372 1 
 		}
 		buildings = {
 			infrastructure = 2
@@ -26,7 +26,7 @@ state = {
 	}
 
 	provinces = {
-		672 11599 11617 11647 
+		672 11599 11617 11647 13371 13372 13373 13374 13375 13376 13377 13378 
 	}
 	manpower = 491569
 	buildings_max_level_factor = 1.000

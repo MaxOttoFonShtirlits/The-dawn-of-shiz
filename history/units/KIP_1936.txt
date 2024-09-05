@@ -18,63 +18,63 @@ units = {
 	##### Natsional'naya Revolyutsionnaya Armiya Caucasus #####
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 11599
+		location = 11617
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
         }
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 672
+		location = 13376
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
 	}        
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 11981
+		location = 672
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
 	}
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 11599
+		location = 13377
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
         }
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 672
+		location = 13378
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
 	}        
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 4189
+		location = 13373
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
 	}
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 11599
+		location = 13373
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
         }
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 672
+		location = 13372
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
 	}        
 	division = {
 		name = "Division Of Guram Tabolov"
-		location = 10062
+		location = 11617
 		division_template = "kipap"		
 		start_equipment_factor = 1
 
