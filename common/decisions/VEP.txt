@@ -23,8 +23,8 @@ VEP_war_category = {
 		}
 
 		timeout_effect = {
-		country_event = {
-			id = VEP.1
+			country_event = {
+				id = VEP.1
 			}
 		}
    }

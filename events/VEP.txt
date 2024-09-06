@@ -11,6 +11,7 @@ country_event = {
 	desc = VEP.1.d
 
 	fire_only_once = yes
+	is_triggered_only = yes
 
 	option = {
 		name = VEP.1.a
@@ -48,6 +49,7 @@ country_event = {
 					target = PLT
 					type = annex_everything
 				}
+				change_tag_from = VEP
 			}
 		VEP = {
 				add_war_support = -0.35
@@ -61,8 +63,7 @@ country_event = {
 				    keep_unit_leaders_trigger = {
 				    	always = yes
 					}
-			    }
-				change_tag_from = KOK 
+			    } 
 			}
 		}
 }
