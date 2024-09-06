@@ -2,46 +2,67 @@
 # AUC Events
 ###########################
 
-add_namespace = AUC
+add_namespace = VEP
 
 # President dies
 country_event = {
-	id = AUC.1
-	title = AUC.1.t
-	desc = AUC.1.d
-	picture = GFX_report_event_generic_funeral
+	id = VEP.1
+	title = VEP.1.t
+	desc = VEP.1.d
 
 	fire_only_once = yes
-	
-	trigger = {
-		original_tag = AUC
-		AUC = {
-			controls_state = 988 
-		}
-	}	
-
-	mean_time_to_happen = {
-		days = 3
-	}
 
 	option = {
-		name = AUC.1.a
-		white_peace = VEP
-		AUC = {
-			set_state_owner = 572
-			set_state_owner = 988
-		}
-		BOR = {
-			set_state_owner = 990
-			set_state_owner = 582
-			add_state_core = 990
-			add_state_core = 582
-		}
+		name = VEP.1.a
+		984 = {
+				transfer_state_to = KOK
+			}
+		KOK = {
+				declare_war_on = {
+					target = PLT
+					type = annex_everything
+				}
+			}
 		VEP = {
-			set_state_owner = 653
-			add_state_core = 653
-			remove_ideas = VEP_no_weapons_nation
-			set_cosmetic_tag = pyshma_VEP
+				add_war_support = -0.35
+				transfer_units_fraction= {
+				    target = KOK
+				    size = 0.5
+				    stockpile_ratio = 0.25
+				    army_ratio = 0.35
+				    navy_ratio = 0
+				    air_ratio = 0.5
+				    keep_unit_leaders_trigger = {
+				    	always = yes
+					}
+			    }
+			}
 		}
-	}			
+	option = {
+		name = VEP.2.a
+		984 = {
+				transfer_state_to = KOK
+			}
+		KOK = {
+				declare_war_on = {
+					target = PLT
+					type = annex_everything
+				}
+			}
+		VEP = {
+				add_war_support = -0.35
+				transfer_units_fraction= {
+				    target = KOK
+				    size = 0.5
+				    stockpile_ratio = 0.25
+				    army_ratio = 0.35
+				    navy_ratio = 0
+				    air_ratio = 0.5
+				    keep_unit_leaders_trigger = {
+				    	always = yes
+					}
+			    }
+				change_tag_from = KOK 
+			}
+		}
 }

@@ -23,28 +23,8 @@ VEP_war_category = {
 		}
 
 		timeout_effect = {
-		984 = {
-				transfer_state_to = KOK
-			}
-		KOK = {
-				declare_war_on = {
-					target = PLT
-					type = annex_everything
-				}
-			}
-		VEP = {
-				add_war_support = -0.35
-				transfer_units_fraction= {
-				    target = KOK
-				    size = 0.5
-				    stockpile_ratio = 0.25
-				    army_ratio = 0.35
-				    navy_ratio = 0
-				    air_ratio = 0.5
-				    keep_unit_leaders_trigger = {
-				    	always = yes
-					}
-			    }
+		country_event = {
+			id = VEP.1
 			}
 		}
    }
