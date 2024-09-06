@@ -27,43 +27,43 @@ units = {
     }
 	division = {
 		name = "Kermenisti"
-		location = 1530
+		location = 13379
 		division_template = "Kermenisti"		
 		start_equipment_factor = 1
     }
 	division = {
 		name = "Kermenisti"
-		location = 1530
+		location = 13379
 		division_template = "Kermenisti"		
 		start_equipment_factor = 1
     }
 	division = {
 		name = "Kermenisti"
-		location = 1530
+		location = 13379
 		division_template = "Kermenisti"		
 		start_equipment_factor = 1
     }
 	division = {
 		name = "Kermenisti"
-		location = 1530
+		location = 13379
 		division_template = "Kermenisti"		
 		start_equipment_factor = 1
     }
 	division = {
 		name = "Kermenisti"
-		location = 1530
+		location = 13380
 		division_template = "Kermenisti"		
 		start_equipment_factor = 1
     }
 	division = {
 		name = "Kermenisti"
-		location = 1530
+		location = 13380
 		division_template = "Kermenisti"		
 		start_equipment_factor = 1
     }
 	division = {
 		name = "Kermenisti"
-		location = 1530
+		location = 13380
 		division_template = "Kermenisti"		
 		start_equipment_factor = 1
     }

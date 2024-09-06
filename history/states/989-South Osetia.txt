@@ -17,10 +17,13 @@ state={
 		add_dynamic_modifier = {
 		    modifier = Kommunist_Rebel_Activity
 		}
+		victory_points = {
+			13380 1
+		}
 	}
 
 	provinces={
-		1530
+		1530 13379 13380
 	}
 
 	local_supplies=10.0 
