@@ -37,6 +37,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	Hearts_of_iron_Youtuber
 }
 
 create_country_leader = {

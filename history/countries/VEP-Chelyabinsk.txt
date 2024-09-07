@@ -46,6 +46,7 @@ activate_advisor=VEP_kokesh
 add_ideas = {
 	VEP_no_weapons_nation
 	free_trade
+	Starting_Discord_Political_Community
 }
 
 create_country_leader = {

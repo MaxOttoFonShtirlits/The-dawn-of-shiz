@@ -40,6 +40,7 @@ set_popularities = {
 add_ideas = {
     extensive_conscription
     war_economy
+	Starting_Discord_Political_Community
 }
 
 recruit_character = zapolnitel

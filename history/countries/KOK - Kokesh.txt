@@ -37,6 +37,7 @@ set_popularities = {
 }
 
 add_ideas = {
+	Starting_Discord_Political_Community
 }
 
 create_country_leader = {

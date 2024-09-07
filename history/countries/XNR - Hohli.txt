@@ -19,6 +19,7 @@ set_technology = {
 }
 add_ideas = {
 	XNR_economy
+	Starting_Discord_Political_Community
 }
 
 set_politics = {
