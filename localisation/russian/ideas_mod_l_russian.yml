@@ -1,8 +1,15 @@
 ﻿l_russian:
+ #ТИП ПРАВИТЕЛЬСТВА
+ government_type: "Правительство"
+ gt_head_of_state: "Тип государства"
  Secret_service: "Служба безопасности"
  Islamist_cell: "Исламистская ячейка"
  Hearts_of_iron_Youtuber: "Ютубер по Hearts of Iron IV"
  Political_Youtuber: "Политический ютубер"
  Discord_Political_Community: "Политическое комьюнити"
  Starting_Discord_Political_Community: "Начинающее политическое комьюнити"
- 
+ gt_judiciary: "Судебная система"
+ Independent: "Независимая"
+ subordinate_to_the_executive: "Подконтрольная государству"
+ politicized: "Политизированная"
+ corrupt: "Коррумпированная"

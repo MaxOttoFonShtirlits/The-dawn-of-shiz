@@ -28,17 +28,17 @@ country_event = {
 		name = AUC.1.a
 		white_peace = VEP
 		AUC = {
-			set_state_owner = 572
-			set_state_owner = 988
+			transfer_state = 572
+			transfer_state = 988
 		}
 		BOR = {
-			set_state_owner = 990
-			set_state_owner = 582
+			transfer_state = 990
+			transfer_state = 582
 			add_state_core = 990
 			add_state_core = 582
 		}
 		VEP = {
-			set_state_owner = 653
+			transfer_state = 653
 			add_state_core = 653
 			remove_ideas = VEP_no_weapons_nation
 			set_cosmetic_tag = pyshma_VEP
