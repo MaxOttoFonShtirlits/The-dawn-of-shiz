@@ -37,6 +37,11 @@ characters = {
 			traits = {
 				prime_minister_kokesh 
 			}
+			available = {
+				NOT = {
+					has_global_flag = KOK_pobeg
+				}
+            }
 			ai_will_do = {
 				factor = 1.000
 			}
