@@ -1,0 +1,371 @@
+focus_tree = {
+	id = KOK
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KOK
+		}
+	}
+	continuous_focus_position = { x = 1200 y = 100 }
+	default = no
+	focus = {
+		id = KOK_focus_on_Poltava
+		icon = GFX_Focus_404
+		cost = 4
+		bypass = { 
+			NOT = {
+				has_war_with = PLT
+			}
+		}
+		x = 7
+		y = 0
+		completion_reward = {
+			add_timed_idea = {
+				idea = KOK_idea_operation_poltava_svinorez
+				days = 20
+			}
+		}
+
+	}
+	focus = {
+		id = KOK_focus_anti_partizan
+		prerequisite = {
+			focus = KOK_focus_on_Poltava
+		}
+		icon = GFX_Focus_404
+		cost = 4
+		bypass = { 
+			NOT = {
+				has_war_with = PLT
+			}
+		}
+		x = 7
+		y = 1
+		completion_reward = {
+			add_ideas = KOK_idea_anti_partizans
+		}
+	}
+	focus = {
+		id = KOK_focus_verbovat_poltavcev
+		prerequisite = {
+			focus = KOK_focus_anti_partizan
+		}
+		icon = GFX_Focus_404
+		cost = 4
+		bypass = { 
+			NOT = {
+				has_war_with = PLT
+			}
+		}
+		x = 7
+		y = 2
+        completion_reward = {
+			load_oob = KOK_Poltava
+		}
+	}
+	focus = {
+		id = KOK_focus_no_blizkrieg
+		prerequisite = {
+			focus = KOK_focus_verbovat_poltavcev
+		}
+		available = {
+			NOT = {
+				has_idea = KOK_idea_operation_poltava_svinorez
+			}
+		}
+		icon = GFX_Focus_404
+		cost = 5
+		bypass = { 
+			NOT = {
+				has_war_with = PLT
+			}
+		}
+		x = 5
+		y = 3
+        completion_reward = {
+			add_war_support = -0.2
+			add_stability = -0.3
+			add_ideas = KOK_idea_Govno_army
+		}
+	}
+	focus = {
+		id = KOK_focus_second_attack
+		prerequisite = {
+			focus = KOK_focus_no_blizkrieg
+		}
+		icon = GFX_Focus_404
+		cost = 5
+		bypass = { 
+			NOT = {
+				has_war_with = PLT
+			}
+		}
+		x = 5
+		y = 4
+        completion_reward = {
+			add_ideas = KOK_idea_second_attack
+		}
+	}
+	focus = {
+		id = KOK_focus_collab_help
+		prerequisite = {
+			focus = KOK_focus_second_attack
+		}
+		icon = GFX_Focus_404
+		cost = 5
+		bypass = { 
+			NOT = {
+				has_war_with = PLT
+			}
+		}
+		x = 5
+		y = 5
+        completion_reward = {
+			swap_ideas =  {
+				remove_idea=KOK_idea_anti_partizans
+				add_idea=KOK_idea_help_from_collab
+			}
+		}
+	}
+	focus = {
+		id = KOK_focus_popolnit_zapasi
+		prerequisite = {
+			focus = KOK_focus_collab_help
+		}
+		icon = GFX_Focus_404
+		cost = 5
+		bypass = { 
+			NOT = {
+				has_war_with = PLT
+			}
+		}
+		x = 5
+		y = 6
+        completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 3400
+				producer = PLT
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_anti_air_equipment
+				amount = 2700
+				producer = PLT
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_anti_tank_equipment
+				amount = 1500
+				producer = PLT
+			}
+		}
+	}
+	focus = {
+		id = KOK_focus_uchitivat_opit
+		prerequisite = {
+			focus = KOK_focus_popolnit_zapasi
+		}
+		icon = GFX_Focus_404
+		cost = 5
+		bypass = { 
+			NOT = {
+				has_war_with = PLT
+			}
+		}
+		x = 5
+		y = 7
+        completion_reward = {
+			swap_ideas =  {
+				remove_idea=KOK_idea_second_attack
+				add_idea=KOK_idea_second_attack_2
+			}
+		}
+	}
+	focus = {
+		id = KOK_focus_poltava_is_our
+		prerequisite = {
+			focus = KOK_focus_verbovat_poltavcev
+		}
+		available = {
+			PLT = {exists=no}
+			259 = {is_owned_by=KOK}
+		}
+		icon = GFX_Focus_404
+		cost = 5
+		x = 9
+		y = 3
+        completion_reward = {
+			remove_ideas = {
+				KOK_idea_second_attack
+				KOK_idea_second_attack_2
+				KOK_idea_help_from_collab
+				KOK_idea_Govno_army
+				KOK_idea_anti_partizans
+				KOK_idea_operation_poltava_svinorez
+			}
+			add_ideas = KOK_idea_poltava_in_ruins
+			add_political_power = 100
+			add_stability = 0.15
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = KOK_focus_kill_survivors
+		prerequisite = {
+			focus = KOK_focus_poltava_is_our
+		}
+		icon = GFX_Focus_404
+		cost = 5
+		x = 9
+		y = 4
+        completion_reward = {
+			259 = {
+				add_manpower = -120000
+				damage_building = {
+					type = infrastructure
+					damage = 2
+				}
+			}
+			add_stability = -0.05
+			add_war_support = 0.05
+		}
+	}
+	focus = {
+		id = KOK_focus_Kokesh_terror
+		prerequisite = {
+			focus = KOK_focus_kill_survivors
+		}
+		icon = GFX_Focus_404
+		cost = 5
+		x = 8
+		y = 5
+        completion_reward = {
+			add_stability = -0.05
+			add_war_support = 0.05
+		}
+	}
+	focus = {
+		id = KOK_focus_kill_not_agreed
+		prerequisite = {
+			focus = KOK_focus_Kokesh_terror
+		}
+		icon = GFX_Focus_404
+		cost = 5
+		x = 8
+		y = 6
+        completion_reward = {
+			259 = {
+				add_manpower = -30000
+			}
+			add_war_support = 0.05
+			add_political_power = 40
+		}
+	}
+	focus = {
+		id = KOK_focus_Kokesh_skhrones_of_ternet
+		prerequisite = {
+			focus = KOK_focus_kill_survivors
+		}
+		icon = GFX_Focus_404
+		cost = 5
+		x = 10
+		y = 5
+        completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 5600
+				producer = PLT
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_anti_air_equipment
+				amount = 4300
+				producer = PLT
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_anti_tank_equipment
+				amount = 4600
+				producer = PLT
+			}
+		}
+	}
+	focus = {
+		id = KOK_focus_new_generals
+		prerequisite = {
+			focus = KOK_focus_Kokesh_skhrones_of_ternet
+		}
+		icon = GFX_Focus_404
+		cost = 35
+		x = 10
+		y = 6
+        completion_reward = {
+		}
+	}
+	focus = {
+		id = KOK_focus_shtab
+		prerequisite = {
+			focus = KOK_focus_Kokesh_skhrones_of_ternet
+		}
+		icon = GFX_Focus_404
+		cost = 35
+		x = 13
+		y = 6
+        completion_reward = {
+			add_ideas = KOK_idea_shtab
+		}
+	}
+	focus = {
+		id = KOK_focus_best_in_hell
+		prerequisite = {
+			focus = KOK_focus_shtab
+		}
+		icon = GFX_Focus_404
+		cost = 35
+		x = 13
+		y = 7
+        completion_reward = {
+			add_ideas = KOK_idea_best_in_hell
+		}
+	}
+	focus = {
+		id = KOK_focus_start_of_peaceful_life
+		prerequisite = {
+			focus = KOK_focus_new_generals
+		}
+		prerequisite = {
+			focus = KOK_focus_kill_not_agreed
+		}
+		icon = GFX_Focus_404
+		cost = 70
+		x = 9
+		y = 7
+        completion_reward = {
+			add_state_core = 259
+			add_state_core = 986
+			add_state_core = 984
+			add_stability = 0.1
+		}
+	}
+	focus = {
+		id = KOK_repairing_of_factories
+		prerequisite = {
+			focus = KOK_focus_start_of_peaceful_life
+		}
+		prerequisite = {
+			focus = KOK_focus_best_in_hell
+		}
+		icon = GFX_Focus_404
+		cost = 35
+		x = 11
+		y = 8
+        completion_reward = {
+			259 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 3
+		}
+	}
+}
