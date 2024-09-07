@@ -1,7 +1,22 @@
 ﻿l_russian:
+ #Стратегик регион 14 - Дальневосточный регион
  VICTORY_POINTS_1821: "Екатеринбург"
  VICTORY_POINTS_13369: "Запад Екатеринбурга"
  VICTORY_POINTS_13370: "Верхняя Пышма"
+ #Стратегик регион 134 - Кавказский регион
  VICTORY_POINTS_9628: "Владикавказ"
  VICTORY_POINTS_13372: "Сухум"
  VICTORY_POINTS_13380: "Цхинвал"
+ VICTORY_POINTS_3672: "Грозный"
+ VICTORY_POINTS_1599: "Тбилиси"
+ VICTORY_POINTS_3653: "Батуми"
+ VICTORY_POINTS_12320: "Ереван"
+ VICTORY_POINTS_12441: "Гюмри"
+ VICTORY_POINTS_10472: "Карс"
+ VICTORY_POINTS_7661: "Баку"
+ VICTORY_POINTS_11674: "Гянджа"
+ #Стратегик регион 135 - Кубань
+ VICTORY_POINTS_6701: "Махачкала"
+ #Стратегик регион 130 - Украина
+ VICTORY_POINTS_6474: "Донецк"
+ VICTORY_POINTS_9461: "Луганск"
