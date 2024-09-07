@@ -1,5 +1,5 @@
 ﻿capital = 362
-oob = "PLT_1936"
+oob = "CIA_1936"
 set_research_slots = 3
 create_intelligence_agency = yes
 puppet = SVO

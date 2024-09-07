@@ -27,6 +27,7 @@ ideas = {
 
             modifier = {
                 political_power_factor = 0.15
+                islamism_drift = 0.03
             }
             cancel_if_invalid = no
         }
@@ -88,9 +89,9 @@ ideas = {
             removal_cost = -1
 
             modifier = {
-                political_power_factor = 0.10
-                stability_factor = 0.05
-                drift_defence_factor = 0.20
+                political_power_factor = 0.15
+                stability_factor = -0.15
+                army_org_factor = -0.2
             }
             cancel_if_invalid = no
         }
