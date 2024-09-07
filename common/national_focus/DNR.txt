@@ -1,0 +1,273 @@
+focus_tree = {
+	id = DNR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DNR
+		}
+	}
+	continuous_focus_position = { x = 1200 y = 100 }
+	default = no
+	focus = {
+		id = DNR_focus_consolidate_Kinder
+		icon = GFX_Focus_404
+		cost = 10
+		x = 5
+		y = 0
+		completion_reward = {
+			add_political_power = 150
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = DNR_focus_communication_with_AUC
+		icon = GFX_Focus_404
+		cost = 10
+		prerequisite = {
+			focus = DNR_focus_consolidate_Kinder
+		}
+		bypass = {
+			AUC = {exists=no}
+		}
+		x = 3
+		y = 1
+		completion_reward = {
+			add_opinion_modifier = {
+				target = AUC
+				modifier = offered_support
+			}
+			AUC = {
+				add_opinion_modifier = {
+					target = DNR
+					modifier = offered_support
+				}
+			}
+		}
+	}
+	focus = {
+		id = DNR_focus_create_national_guard
+		icon = GFX_Focus_404
+		cost = 10
+		prerequisite = {
+			focus = DNR_focus_consolidate_Kinder
+		}
+		x = 5
+		y = 1
+		completion_reward = {
+			load_oob = DNR_natguard
+		}
+	}
+	focus = {
+		id = DNR_focus_clean_rostov
+		icon = GFX_Focus_404
+		cost = 10
+		prerequisite = {
+			focus = DNR_focus_consolidate_Kinder
+		}
+		x = 7
+		y = 1
+		completion_reward = {
+			add_state_core = 218
+		}
+	}
+	focus = {
+		id = DNR_focus_ask_Ternet_for_help
+		icon = GFX_Focus_404
+		cost = 10
+		prerequisite = {
+			focus = DNR_focus_clean_rostov
+		}
+		prerequisite = {
+			focus = DNR_focus_create_national_guard
+		}
+		prerequisite = {
+			focus = DNR_focus_communication_with_AUC
+		}
+		bypass = {
+			PLT = {exists=no}
+		}
+		x = 5
+		y = 2
+		completion_reward = {
+			PLT = {
+				country_event = {
+					id = PLT.2
+				}
+			}
+		}
+	}
+	focus = {
+		id = DNR_focus_start_army_reform
+		icon = GFX_Focus_404
+		cost = 10
+		prerequisite = {
+			focus = DNR_focus_ask_Ternet_for_help
+		}
+		x = 3
+		y = 3
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DNR_focus_no_dedovshina
+		icon = GFX_Focus_404
+		cost = 10
+		prerequisite = {
+			focus = DNR_focus_start_army_reform
+		}
+		x = 3
+		y = 4
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DNR_focus_strelkov
+		icon = GFX_Focus_404
+		cost = 10
+		prerequisite = {
+			focus = DNR_focus_no_dedovshina
+		}
+		x = 3
+		y = 5
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DNR_focus_new_fleet
+		icon = GFX_Focus_404
+		cost = 10
+		prerequisite = {
+			focus = DNR_focus_ask_Ternet_for_help
+		}
+		x = 5
+		y = 3
+		completion_reward = {
+			FRA = {
+				create_ship = {
+					type = ship_hull_submarine_1
+					equipment_variant = "S Class"
+					creator = ENG
+					name = "My ship name"
+				}
+			}
+		}
+	}
+	focus = {
+		id = DNR_focus_mid_DNR
+		icon = GFX_Focus_404
+		cost = 10
+		prerequisite = {
+			focus = DNR_focus_new_fleet
+		}
+		x = 5
+		y = 4
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DNR_focus_mirotvorec
+		icon = GFX_Focus_404
+		cost = 10
+		prerequisite = {
+			focus = DNR_focus_mid_DNR
+		}
+		x = 5
+		y = 5
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DNR_focus_start_abhazian_operations
+		icon = GFX_Focus_404
+		cost = 10
+		prerequisite = {
+			focus = DNR_focus_mirotvorec
+		}
+		prerequisite = {
+			focus = DNR_focus_strelkov
+		}
+		x = 4
+		y = 6
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DNR_focus_neutrality
+		icon = GFX_Focus_404
+		cost = 10
+		prerequisite = {
+			focus = DNR_focus_mid_DNR
+		}
+		x = 9
+		y = 5
+		muttualy_exclusive ={
+			focus = DNR_focus_escalate_poltava
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DNR_focus_escalate_poltava
+		icon = GFX_Focus_404
+		cost = 10
+		prerequisite = {
+			focus = DNR_focus_mid_DNR
+		}
+		mutually_exclusive ={
+			focus = DNR_focus_neutrality
+		}
+		x = 7
+		y = 5
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DNR_focus_shell_kremenchug
+		icon = GFX_Focus_404
+		cost = 10
+		prerequisite = {
+			focus = DNR_focus_escalate_poltava
+		}
+		x = 7
+		y = 6
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DNR_focus_union_with_kokesh
+		icon = GFX_Focus_404
+		cost = 10
+		prerequisite = {
+			focus = DNR_focus_shell_kremenchug
+		}
+		x = 7
+		y = 7
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DNR_focus_give_kokesh_second_chance
+		icon = GFX_Focus_404
+		cost = 10
+		prerequisite = {
+			focus = DNR_focus_neutrality
+		}
+		x = 9
+		y = 6
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = DNR_focus_war_second_coalition
+		icon = GFX_Focus_404
+		cost = 10
+		prerequisite = {
+			focus = DNR_focus_give_kokesh_second_chance
+		}
+		x = 9
+		y = 7
+		completion_reward = {
+		}
+	}
+}
