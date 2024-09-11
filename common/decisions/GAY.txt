@@ -25,7 +25,6 @@ GAY_rebel_category = {
 		available = {
 			OR = {
 				GAY = { has_completed_focus = GAY_Focus_neutralize_kipap } 
-				GAY = { has_global_flag = kipap_rebel }
 			}
 		}
 		activation = {
@@ -40,6 +39,8 @@ GAY_rebel_category = {
 
 		}
 		timeout_effect = {
+		custom_effect_tooltip = "Kipap_Rebel"
+		hidden_effect = {
            826 = {
 				transfer_state_to = KIP
 				add_dynamic_modifier = { 
@@ -58,7 +59,7 @@ GAY_rebel_category = {
 			country_event = {
 			id = GAY.1
 			}
-			set_global_flag = kipap_rebel
+		}
 	    }
     }
 	GAY_Stalinist_mission = {
@@ -71,17 +72,15 @@ GAY_rebel_category = {
 		available = {
 			OR = {
 				GAY = { has_completed_focus = GAY_Focus_repress_everyone_who_was_with_stalker } 
-				GAY = { has_global_flag = kermenists_rebel }
 			}
 		}
 		activation = {
 			989 = { is_fully_controlled_by = GAY } 
 		}
 	    days_mission_timeout = 57
-		complete_effect = {
-
-		}
 		timeout_effect = {
+			custom_effect_tooltip = "Kermenist_Rebel"
+			hidden_effect = {
             989 = {
 				transfer_state_to = KER
 				add_dynamic_modifier = { 
@@ -97,7 +96,7 @@ GAY_rebel_category = {
 					type = annex_everything
 				}
 			}
-			set_global_flag = kermenists_rebel
-	    }
+	        }
+		}
     }
 }
