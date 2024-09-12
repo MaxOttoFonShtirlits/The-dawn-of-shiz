@@ -470,7 +470,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "armour_folder"
-			position = { x=0 y=47 }
+			position = { x=76 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -761,7 +761,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "nsb_armour_folder"
-			position = { x=0 y=47 }
+			position = { x=76 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -1081,7 +1081,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "artillery_folder"
-			position = { x=0 y=47 }
+			position = { x=76 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -1437,7 +1437,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "naval_folder"
-			position = { x=0 y=47 }
+			position = { x=76 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -1703,7 +1703,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "mtgnavalfolder"
-			position = { x=0 y=47 }
+			position = { x=76 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -1932,7 +1932,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "mtgnavalsupportfolder"
-			position = { x=0 y=47 }
+			position = { x=76 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -2146,7 +2146,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "air_techs_folder"
-			position = { x=0 y=47 }
+			position = { x=76 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 0 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -2500,7 +2500,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "bba_air_techs_folder"
-			position = { x=0 y=47 }
+			position = { x=76 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 0 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -2829,7 +2829,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "industry_folder"
-			position = { x=0 y=47 }
+			position = { x=76 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -3155,7 +3155,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "electronics_folder"
-			position = { x=0 y=47 }
+			position = { x=76 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
