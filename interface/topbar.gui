@@ -101,6 +101,7 @@ guiTypes = {
             spriteType = "GFX_web_browser"
 			Orientation = "UPPER_RIGHT"
             clicksound = click_chat
+			shortcut = "f"
 
 			pdx_tooltip = "ENTER_BUTT"
 			web_link = "https://duckduckgo.com/"
@@ -622,7 +623,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				clicksound = click_close
 				oversound = ui_menu_over
-				shortcut = "shift+q"
+				shortcut = "w"
 			}
 
 
@@ -672,7 +673,7 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				clicksound = click_close
 				oversound = ui_menu_over
-				shortcut = "shift+w"
+				shortcut = "e"
 			}
 
 			iconType = {
@@ -724,7 +725,7 @@ guiTypes = {
 	#				position = { x= -100 y = 0 }
 					position = { x= -72 y = 0 }
 					Orientation = "UPPER_LEFT"
-					shortcut = "w"
+					shortcut = "r"
 					clicksound = click_close
 					oversound = ui_menu_over
 				}
@@ -734,7 +735,7 @@ guiTypes = {
 					quadTextureSprite ="GFX_topbar_diplomacy"
 					position = { x= -30 y = 2 }
 					Orientation = "UPPER_LEFT"
-					shortcut = "e"
+					shortcut = "t"
 					clicksound = click_close
 					oversound = ui_menu_over
 				}
@@ -791,7 +792,7 @@ guiTypes = {
 					position = { x= 25 y = 2 }
 					quadTextureSprite ="GFX_topbar_trade_button"
 					Orientation = "UPPER_LEFT"
-					shortcut = "r"
+					shortcut = "y"
 					clicksound = click_close
 					oversound = ui_menu_over
 				}	
@@ -801,7 +802,7 @@ guiTypes = {
 					position = { x = 75 y = 2 }
 					quadTextureSprite ="GFX_construction_button"
 					Orientation = "UPPER_LEFT"
-					shortcut = "t"
+					shortcut = "u"
 					clicksound = click_close
 					oversound = ui_menu_over
 				}
@@ -810,7 +811,7 @@ guiTypes = {
 					position = { x = 115 y = 2 }
 					quadTextureSprite ="GFX_topbar_production"
 					Orientation = "UPPER_LEFT"
-					shortcut = "y"
+					shortcut = "i"
 					clicksound = click_close
 					oversound = ui_menu_over
 				}
@@ -820,7 +821,7 @@ guiTypes = {
 					position = { x = 167 y = -1 }
 					quadTextureSprite ="GFX_deployment_button"
 					Orientation = "UPPER_LEFT"
-					shortcut = "u"
+					shortcut = "o"
 					clicksound = click_close
 					oversound = ui_menu_over
 				}		
@@ -830,7 +831,7 @@ guiTypes = {
 					position = { x = 225 y = 0 }
 					quadTextureSprite ="GFX_ledger_button"
 					Orientation = "UPPER_LEFT"
-					shortcut = "i"
+					shortcut = "p"
 					clicksound = click_close
 					oversound = ui_menu_over
 				}
@@ -840,7 +841,7 @@ guiTypes = {
 					position = { x = 277 y = 2 }
 					quadTextureSprite ="GFX_staff_office_button"
 					Orientation = "UPPER_LEFT"
-					shortcut = "shift+e"
+					shortcut = "["
 					clicksound = click_close
 					oversound = ui_menu_over
 				}
@@ -851,7 +852,7 @@ guiTypes = {
 				position = { x = -273 y = 6 }
 				quadTextureSprite ="GFX_armyoverview_button"
 				Orientation = "UPPER_right"
-				shortcut = "o"
+				shortcut = "a"
 				clicksound = click_close
 				oversound = ui_menu_over
 			}
@@ -861,7 +862,7 @@ guiTypes = {
 				position = { x = -230 y = 1 }
 				quadTextureSprite ="GFX_navyoverview_button"
 				Orientation = "UPPER_right"
-				shortcut = "p"
+				shortcut = "s"
 				clicksound = click_close
 				oversound = ui_menu_over
 			}
@@ -871,7 +872,7 @@ guiTypes = {
 				position = { x = -190 y = 2 }
 				quadTextureSprite ="GFX_airoverview_button"
 				Orientation = "UPPER_right"
-				shortcut = "l"
+				shortcut = "d"
 				clicksound = click_close
 				oversound = ui_menu_over
 			}
