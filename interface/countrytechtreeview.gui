@@ -56,13 +56,6 @@ guiTypes = {
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
-
-				iconType = {
-					name ="infantry_techtree_bg"
-					spriteType = "GFX_infantry_techtree_bg"
-					position = { x=0 y=0 }
-					alwaystransparent = yes
-				}
 				instantTextBoxType = {
 					name = "infantry_year2"
 					position = { x = 130 y = 50 }
@@ -261,14 +254,6 @@ guiTypes = {
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
-
-				iconType = {
-					name ="infantry_techtree_bg"
-					spriteType = "GFX_support_techtree_bg"
-					position = { x=0 y=0 }
-					alwaystransparent = yes
-				}
-
 				instantTextBoxType = {
 					name = "support_year2"
 					position = { x = 90 y = 50 }
@@ -496,14 +481,6 @@ guiTypes = {
 					name = "Background"
 					quadTextureSprite ="GFX_techtree_stripes"
 				}
-
-				iconType = {
-					name ="armortech_bg"
-					spriteType = "GFX_armortech_bg"
-					position = { x=0 y=0 }
-					alwaystransparent = yes
-				}
-
 				containerWindowType = {
 					name = "armour_year_right"
 					position = { x=10 y=140 }
@@ -782,19 +759,6 @@ guiTypes = {
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_techtree_stripes"
-				}
-
-				iconType = {
-					name ="armortech_bg"
-					spriteType = "GFX_armortech_bg"
-					position = { x=0 y=0 }
-					alwaystransparent = yes
-				}
-
 				containerWindowType = {
 					name = "armour_year_left"
 					position = { x=10 y=50 }
@@ -1102,18 +1066,7 @@ guiTypes = {
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_techtree_stripes"
-				}
-
-				iconType = {
-					name ="artillery_techtree_bg"
-					spriteType = "GFX_artillery_techtree_bg"
-					position = { x=0 y=0 }
-					alwaystransparent = yes
-				}
+			
 
 			containerWindowType = {
 				name = "artillery_subtitles"
@@ -1620,11 +1573,6 @@ guiTypes = {
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_window_transparent_transparent"
-				}
 			}
 
 			gridboxtype = {
@@ -1722,12 +1670,6 @@ guiTypes = {
 #				size = { width = 1700 height = 1200 }
 #
 #			}
-
-			iconType = {
-				name ="mtgnavaltechtree_bg"
-				spriteType = "GFX_naval_techtree_bg"
-				position = { x=0 y=0 }
-			}
 
 				instantTextBoxType = {
 					name = "naval_year1"
@@ -1873,11 +1815,6 @@ guiTypes = {
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_window_transparent_transparent"
-				}
 			}
 
 			gridboxtype = {
@@ -1944,13 +1881,6 @@ guiTypes = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
-
-			iconType = {
-				name ="mtgnavaltechtree_bg"
-				spriteType = "GFX_naval_techtree_bg"
-				position = { x=0 y=0 }
-			}
-
 				instantTextBoxType = {
 					name = "naval_year1"
 					position = { x = 224 y = 20 }
@@ -2087,11 +2017,6 @@ guiTypes = {
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_tiled_window_transparent_transparent"
-				}
 			}
 
 			gridboxtype = {
@@ -2167,19 +2092,6 @@ guiTypes = {
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_techtree_stripes"
-				}
-
-				iconType = {
-					name ="artillery_techtree_bg"
-					spriteType = "GFX_air_techtree_bg"
-					position = { x=0 y=0 }
-					alwaystransparent = yes
-				}
-
 			}
 
 			instantTextBoxType = {
@@ -2521,19 +2433,6 @@ guiTypes = {
 					min = { width=100%% height=100%% }
 				}
 				clipping = no
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_techtree_stripes"
-				}
-
-				iconType = {
-					name ="artillery_techtree_bg"
-					spriteType = "GFX_air_techtree_bg"
-					position = { x=0 y=0 }
-					alwaystransparent = yes
-				}
-
 			}
 
 			instantTextBoxType = {
@@ -2849,12 +2748,6 @@ guiTypes = {
 				size = {
 					width = 1550 height = 1000
 					min = { width = 100%% height = 100%% }
-				}
-
-				iconType = {
-					name ="GFX_industry_techtree_bg"
-					spriteType = "GFX_industry_techtree_bg"
-					position = { x=0 y=0 }
 				}
 
 			containerWindowType = {
@@ -3175,20 +3068,6 @@ guiTypes = {
 					width = 710 height = 1100
 					min = { width= 100%% height = 100%% }
 				}
-
-				iconType = {
-					name ="engineering_techtree_bg"
-					spriteType = "GFX_engineering_techtree_bg"
-					position = { x=0 y=0 }
-				}
-
-				iconType = {
-					name ="wonderweapons_bg"
-					spriteType = "GFX_wonderweapons_bg"
-					position = { x=810 y=0 }
-					alwaystransparent = yes
-				}
-
 			}
 
 			containerWindowType = {
@@ -3526,6 +3405,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_infantry_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_infantry
+				shortcut = "1"
 			}
 
 			iconType = {
@@ -3542,21 +3422,24 @@ guiTypes = {
 				quadTextureSprite = "GFX_techtree_tabs"
 				frame = 1
 				clicksound = ui_research_tab_support
+				shortcut = "2"
 			}
 			buttonType = {
 				name = "armour_folder_tab"
 				position = { x = -4 y = 113 }
-				quadTextureSprite = "GFX_techtree_tabs"
+				quadTextureSprite = "GFX_techtree_tank_tab"
 				frame = 1
 				clicksound = ui_research_tab_armor
+				shortcut = "3"
 			}
 
 			buttonType = {
 				name = "nsb_armour_folder_tab"
 				position = { x = -4 y = 113 }
-				quadTextureSprite = "GFX_techtree_tabs"
+				quadTextureSprite = "GFX_techtree_tank_tab"
 				frame = 1
 				clicksound = ui_research_tab_armor
+				shortcut = "3"
 			}
 
 			buttonType = {
@@ -3565,6 +3448,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_techtree_tabs"
 				frame = 1
 				clicksound = ui_research_tab_artillery
+				shortcut = "4"
 			}
 
 			buttonType = {
@@ -3573,6 +3457,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_techtree_tabs"
 				frame = 1
 				clicksound = ui_research_tab_naval
+				shortcut = "R"
 			}
 			buttonType = {
 				name = "mtgnavalfolder_tab"
@@ -3580,6 +3465,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_techtree_tabs"
 				frame = 1
 				clicksound = ui_research_tab_naval
+				shortcut = "5"
 			}
 			buttonType = {
 				name = "mtgnavalsupportfolder_tab"
@@ -3587,6 +3473,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_techtree_tabs"
 				frame = 1
 				clicksound = ui_research_tab_naval
+				shortcut = "6"
 			}
 			buttonType = {
 				name = "air_techs_folder_tab"
@@ -3594,6 +3481,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_air_techs_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_air
+				shortcut = "Y"
 			}
 			buttonType = {
 				name = "bba_air_techs_folder_tab"
@@ -3601,6 +3489,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_air_techs_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_air
+				shortcut = "7"
 			}
 			buttonType = {
 				name = "electronics_folder_tab"
@@ -3608,6 +3497,7 @@ guiTypes = {
 				quadTextureSprite = "GFX_techtree_tabs"
 				frame = 1
 				clicksound = ui_research_tab_engineering
+				shortcut = "8"
 			}
 
 			iconType = {
@@ -3621,9 +3511,10 @@ guiTypes = {
 			buttonType = {
 				name = "industry_folder_tab"
 				position = { x = -4 y = 341 }
-				quadTextureSprite = "GFX_techtree_tabs"
+				quadTextureSprite = "GFX_industry_folder_tab"
 				frame = 1
 				clicksound = ui_research_tab_industry
+				shortcut = "9"
 			}
 
 			iconType = {

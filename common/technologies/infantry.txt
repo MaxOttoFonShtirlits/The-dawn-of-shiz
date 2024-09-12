@@ -1996,12 +1996,7 @@ technologies = {
 		}
 		dependencies = {
 			rocket_artillery = 1
-		}
-		path = {
-			leads_to_tech = motorized_rocket_unit_1
-			research_cost_coeff = 1
-		}
-	
+		}	
 		research_cost = 1.5
 		start_year = 1939
 		
@@ -2016,66 +2011,6 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1939 }
-		}
-		categories = {
-			mot_rockets
-			mio_cat_tech_all_motorized_mechanized
-		}
-	}
-	motorized_rocket_unit_1 = {
-		enable_equipments = {
-			motorized_rocket_equipment_1
-		}
-		dependencies = {
-			rocket_artillery = 1
-		}
-	
-		research_cost = 1.5
-		start_year = 1939
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
-		}
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1941 }
-		}
-		path = {
-			leads_to_tech = motorized_rocket_unit_2
-			research_cost_coeff = 1
-		}
-		categories = {
-			mot_rockets
-			mio_cat_tech_all_motorized_mechanized
-		}
-	}
-	motorized_rocket_unit_2 = {
-		enable_equipments = {
-			motorized_rocket_equipment_1
-		}
-		dependencies = {
-			rocket_artillery = 1
-		}
-	
-		research_cost = 1.5
-		start_year = 1939
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
-		}
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1943 }
 		}
 		categories = {
 			mot_rockets
