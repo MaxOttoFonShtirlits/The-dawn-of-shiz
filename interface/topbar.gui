@@ -57,6 +57,7 @@ guiTypes = {
 				name = "music_pause_button"
 				quadTextureSprite ="GFX_music_pause_button"
 				position = { x= -171 y = 8 }
+				shortcut = "j"
 				Orientation = "UPPER_RIGHT"
 			}
 
@@ -64,6 +65,7 @@ guiTypes = {
 				name = "music_next_button"
 				quadTextureSprite ="GFX_music_next_button"
 				position = { x= -141 y = 8 }
+				shortcut = "k"
 				Orientation = "UPPER_RIGHT"
 				pdx_tooltip = "MUSICPLAYER_NEXT"
 			}
@@ -414,6 +416,7 @@ guiTypes = {
 			clicksound = click_default
 			size = { x = 50 y = 20 }
 			quadTextureSprite = "GFX_tiled_window_transparent"
+			shortcut = "g"
 		}
 		
 		instantTextBoxType = {
@@ -482,7 +485,7 @@ guiTypes = {
 				name = "button_speeddown"
 				quadTextureSprite ="GFX_button_speeddown"
 				position = { x = 55 y = 1 }
-				shortcut = "KP_MINUS"
+				shortcut = ";"
 				pdx_tooltip = "SPEED_DECREASE"
 				clicksound = time_down
 				oversound = ui_menu_over
@@ -526,7 +529,7 @@ guiTypes = {
 				name = "button_speedup"
 				quadTextureSprite ="GFX_button_speedup"
 				position = { x = 230 y = -1 }
-				shortcut = "KP_PLUS"
+				shortcut = "'"
 				pdx_tooltip = "SPEED_INCREASE"
 				clicksound = time_up
 				oversound = ui_menu_over
@@ -569,6 +572,7 @@ guiTypes = {
 			Orientation = "UPPER_RIGHT"
 			pdx_tooltip = "HELP_MENU"
 			web_link = ""
+			shortcut = "l"
 		}
 
 		buttonType = {
@@ -592,6 +596,7 @@ guiTypes = {
 			oversound = ui_menu_over
 			Orientation = "UPPER_RIGHT"
 			pdx_tooltip = "MUSICPLAYER_TOGGLE_CONTROLLER"
+			shortcut = "h"
 		}		
 		
 		buttonType = {
@@ -877,33 +882,5 @@ guiTypes = {
 				oversound = ui_menu_over
 			}
 		}
-		
-		#windowType = {
-		#	name = "pause_window"
-		#	backGround=""
-		#	position = { x=-203 y= 100 }
-		#	size = { x=406 y=70 }
-		#	dontRender = ""
-		#	horizontalBorder= ""
-		#	verticalBorder= ""
-		#	fullScreen = no
-		#	moveable = 0
-		#	Orientation = "CENTER_UP"
-		#	
-
-		#	
-		#	#Needs localisation change
-		#	instantTextBoxType = {
-		#		name = "pause_banner_text"
-		#		position = { x = 140 y = 9 }
-		#		textureFile = ""
-		#		font = "vic_22"
-		#		borderSize = {x = 4 y = 4}
-		#		text = "CORE_PAUSED"
-		#		maxWidth = 120
-		#		maxHeight = 27
-		#		format = center
-		#	}
-		#}
 	}
 }
