@@ -95,6 +95,7 @@ guiTypes = {
 			text = "FE_SINGLE_PLAYER"				
 			clicksound = click_default			
 			oversound = ui_menu_over
+			shortcut = "1"
 		}
 		@warn_icon_x = 280
 		iconType = {
@@ -110,6 +111,7 @@ guiTypes = {
 			text = "FE_MULTI_PLAYER"			
 			clicksound = click_default
 			oversound = ui_menu_over
+			shortcut = "2"
 		}
 		buttonType = {
 			name = "career_profile_button"
@@ -119,6 +121,7 @@ guiTypes = {
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
+			shortcut = "3"
 		}
 		ButtonType = {
 			name = "settings_button"
@@ -128,6 +131,7 @@ guiTypes = {
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
+			shortcut = "4"
 		}
 		ButtonType = {
 			name = "exit_button"
@@ -145,6 +149,7 @@ guiTypes = {
 			quadTextureSprite ="GFX_frontend_mod_logo"	
 			buttonText = "Большой брат следит за тобой"
 			buttonFont = "hoi_24header"
+			shortcut = "5"
 		}
 		iconType = {
 			name = "career_profile_button_star"
@@ -200,6 +205,7 @@ guiTypes = {
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
+			shortcut = "1"
 		}
 		
 		iconType = {
@@ -242,6 +248,7 @@ guiTypes = {
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
+			shortcut = "2"
 		}
 		
 		ButtonType = {
@@ -252,6 +259,7 @@ guiTypes = {
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
+			shortcut = "3"
 		}
 		
 		ButtonType = {
@@ -262,6 +270,7 @@ guiTypes = {
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
+			shortcut = "4"
 		}
 		
 		ButtonType = {
