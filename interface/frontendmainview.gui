@@ -147,7 +147,7 @@ guiTypes = {
 			name = "nudge_button"
 			position = { x = 450 y = 25 }
 			quadTextureSprite ="GFX_frontend_mod_logo"	
-			buttonText = "Большой брат следит за тобой"
+			buttonText = "Кончин"
 			buttonFont = "hoi_24header"
 			shortcut = "5"
 		}

@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_Portrait_GAY_Generic_land_1"
+		texturefile = "gfx/leaders/GAY/Portrait_GAY_Generic_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_GAY_Generic_land_1_small"
+		texturefile = "gfx/interface/ideas/officer/Portrait_GAY_Generic_land_1_small.dds"
+	}
+}

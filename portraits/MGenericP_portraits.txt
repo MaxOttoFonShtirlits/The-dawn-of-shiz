@@ -1,0 +1,1396 @@
+continent = {
+	name = europe
+	army = {
+		male = {
+			"GFX_Portrait_military_male"
+			"GFX_Portrait_military_male1"
+			"GFX_Portrait_military_male2"
+			"GFX_Portrait_military_male15"
+			"GFX_Portrait_military_male16"
+			"GFX_Portrait_military_male19"
+			"GFX_Portrait_military_male20"
+			"GFX_Portrait_military_male25"
+			"GFX_Portrait_military_male27"
+			"GFX_Portrait_military_male28"
+			"GFX_Portrait_military_male29"
+			"GFX_Portrait_military_male30"
+			"GFX_Portrait_military_male31"
+			"GFX_Portrait_military_male32"
+			"GFX_Portrait_military_male33"
+			"GFX_Portrait_military_male35"
+			"GFX_Portrait_military_male36"
+			"GFX_Portrait_military_male37"
+			"GFX_Portrait_military_male38"
+			"GFX_Portrait_military_male39"
+			"GFX_Portrait_military_male40"
+			"GFX_Portrait_military_male41"
+			"GFX_Portrait_military_male42"
+			"GFX_Portrait_military_male43"
+			"GFX_Portrait_military_male44"
+			"GFX_Portrait_military_male45"
+			"GFX_Portrait_military_male46" 
+			"GFX_Portrait_military_male47"
+		}
+		
+		female = {
+			"GFX_Portrait_military_female"
+			"GFX_Portrait_military_female1"
+			"GFX_Portrait_military_female2"
+			"GFX_Portrait_military_female3"
+			"GFX_Portrait_military_female4"
+			"GFX_Portrait_military_female5"
+			"GFX_Portrait_military_female6"
+			"GFX_Portrait_military_female7"
+			"GFX_Portrait_military_female8"
+			"GFX_Portrait_military_female9"
+			"GFX_Portrait_military_female10"
+			"GFX_Portrait_military_female11"
+		}
+		
+		communism = {
+				male = { 
+					"GFX_Portrait_military_male9"
+					"GFX_Portrait_military_male10"
+					"GFX_Portrait_military_male11"
+					"GFX_Portrait_military_male17"
+					"GFX_Portrait_military_male18"
+					"GFX_Portrait_military_male21"
+					"GFX_Portrait_military_male22"
+					"GFX_Portrait_military_male24"
+					"GFX_Portrait_military_male26"
+			}
+		}
+		
+		fascism = {
+				male = { 
+					"GFX_Portrait_military_male3"
+					"GFX_Portrait_military_male4" 
+					"GFX_Portrait_military_male5"
+					"GFX_Portrait_military_male6"
+					"GFX_Portrait_military_male7"
+					"GFX_Portrait_military_male8"
+					"GFX_Portrait_military_male12"
+					"GFX_Portrait_military_male13"
+					"GFX_Portrait_military_male14"
+					"GFX_Portrait_military_male34"
+			}
+		}
+		
+	}
+		
+	political = {
+		communism = {
+				male = { 
+					"GFX_Portrait_political_male"
+					"GFX_Portrait_political_male1"
+					"GFX_Portrait_political_male2"
+					"GFX_Portrait_political_male3"
+					"GFX_Portrait_political_male4"
+					"GFX_Portrait_political_male5"
+					"GFX_Portrait_political_male6"
+					"GFX_Portrait_political_male7"
+					"GFX_Portrait_political_male8"
+					"GFX_Portrait_political_male9"
+					"GFX_Portrait_political_male10"
+					"GFX_Portrait_political_male11"
+					"GFX_Portrait_political_male12"
+					"GFX_Portrait_political_male13"
+					"GFX_Portrait_political_male14"
+					"GFX_Portrait_political_male15"
+					"GFX_Portrait_political_male16"
+					"GFX_Portrait_political_male17"
+					"GFX_Portrait_political_male18"
+					"GFX_Portrait_political_male19"
+					"GFX_Portrait_military_male9"
+					"GFX_Portrait_military_male10"
+					"GFX_Portrait_military_male11"
+					"GFX_Portrait_military_male17"
+					"GFX_Portrait_military_male18"
+					"GFX_Portrait_military_male21"
+					"GFX_Portrait_military_male22"
+					"GFX_Portrait_military_male24"
+					"GFX_Portrait_military_male26"
+			}
+			
+			female = { 
+					"GFX_Portrait_political_female"
+					"GFX_Portrait_political_female1"
+					"GFX_Portrait_political_female2"
+					"GFX_Portrait_political_female3"
+					"GFX_Portrait_political_female4"
+					"GFX_Portrait_political_female5"
+					"GFX_Portrait_political_female6"
+					"GFX_Portrait_political_female7"
+					"GFX_Portrait_political_female8"
+					"GFX_Portrait_political_female9"
+					"GFX_Portrait_political_female10"
+					"GFX_Portrait_political_female11"
+					"GFX_Portrait_political_female12"
+					"GFX_Portrait_political_female13"
+					"GFX_Portrait_political_female14"
+					"GFX_Portrait_political_female15"
+					"GFX_Portrait_political_female16"
+			}
+		}
+		democratic = {
+				male = { 
+					"GFX_Portrait_political_male"
+					"GFX_Portrait_political_male1"
+					"GFX_Portrait_political_male2"
+					"GFX_Portrait_political_male3"
+					"GFX_Portrait_political_male4"
+					"GFX_Portrait_political_male5"
+					"GFX_Portrait_political_male6"
+					"GFX_Portrait_political_male7"
+					"GFX_Portrait_political_male8"
+					"GFX_Portrait_political_male9"
+					"GFX_Portrait_political_male10"
+					"GFX_Portrait_political_male11"
+					"GFX_Portrait_political_male12"
+					"GFX_Portrait_political_male13"
+					"GFX_Portrait_political_male14"
+					"GFX_Portrait_political_male15"
+					"GFX_Portrait_political_male16"
+					"GFX_Portrait_political_male17"
+					"GFX_Portrait_political_male18"
+					"GFX_Portrait_political_male19"
+			}
+			
+			female = { 
+					"GFX_Portrait_political_female"
+					"GFX_Portrait_political_female1"
+					"GFX_Portrait_political_female2"
+					"GFX_Portrait_political_female3"
+					"GFX_Portrait_political_female4"
+					"GFX_Portrait_political_female5"
+					"GFX_Portrait_political_female6"
+					"GFX_Portrait_political_female7"
+					"GFX_Portrait_political_female8"
+					"GFX_Portrait_political_female9"
+					"GFX_Portrait_political_female10"
+					"GFX_Portrait_political_female11"
+					"GFX_Portrait_political_female12"
+					"GFX_Portrait_political_female13"
+					"GFX_Portrait_political_female14"
+					"GFX_Portrait_political_female15"
+					"GFX_Portrait_political_female16"
+			}
+		}
+		fascism = {
+				male = { 
+					"GFX_Portrait_political_male"
+					"GFX_Portrait_political_male1"
+					"GFX_Portrait_political_male2"
+					"GFX_Portrait_political_male3"
+					"GFX_Portrait_political_male4"
+					"GFX_Portrait_political_male5"
+					"GFX_Portrait_political_male6"
+					"GFX_Portrait_political_male7"
+					"GFX_Portrait_political_male8"
+					"GFX_Portrait_political_male9"
+					"GFX_Portrait_political_male10"
+					"GFX_Portrait_political_male11"
+					"GFX_Portrait_political_male12"
+					"GFX_Portrait_political_male13"
+					"GFX_Portrait_political_male14"
+					"GFX_Portrait_political_male15"
+					"GFX_Portrait_political_male16"
+					"GFX_Portrait_political_male17"
+					"GFX_Portrait_political_male18"
+					"GFX_Portrait_political_male19"
+					"GFX_Portrait_military_male3"
+					"GFX_Portrait_military_male4" 
+					"GFX_Portrait_military_male5"
+					"GFX_Portrait_military_male6"
+					"GFX_Portrait_military_male7"
+					"GFX_Portrait_military_male8"
+					"GFX_Portrait_military_male12"
+					"GFX_Portrait_military_male13"
+					"GFX_Portrait_military_male14"
+					"GFX_Portrait_military_male34"
+			}
+			
+			female = { 
+					"GFX_Portrait_political_female"
+					"GFX_Portrait_political_female1"
+					"GFX_Portrait_political_female2"
+					"GFX_Portrait_political_female3"
+					"GFX_Portrait_political_female4"
+					"GFX_Portrait_political_female5"
+					"GFX_Portrait_political_female6"
+					"GFX_Portrait_political_female7"
+					"GFX_Portrait_political_female8"
+					"GFX_Portrait_political_female9"
+					"GFX_Portrait_political_female10"
+					"GFX_Portrait_political_female11"
+					"GFX_Portrait_political_female12"
+					"GFX_Portrait_political_female13"
+					"GFX_Portrait_political_female14"
+					"GFX_Portrait_political_female15"
+					"GFX_Portrait_political_female16"
+			}
+		}
+		neutrality = {
+				male = { 
+					"GFX_Portrait_political_male"
+					"GFX_Portrait_political_male1"
+					"GFX_Portrait_political_male2"
+					"GFX_Portrait_political_male3"
+					"GFX_Portrait_political_male4"
+					"GFX_Portrait_political_male5"
+					"GFX_Portrait_political_male6"
+					"GFX_Portrait_political_male7"
+					"GFX_Portrait_political_male8"
+					"GFX_Portrait_political_male9"
+					"GFX_Portrait_political_male10"
+					"GFX_Portrait_political_male11"
+					"GFX_Portrait_political_male12"
+					"GFX_Portrait_political_male13"
+					"GFX_Portrait_political_male14"
+					"GFX_Portrait_political_male15"
+					"GFX_Portrait_political_male16"
+					"GFX_Portrait_political_male17"
+					"GFX_Portrait_political_male18"
+					"GFX_Portrait_political_male19"
+			}
+			
+			female = { 
+					"GFX_Portrait_political_female"
+					"GFX_Portrait_political_female1"
+					"GFX_Portrait_political_female2"
+					"GFX_Portrait_political_female3"
+					"GFX_Portrait_political_female4"
+					"GFX_Portrait_political_female5"
+					"GFX_Portrait_political_female6"
+					"GFX_Portrait_political_female7"
+					"GFX_Portrait_political_female8"
+					"GFX_Portrait_political_female9"
+					"GFX_Portrait_political_female10"
+					"GFX_Portrait_political_female11"
+					"GFX_Portrait_political_female12"
+					"GFX_Portrait_political_female13"
+					"GFX_Portrait_political_female14"
+					"GFX_Portrait_political_female15"
+					"GFX_Portrait_political_female16"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = north_america
+	army = {
+		male = {
+			"GFX_Portrait_american_military_male"
+			"GFX_Portrait_american_military_male1"
+			"GFX_Portrait_american_military_male2"
+			"GFX_Portrait_american_military_male3"
+			"GFX_Portrait_american_military_male4"
+			"GFX_Portrait_american_military_male5"
+			"GFX_Portrait_american_military_male6"
+			"GFX_Portrait_american_military_male7"
+			"GFX_Portrait_american_military_male8"
+			"GFX_Portrait_american_military_male9"
+			"GFX_Portrait_american_military_male10"
+			"GFX_Portrait_american_military_male11"
+			"GFX_Portrait_american_military_male12"
+			"GFX_Portrait_american_military_male13"
+			"GFX_Portrait_american_military_male14"
+			"GFX_Portrait_american_military_male15"
+			"GFX_Portrait_american_military_male16"
+			"GFX_Portrait_american_military_male17"
+		}
+		
+		female = {
+			"GFX_Portrait_american_military_female"
+			"GFX_Portrait_american_military_female1"
+			"GFX_Portrait_american_military_female2"
+			"GFX_Portrait_american_military_female3"
+			"GFX_Portrait_american_military_female4"
+			"GFX_Portrait_american_military_female5"
+			"GFX_Portrait_american_military_female6"
+			"GFX_Portrait_american_military_female7"
+			"GFX_Portrait_american_military_female8"
+			"GFX_Portrait_american_military_female9"
+			"GFX_Portrait_american_military_female10"
+		}
+	}
+	
+
+	political = {
+		communism = {
+		 male = {
+			"GFX_Portrait_american_political_male"
+			"GFX_Portrait_american_political_male1"
+			"GFX_Portrait_american_political_male2"
+			"GFX_Portrait_american_political_male3"
+			"GFX_Portrait_american_political_male4"
+			"GFX_Portrait_american_political_male5"
+			"GFX_Portrait_american_political_male6"
+			"GFX_Portrait_american_political_male7"
+			"GFX_Portrait_american_political_male8"
+			"GFX_Portrait_american_political_male9"
+			"GFX_Portrait_american_political_male10"
+			"GFX_Portrait_american_political_male11"
+			"GFX_Portrait_american_political_male12"
+			"GFX_Portrait_american_political_male13"
+			"GFX_Portrait_american_political_male14"
+			"GFX_Portrait_american_political_male15"
+
+		 }
+		 
+		 female = {
+			"GFX_Portrait_american_political_female"
+			"GFX_Portrait_american_political_female1"
+			"GFX_Portrait_american_political_female2"
+			"GFX_Portrait_american_political_female3"
+			"GFX_Portrait_american_political_female4"
+			"GFX_Portrait_american_political_female5"
+			"GFX_Portrait_american_political_female6"
+			"GFX_Portrait_american_political_female7"
+			"GFX_Portrait_american_political_female8"
+			"GFX_Portrait_american_political_female9"
+			"GFX_Portrait_american_political_female10"
+			"GFX_Portrait_american_political_female11"
+		 }
+		 
+		}
+		democratic = {
+				male = {
+			"GFX_Portrait_american_political_male"
+			"GFX_Portrait_american_political_male1"
+			"GFX_Portrait_american_political_male2"
+			"GFX_Portrait_american_political_male3"
+			"GFX_Portrait_american_political_male4"
+			"GFX_Portrait_american_political_male5"
+			"GFX_Portrait_american_political_male6"
+			"GFX_Portrait_american_political_male7"
+			"GFX_Portrait_american_political_male8"
+			"GFX_Portrait_american_political_male9"
+			"GFX_Portrait_american_political_male10"
+			"GFX_Portrait_american_political_male11"
+			"GFX_Portrait_american_political_male12"
+			"GFX_Portrait_american_political_male13"
+			"GFX_Portrait_american_political_male14"
+			"GFX_Portrait_american_political_male15"
+
+		 }
+		 
+		 female = {
+			"GFX_Portrait_american_political_female"
+			"GFX_Portrait_american_political_female1"
+			"GFX_Portrait_american_political_female2"
+			"GFX_Portrait_american_political_female3"
+			"GFX_Portrait_american_political_female4"
+			"GFX_Portrait_american_political_female5"
+			"GFX_Portrait_american_political_female6"
+			"GFX_Portrait_american_political_female7"
+			"GFX_Portrait_american_political_female8"
+			"GFX_Portrait_american_political_female9"
+			"GFX_Portrait_american_political_female10"
+			"GFX_Portrait_american_political_female11"
+		 }
+		}
+		fascism = {
+				male = {
+			"GFX_Portrait_american_political_male"
+			"GFX_Portrait_american_political_male1"
+			"GFX_Portrait_american_political_male2"
+			"GFX_Portrait_american_political_male3"
+			"GFX_Portrait_american_political_male4"
+			"GFX_Portrait_american_political_male5"
+			"GFX_Portrait_american_political_male6"
+			"GFX_Portrait_american_political_male7"
+			"GFX_Portrait_american_political_male8"
+			"GFX_Portrait_american_political_male9"
+			"GFX_Portrait_american_political_male10"
+			"GFX_Portrait_american_political_male11"
+			"GFX_Portrait_american_political_male12"
+			"GFX_Portrait_american_political_male13"
+			"GFX_Portrait_american_political_male14"
+			"GFX_Portrait_american_political_male15"
+
+		 }
+		 
+		 female = {
+			"GFX_Portrait_american_political_female"
+			"GFX_Portrait_american_political_female1"
+			"GFX_Portrait_american_political_female2"
+			"GFX_Portrait_american_political_female3"
+			"GFX_Portrait_american_political_female4"
+			"GFX_Portrait_american_political_female5"
+			"GFX_Portrait_american_political_female6"
+			"GFX_Portrait_american_political_female7"
+			"GFX_Portrait_american_political_female8"
+			"GFX_Portrait_american_political_female9"
+			"GFX_Portrait_american_political_female10"
+			"GFX_Portrait_american_political_female11"
+		 }
+		}
+		neutrality = {
+				male = {
+			"GFX_Portrait_american_political_male"
+			"GFX_Portrait_american_political_male1"
+			"GFX_Portrait_american_political_male2"
+			"GFX_Portrait_american_political_male3"
+			"GFX_Portrait_american_political_male4"
+			"GFX_Portrait_american_political_male5"
+			"GFX_Portrait_american_political_male6"
+			"GFX_Portrait_american_political_male7"
+			"GFX_Portrait_american_political_male8"
+			"GFX_Portrait_american_political_male9"
+			"GFX_Portrait_american_political_male10"
+			"GFX_Portrait_american_political_male11"
+			"GFX_Portrait_american_political_male12"
+			"GFX_Portrait_american_political_male13"
+			"GFX_Portrait_american_political_male14"
+			"GFX_Portrait_american_political_male15"
+
+		 }
+		 
+		 female = {
+			"GFX_Portrait_american_political_female"
+			"GFX_Portrait_american_political_female1"
+			"GFX_Portrait_american_political_female2"
+			"GFX_Portrait_american_political_female3"
+			"GFX_Portrait_american_political_female4"
+			"GFX_Portrait_american_political_female5"
+			"GFX_Portrait_american_political_female6"
+			"GFX_Portrait_american_political_female7"
+			"GFX_Portrait_american_political_female8"
+			"GFX_Portrait_american_political_female9"
+			"GFX_Portrait_american_political_female10"
+			"GFX_Portrait_american_political_female11"
+		 }
+		}
+	}
+
+}
+
+continent = {
+	name = south_america
+	army = {
+		male = {
+			"GFX_Portrait_american_military_male"
+			"GFX_Portrait_american_military_male1"
+			"GFX_Portrait_american_military_male2"
+			"GFX_Portrait_american_military_male3"
+			"GFX_Portrait_american_military_male4"
+			"GFX_Portrait_american_military_male5"
+			"GFX_Portrait_american_military_male6"
+			"GFX_Portrait_american_military_male7"
+			"GFX_Portrait_american_military_male8"
+			"GFX_Portrait_american_military_male9"
+			"GFX_Portrait_american_military_male10"
+			"GFX_Portrait_american_military_male11"
+			"GFX_Portrait_american_military_male12"
+			"GFX_Portrait_american_military_male13"
+			"GFX_Portrait_american_military_male14"
+			"GFX_Portrait_american_military_male15"
+			"GFX_Portrait_american_military_male16"
+			"GFX_Portrait_american_military_male17"
+		}
+		
+		female = {
+			"GFX_Portrait_american_military_female"
+			"GFX_Portrait_american_military_female1"
+			"GFX_Portrait_american_military_female2"
+			"GFX_Portrait_american_military_female3"
+			"GFX_Portrait_american_military_female4"
+			"GFX_Portrait_american_military_female5"
+			"GFX_Portrait_american_military_female6"
+			"GFX_Portrait_american_military_female7"
+			"GFX_Portrait_american_military_female8"
+			"GFX_Portrait_american_military_female9"
+			"GFX_Portrait_american_military_female10"
+		}
+	}
+	
+
+	political = {
+		communism = {
+		 male = {
+			"GFX_Portrait_american_political_male"
+			"GFX_Portrait_american_political_male1"
+			"GFX_Portrait_american_political_male2"
+			"GFX_Portrait_american_political_male3"
+			"GFX_Portrait_american_political_male4"
+			"GFX_Portrait_american_political_male5"
+			"GFX_Portrait_american_political_male6"
+			"GFX_Portrait_american_political_male7"
+			"GFX_Portrait_american_political_male8"
+			"GFX_Portrait_american_political_male9"
+			"GFX_Portrait_american_political_male10"
+			"GFX_Portrait_american_political_male11"
+			"GFX_Portrait_american_political_male12"
+			"GFX_Portrait_american_political_male13"
+			"GFX_Portrait_american_political_male14"
+			"GFX_Portrait_american_political_male15"
+
+		 }
+		 
+		 female = {
+			"GFX_Portrait_american_political_female"
+			"GFX_Portrait_american_political_female1"
+			"GFX_Portrait_american_political_female2"
+			"GFX_Portrait_american_political_female3"
+			"GFX_Portrait_american_political_female4"
+			"GFX_Portrait_american_political_female5"
+			"GFX_Portrait_american_political_female6"
+			"GFX_Portrait_american_political_female7"
+			"GFX_Portrait_american_political_female8"
+			"GFX_Portrait_american_political_female9"
+			"GFX_Portrait_american_political_female10"
+			"GFX_Portrait_american_political_female11"
+		 }
+		 
+		}
+		democratic = {
+				male = {
+			"GFX_Portrait_american_political_male"
+			"GFX_Portrait_american_political_male1"
+			"GFX_Portrait_american_political_male2"
+			"GFX_Portrait_american_political_male3"
+			"GFX_Portrait_american_political_male4"
+			"GFX_Portrait_american_political_male5"
+			"GFX_Portrait_american_political_male6"
+			"GFX_Portrait_american_political_male7"
+			"GFX_Portrait_american_political_male8"
+			"GFX_Portrait_american_political_male9"
+			"GFX_Portrait_american_political_male10"
+			"GFX_Portrait_american_political_male11"
+			"GFX_Portrait_american_political_male12"
+			"GFX_Portrait_american_political_male13"
+			"GFX_Portrait_american_political_male14"
+			"GFX_Portrait_american_political_male15"
+
+		 }
+		 
+		 female = {
+			"GFX_Portrait_american_political_female"
+			"GFX_Portrait_american_political_female1"
+			"GFX_Portrait_american_political_female2"
+			"GFX_Portrait_american_political_female3"
+			"GFX_Portrait_american_political_female4"
+			"GFX_Portrait_american_political_female5"
+			"GFX_Portrait_american_political_female6"
+			"GFX_Portrait_american_political_female7"
+			"GFX_Portrait_american_political_female8"
+			"GFX_Portrait_american_political_female9"
+			"GFX_Portrait_american_political_female10"
+			"GFX_Portrait_american_political_female11"
+		 }
+		}
+		fascism = {
+				male = {
+			"GFX_Portrait_american_political_male"
+			"GFX_Portrait_american_political_male1"
+			"GFX_Portrait_american_political_male2"
+			"GFX_Portrait_american_political_male3"
+			"GFX_Portrait_american_political_male4"
+			"GFX_Portrait_american_political_male5"
+			"GFX_Portrait_american_political_male6"
+			"GFX_Portrait_american_political_male7"
+			"GFX_Portrait_american_political_male8"
+			"GFX_Portrait_american_political_male9"
+			"GFX_Portrait_american_political_male10"
+			"GFX_Portrait_american_political_male11"
+			"GFX_Portrait_american_political_male12"
+			"GFX_Portrait_american_political_male13"
+			"GFX_Portrait_american_political_male14"
+			"GFX_Portrait_american_political_male15"
+
+		 }
+		 
+		 female = {
+			"GFX_Portrait_american_political_female"
+			"GFX_Portrait_american_political_female1"
+			"GFX_Portrait_american_political_female2"
+			"GFX_Portrait_american_political_female3"
+			"GFX_Portrait_american_political_female4"
+			"GFX_Portrait_american_political_female5"
+			"GFX_Portrait_american_political_female6"
+			"GFX_Portrait_american_political_female7"
+			"GFX_Portrait_american_political_female8"
+			"GFX_Portrait_american_political_female9"
+			"GFX_Portrait_american_political_female10"
+			"GFX_Portrait_american_political_female11"
+		 }
+		}
+		neutrality = {
+				male = {
+			"GFX_Portrait_american_political_male"
+			"GFX_Portrait_american_political_male1"
+			"GFX_Portrait_american_political_male2"
+			"GFX_Portrait_american_political_male3"
+			"GFX_Portrait_american_political_male4"
+			"GFX_Portrait_american_political_male5"
+			"GFX_Portrait_american_political_male6"
+			"GFX_Portrait_american_political_male7"
+			"GFX_Portrait_american_political_male8"
+			"GFX_Portrait_american_political_male9"
+			"GFX_Portrait_american_political_male10"
+			"GFX_Portrait_american_political_male11"
+			"GFX_Portrait_american_political_male12"
+			"GFX_Portrait_american_political_male13"
+			"GFX_Portrait_american_political_male14"
+			"GFX_Portrait_american_political_male15"
+
+		 }
+		 
+		 female = {
+			"GFX_Portrait_american_political_female"
+			"GFX_Portrait_american_political_female1"
+			"GFX_Portrait_american_political_female2"
+			"GFX_Portrait_american_political_female3"
+			"GFX_Portrait_american_political_female4"
+			"GFX_Portrait_american_political_female5"
+			"GFX_Portrait_american_political_female6"
+			"GFX_Portrait_american_political_female7"
+			"GFX_Portrait_american_political_female8"
+			"GFX_Portrait_american_political_female9"
+			"GFX_Portrait_american_political_female10"
+			"GFX_Portrait_american_political_female11"
+		 }
+		}
+	}
+
+}
+
+continent = {
+	name = australia
+	army = {
+		male = {
+			"GFX_Portrait_australian_military_male"
+			"GFX_Portrait_australian_military_male1"
+			"GFX_Portrait_australian_military_male2"
+			"GFX_Portrait_australian_military_male3"
+			"GFX_Portrait_australian_military_male4"
+			"GFX_Portrait_australian_military_male5"
+			"GFX_Portrait_australian_military_male6"
+			"GFX_Portrait_australian_military_male7"
+			"GFX_Portrait_australian_military_male8"
+			"GFX_Portrait_australian_military_male9"
+		}
+		
+		female = {
+			"GFX_Portrait_australian_military_female"
+			"GFX_Portrait_australian_military_female1"
+			"GFX_Portrait_australian_military_female2"
+			"GFX_Portrait_australian_military_female3"
+			"GFX_Portrait_australian_military_female4"
+		}
+	}
+
+	political = {
+		communism = {
+				male = { 
+					"GFX_Portrait_australian_political_male"
+					"GFX_Portrait_australian_political_male1"
+					"GFX_Portrait_australian_political_male2"
+					"GFX_Portrait_australian_political_male3"
+					"GFX_Portrait_australian_political_male4"
+					"GFX_Portrait_australian_political_male5"
+					"GFX_Portrait_australian_political_male6"
+					"GFX_Portrait_australian_political_male7"
+					"GFX_Portrait_australian_political_male8"
+					"GFX_Portrait_australian_political_male9"
+			}
+			
+			female = { 
+					"GFX_Portrait_australian_political_female"
+					"GFX_Portrait_australian_political_female1"
+					"GFX_Portrait_australian_political_female2"
+					"GFX_Portrait_australian_political_female3"
+					"GFX_Portrait_australian_political_female4"
+			}
+		}
+		democratic = {
+					male = { 
+					"GFX_Portrait_australian_political_male"
+					"GFX_Portrait_australian_political_male1"
+					"GFX_Portrait_australian_political_male2"
+					"GFX_Portrait_australian_political_male3"
+					"GFX_Portrait_australian_political_male4"
+					"GFX_Portrait_australian_political_male5"
+					"GFX_Portrait_australian_political_male6"
+					"GFX_Portrait_australian_political_male7"
+					"GFX_Portrait_australian_political_male8"
+					"GFX_Portrait_australian_political_male9"
+			}
+			
+			female = { 
+					"GFX_Portrait_australian_political_female"
+					"GFX_Portrait_australian_political_female1"
+					"GFX_Portrait_australian_political_female2"
+					"GFX_Portrait_australian_political_female3"
+					"GFX_Portrait_australian_political_female4"
+			}
+		}
+		fascism = {
+					male = { 
+					"GFX_Portrait_australian_political_male"
+					"GFX_Portrait_australian_political_male1"
+					"GFX_Portrait_australian_political_male2"
+					"GFX_Portrait_australian_political_male3"
+					"GFX_Portrait_australian_political_male4"
+					"GFX_Portrait_australian_political_male5"
+					"GFX_Portrait_australian_political_male6"
+					"GFX_Portrait_australian_political_male7"
+					"GFX_Portrait_australian_political_male8"
+					"GFX_Portrait_australian_political_male9"
+			}
+			
+			female = { 
+					"GFX_Portrait_australian_political_female"
+					"GFX_Portrait_australian_political_female1"
+					"GFX_Portrait_australian_political_female2"
+					"GFX_Portrait_australian_political_female3"
+					"GFX_Portrait_australian_political_female4"
+			}
+		}
+		neutrality = {
+					male = { 
+					"GFX_Portrait_australian_political_male"
+					"GFX_Portrait_australian_political_male1"
+					"GFX_Portrait_australian_political_male2"
+					"GFX_Portrait_australian_political_male3"
+					"GFX_Portrait_australian_political_male4"
+					"GFX_Portrait_australian_political_male5"
+					"GFX_Portrait_australian_political_male6"
+					"GFX_Portrait_australian_political_male7"
+					"GFX_Portrait_australian_political_male8"
+					"GFX_Portrait_australian_political_male9"
+			}
+			
+			female = { 
+					"GFX_Portrait_australian_political_female"
+					"GFX_Portrait_australian_political_female1"
+					"GFX_Portrait_australian_political_female2"
+					"GFX_Portrait_australian_political_female3"
+					"GFX_Portrait_australian_political_female4"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = africa
+	army = {
+		male = {
+			"GFX_Portrait_african_military_male"
+			"GFX_Portrait_african_military_male1"
+			"GFX_Portrait_african_military_male2"
+			"GFX_Portrait_african_military_male3"
+			"GFX_Portrait_african_military_male4"
+			"GFX_Portrait_african_military_male5"
+			"GFX_Portrait_african_military_male6"
+			"GFX_Portrait_african_military_male7"
+			"GFX_Portrait_african_military_male8"
+			"GFX_Portrait_african_military_male9"
+			"GFX_Portrait_african_military_male10"
+			"GFX_Portrait_african_military_male11"
+			"GFX_Portrait_african_military_male12"
+			"GFX_Portrait_african_military_male13"
+			"GFX_Portrait_african_military_male14"
+			"GFX_Portrait_african_military_male15"
+			"GFX_Portrait_african_military_male16"
+			"GFX_Portrait_african_military_male17"
+			"GFX_Portrait_african_military_male18"
+			"GFX_Portrait_african_military_male19"
+		}
+		
+		female = {
+			"GFX_Portrait_african_military_female"
+			"GFX_Portrait_african_military_female1"
+			"GFX_Portrait_african_military_female2"
+			"GFX_Portrait_african_military_female3"
+			"GFX_Portrait_african_military_female4"
+			"GFX_Portrait_african_military_female5"
+			"GFX_Portrait_african_military_female6"
+			"GFX_Portrait_african_military_female7"
+			"GFX_Portrait_african_military_female8"
+			"GFX_Portrait_african_military_female9"
+		}
+	}
+
+	political = {
+		communism = {
+				male = { 
+					"GFX_Portrait_african_political_male"	
+					"GFX_Portrait_african_political_male1"
+					"GFX_Portrait_african_political_male2"
+					"GFX_Portrait_african_political_male3"	
+					"GFX_Portrait_african_political_male4"
+					"GFX_Portrait_african_political_male5"
+					"GFX_Portrait_african_political_male6"	
+					"GFX_Portrait_african_political_male7"
+					"GFX_Portrait_african_political_male8"
+					"GFX_Portrait_african_political_male9"	
+					"GFX_Portrait_african_political_male10"
+					"GFX_Portrait_african_political_male11"
+					"GFX_Portrait_african_political_male12"	
+					"GFX_Portrait_african_political_male13"
+					"GFX_Portrait_african_political_male14"
+					"GFX_Portrait_african_political_male15"	
+					"GFX_Portrait_african_political_male16"
+					"GFX_Portrait_african_political_male17"
+					"GFX_Portrait_african_political_male18"	
+					"GFX_Portrait_african_political_male19"
+					"GFX_Portrait_african_political_male20"
+					"GFX_Portrait_african_political_male21"	
+					"GFX_Portrait_african_political_male22"
+					"GFX_Portrait_african_political_male23"
+			}
+			
+			female = { 
+					"GFX_Portrait_african_political_female"	
+					"GFX_Portrait_african_political_female1"
+					"GFX_Portrait_african_political_female2"
+					"GFX_Portrait_african_political_female3"	
+					"GFX_Portrait_african_political_female4"
+					"GFX_Portrait_african_political_female5"
+					"GFX_Portrait_african_political_female6"	
+					"GFX_Portrait_african_political_female7"
+					"GFX_Portrait_african_political_female8"
+					"GFX_Portrait_african_political_female9"	
+					"GFX_Portrait_african_political_female10"
+					"GFX_Portrait_african_political_female11"
+			}
+		}
+		democratic = {
+				male = { 
+					"GFX_Portrait_african_political_male"	
+					"GFX_Portrait_african_political_male1"
+					"GFX_Portrait_african_political_male2"
+					"GFX_Portrait_african_political_male3"	
+					"GFX_Portrait_african_political_male4"
+					"GFX_Portrait_african_political_male5"
+					"GFX_Portrait_african_political_male6"	
+					"GFX_Portrait_african_political_male7"
+					"GFX_Portrait_african_political_male8"
+					"GFX_Portrait_african_political_male9"	
+					"GFX_Portrait_african_political_male10"
+					"GFX_Portrait_african_political_male11"
+					"GFX_Portrait_african_political_male12"	
+					"GFX_Portrait_african_political_male13"
+					"GFX_Portrait_african_political_male14"
+					"GFX_Portrait_african_political_male15"	
+					"GFX_Portrait_african_political_male16"
+					"GFX_Portrait_african_political_male17"
+					"GFX_Portrait_african_political_male18"	
+					"GFX_Portrait_african_political_male19"
+					"GFX_Portrait_african_political_male20"
+					"GFX_Portrait_african_political_male21"	
+					"GFX_Portrait_african_political_male22"
+					"GFX_Portrait_african_political_male23"
+			}
+			
+			female = { 
+					"GFX_Portrait_african_political_female"	
+					"GFX_Portrait_african_political_female1"
+					"GFX_Portrait_african_political_female2"
+					"GFX_Portrait_african_political_female3"	
+					"GFX_Portrait_african_political_female4"
+					"GFX_Portrait_african_political_female5"
+					"GFX_Portrait_african_political_female6"	
+					"GFX_Portrait_african_political_female7"
+					"GFX_Portrait_african_political_female8"
+					"GFX_Portrait_african_political_female9"	
+					"GFX_Portrait_african_political_female10"
+					"GFX_Portrait_african_political_female11"
+			}
+		}
+		fascism = {
+				male = { 
+					"GFX_Portrait_african_political_male"	
+					"GFX_Portrait_african_political_male1"
+					"GFX_Portrait_african_political_male2"
+					"GFX_Portrait_african_political_male3"	
+					"GFX_Portrait_african_political_male4"
+					"GFX_Portrait_african_political_male5"
+					"GFX_Portrait_african_political_male6"	
+					"GFX_Portrait_african_political_male7"
+					"GFX_Portrait_african_political_male8"
+					"GFX_Portrait_african_political_male9"	
+					"GFX_Portrait_african_political_male10"
+					"GFX_Portrait_african_political_male11"
+					"GFX_Portrait_african_political_male12"	
+					"GFX_Portrait_african_political_male13"
+					"GFX_Portrait_african_political_male14"
+					"GFX_Portrait_african_political_male15"	
+					"GFX_Portrait_african_political_male16"
+					"GFX_Portrait_african_political_male17"
+					"GFX_Portrait_african_political_male18"	
+					"GFX_Portrait_african_political_male19"
+					"GFX_Portrait_african_political_male20"
+					"GFX_Portrait_african_political_male21"	
+					"GFX_Portrait_african_political_male22"
+					"GFX_Portrait_african_political_male23"
+			}
+			
+			female = { 
+					"GFX_Portrait_african_political_female"	
+					"GFX_Portrait_african_political_female1"
+					"GFX_Portrait_african_political_female2"
+					"GFX_Portrait_african_political_female3"	
+					"GFX_Portrait_african_political_female4"
+					"GFX_Portrait_african_political_female5"
+					"GFX_Portrait_african_political_female6"	
+					"GFX_Portrait_african_political_female7"
+					"GFX_Portrait_african_political_female8"
+					"GFX_Portrait_african_political_female9"	
+					"GFX_Portrait_african_political_female10"
+					"GFX_Portrait_african_political_female11"
+			}
+		}
+		neutrality = {
+				male = { 
+					"GFX_Portrait_african_political_male"	
+					"GFX_Portrait_african_political_male1"
+					"GFX_Portrait_african_political_male2"
+					"GFX_Portrait_african_political_male3"	
+					"GFX_Portrait_african_political_male4"
+					"GFX_Portrait_african_political_male5"
+					"GFX_Portrait_african_political_male6"	
+					"GFX_Portrait_african_political_male7"
+					"GFX_Portrait_african_political_male8"
+					"GFX_Portrait_african_political_male9"	
+					"GFX_Portrait_african_political_male10"
+					"GFX_Portrait_african_political_male11"
+					"GFX_Portrait_african_political_male12"	
+					"GFX_Portrait_african_political_male13"
+					"GFX_Portrait_african_political_male14"
+					"GFX_Portrait_african_political_male15"	
+					"GFX_Portrait_african_political_male16"
+					"GFX_Portrait_african_political_male17"
+					"GFX_Portrait_african_political_male18"	
+					"GFX_Portrait_african_political_male19"
+					"GFX_Portrait_african_political_male20"
+					"GFX_Portrait_african_political_male21"	
+					"GFX_Portrait_african_political_male22"
+					"GFX_Portrait_african_political_male23"
+			}
+			
+			female = { 
+					"GFX_Portrait_african_political_female"	
+					"GFX_Portrait_african_political_female1"
+					"GFX_Portrait_african_political_female2"
+					"GFX_Portrait_african_political_female3"	
+					"GFX_Portrait_african_political_female4"
+					"GFX_Portrait_african_political_female5"
+					"GFX_Portrait_african_political_female6"	
+					"GFX_Portrait_african_political_female7"
+					"GFX_Portrait_african_political_female8"
+					"GFX_Portrait_african_political_female9"	
+					"GFX_Portrait_african_political_female10"
+					"GFX_Portrait_african_political_female11"
+			}
+		}
+	}
+
+
+}
+
+continent = {
+	name = asia
+	army = {
+		male = {
+			"GFX_Portrait_asian_military_male"
+			"GFX_Portrait_asian_military_male1"
+			"GFX_Portrait_asian_military_male2"
+			"GFX_Portrait_asian_military_male3"
+			"GFX_Portrait_asian_military_male4"
+			"GFX_Portrait_asian_military_male5"
+			"GFX_Portrait_asian_military_male6"
+			"GFX_Portrait_asian_military_male7"
+			"GFX_Portrait_asian_military_male8"
+			"GFX_Portrait_asian_military_male9"
+			"GFX_Portrait_asian_military_male10"
+			"GFX_Portrait_asian_military_male11"
+			"GFX_Portrait_asian_military_male12"
+			"GFX_Portrait_asian_military_male13"
+			"GFX_Portrait_asian_military_male14"
+			"GFX_Portrait_asian_military_male15"
+			"GFX_Portrait_asian_military_male16"
+			"GFX_Portrait_asian_military_male17"
+			"GFX_Portrait_asian_military_male18"
+			"GFX_Portrait_asian_military_male19"
+		}
+		
+		female = {
+			"GFX_Portrait_asian_military_female"
+			"GFX_Portrait_asian_military_female1"
+			"GFX_Portrait_asian_military_female2"
+			"GFX_Portrait_asian_military_female3"
+			"GFX_Portrait_asian_military_female4"
+			"GFX_Portrait_asian_military_female5"
+			"GFX_Portrait_asian_military_female6"
+			"GFX_Portrait_asian_military_female7"
+			"GFX_Portrait_asian_military_female8"
+			"GFX_Portrait_asian_military_female9"
+		 }
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"GFX_Portrait_asian_political_male"
+					"GFX_Portrait_asian_political_male1"
+					"GFX_Portrait_asian_political_male2"
+					"GFX_Portrait_asian_political_male3"
+					"GFX_Portrait_asian_political_male4"
+					"GFX_Portrait_asian_political_male5"
+					"GFX_Portrait_asian_political_male6"
+					"GFX_Portrait_asian_political_male7"
+					"GFX_Portrait_asian_political_male8"
+					"GFX_Portrait_asian_political_male9"
+					"GFX_Portrait_asian_political_male10"
+					"GFX_Portrait_asian_political_male11"
+					"GFX_Portrait_asian_political_male12"
+					"GFX_Portrait_asian_political_male13"
+					"GFX_Portrait_asian_political_male14"
+					"GFX_Portrait_asian_political_male15"
+					"GFX_Portrait_asian_political_male16"
+					"GFX_Portrait_asian_political_male17"
+					"GFX_Portrait_asian_political_male18"
+					"GFX_Portrait_asian_political_male19"
+					"GFX_Portrait_asian_political_male20"
+					"GFX_Portrait_asian_political_male21"
+				}
+			
+			female = {
+				"GFX_Portrait_asian_political_female"
+				"GFX_Portrait_asian_political_female1"
+				"GFX_Portrait_asian_political_female2"
+				"GFX_Portrait_asian_political_female3"
+				"GFX_Portrait_asian_political_female4"
+				"GFX_Portrait_asian_political_female5"
+				"GFX_Portrait_asian_political_female6"
+				"GFX_Portrait_asian_political_female7"
+				"GFX_Portrait_asian_political_female8"
+				"GFX_Portrait_asian_political_female9"
+				"GFX_Portrait_asian_political_female10"
+				"GFX_Portrait_asian_political_female11"
+		   }
+		   
+		}
+		democratic = {
+				male = { 
+					"GFX_Portrait_asian_political_male"
+					"GFX_Portrait_asian_political_male1"
+					"GFX_Portrait_asian_political_male2"
+					"GFX_Portrait_asian_political_male3"
+					"GFX_Portrait_asian_political_male4"
+					"GFX_Portrait_asian_political_male5"
+					"GFX_Portrait_asian_political_male6"
+					"GFX_Portrait_asian_political_male7"
+					"GFX_Portrait_asian_political_male8"
+					"GFX_Portrait_asian_political_male9"
+					"GFX_Portrait_asian_political_male10"
+					"GFX_Portrait_asian_political_male11"
+					"GFX_Portrait_asian_political_male12"
+					"GFX_Portrait_asian_political_male13"
+					"GFX_Portrait_asian_political_male14"
+					"GFX_Portrait_asian_political_male15"
+					"GFX_Portrait_asian_political_male16"
+					"GFX_Portrait_asian_political_male17"
+					"GFX_Portrait_asian_political_male18"
+					"GFX_Portrait_asian_political_male19"
+					"GFX_Portrait_asian_political_male20"
+					"GFX_Portrait_asian_political_male21"
+				}
+			
+			female = {
+				"GFX_Portrait_asian_political_female"
+				"GFX_Portrait_asian_political_female1"
+				"GFX_Portrait_asian_political_female2"
+				"GFX_Portrait_asian_political_female3"
+				"GFX_Portrait_asian_political_female4"
+				"GFX_Portrait_asian_political_female5"
+				"GFX_Portrait_asian_political_female6"
+				"GFX_Portrait_asian_political_female7"
+				"GFX_Portrait_asian_political_female8"
+				"GFX_Portrait_asian_political_female9"
+				"GFX_Portrait_asian_political_female10"
+				"GFX_Portrait_asian_political_female11"
+		   }
+		}
+		fascism = {
+				male = { 
+					"GFX_Portrait_asian_political_male"
+					"GFX_Portrait_asian_political_male1"
+					"GFX_Portrait_asian_political_male2"
+					"GFX_Portrait_asian_political_male3"
+					"GFX_Portrait_asian_political_male4"
+					"GFX_Portrait_asian_political_male5"
+					"GFX_Portrait_asian_political_male6"
+					"GFX_Portrait_asian_political_male7"
+					"GFX_Portrait_asian_political_male8"
+					"GFX_Portrait_asian_political_male9"
+					"GFX_Portrait_asian_political_male10"
+					"GFX_Portrait_asian_political_male11"
+					"GFX_Portrait_asian_political_male12"
+					"GFX_Portrait_asian_political_male13"
+					"GFX_Portrait_asian_political_male14"
+					"GFX_Portrait_asian_political_male15"
+					"GFX_Portrait_asian_political_male16"
+					"GFX_Portrait_asian_political_male17"
+					"GFX_Portrait_asian_political_male18"
+					"GFX_Portrait_asian_political_male19"
+					"GFX_Portrait_asian_political_male20"
+					"GFX_Portrait_asian_political_male21"
+				}
+			
+			female = {
+				"GFX_Portrait_asian_political_female"
+				"GFX_Portrait_asian_political_female1"
+				"GFX_Portrait_asian_political_female2"
+				"GFX_Portrait_asian_political_female3"
+				"GFX_Portrait_asian_political_female4"
+				"GFX_Portrait_asian_political_female5"
+				"GFX_Portrait_asian_political_female6"
+				"GFX_Portrait_asian_political_female7"
+				"GFX_Portrait_asian_political_female8"
+				"GFX_Portrait_asian_political_female9"
+				"GFX_Portrait_asian_political_female10"
+				"GFX_Portrait_asian_political_female11"
+		   }
+		}
+		neutrality = {
+				male = { 
+					"GFX_Portrait_asian_political_male"
+					"GFX_Portrait_asian_political_male1"
+					"GFX_Portrait_asian_political_male2"
+					"GFX_Portrait_asian_political_male3"
+					"GFX_Portrait_asian_political_male4"
+					"GFX_Portrait_asian_political_male5"
+					"GFX_Portrait_asian_political_male6"
+					"GFX_Portrait_asian_political_male7"
+					"GFX_Portrait_asian_political_male8"
+					"GFX_Portrait_asian_political_male9"
+					"GFX_Portrait_asian_political_male10"
+					"GFX_Portrait_asian_political_male11"
+					"GFX_Portrait_asian_political_male12"
+					"GFX_Portrait_asian_political_male13"
+					"GFX_Portrait_asian_political_male14"
+					"GFX_Portrait_asian_political_male15"
+					"GFX_Portrait_asian_political_male16"
+					"GFX_Portrait_asian_political_male17"
+					"GFX_Portrait_asian_political_male18"
+					"GFX_Portrait_asian_political_male19"
+					"GFX_Portrait_asian_political_male20"
+					"GFX_Portrait_asian_political_male21"
+				}
+			
+			female = {
+				"GFX_Portrait_asian_political_female"
+				"GFX_Portrait_asian_political_female1"
+				"GFX_Portrait_asian_political_female2"
+				"GFX_Portrait_asian_political_female3"
+				"GFX_Portrait_asian_political_female4"
+				"GFX_Portrait_asian_political_female5"
+				"GFX_Portrait_asian_political_female6"
+				"GFX_Portrait_asian_political_female7"
+				"GFX_Portrait_asian_political_female8"
+				"GFX_Portrait_asian_political_female9"
+				"GFX_Portrait_asian_political_female10"
+				"GFX_Portrait_asian_political_female11"
+		   }
+		}
+	}	
+
+}
+
+continent = {
+	name = middle_east
+	army = {
+		male = {
+			"GFX_Portrait_middle_east_military_male"
+			"GFX_Portrait_middle_east_military_male1"
+			"GFX_Portrait_middle_east_military_male2"
+			"GFX_Portrait_middle_east_military_male3"
+			"GFX_Portrait_middle_east_military_male4"
+			"GFX_Portrait_middle_east_military_male5"
+			"GFX_Portrait_middle_east_military_male6"
+			"GFX_Portrait_middle_east_military_male7"
+			"GFX_Portrait_middle_east_military_male8"
+			"GFX_Portrait_middle_east_military_male9"
+			"GFX_Portrait_middle_east_military_male10"
+			"GFX_Portrait_middle_east_military_male11"
+			"GFX_Portrait_middle_east_military_male12"
+			"GFX_Portrait_middle_east_military_male13"
+			"GFX_Portrait_middle_east_military_male14"
+			"GFX_Portrait_middle_east_military_male15"
+			"GFX_Portrait_middle_east_military_male16"
+			"GFX_Portrait_middle_east_military_male17"
+			"GFX_Portrait_middle_east_military_male18"
+			"GFX_Portrait_middle_east_military_male19"
+			"GFX_Portrait_middle_east_military_male20"
+		}
+		
+		female = {
+			"GFX_Portrait_middle_east_military_female"
+			"GFX_Portrait_middle_east_military_female1"
+			"GFX_Portrait_middle_east_military_female2"
+			"GFX_Portrait_middle_east_military_female3"
+			"GFX_Portrait_middle_east_military_female4"
+			"GFX_Portrait_middle_east_military_female5"
+			"GFX_Portrait_middle_east_military_female6"
+			"GFX_Portrait_middle_east_military_female7"
+			"GFX_Portrait_middle_east_military_female8"
+			"GFX_Portrait_middle_east_military_female9"
+			"GFX_Portrait_middle_east_military_female10"
+			"GFX_Portrait_middle_east_military_female11"
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"GFX_Portrait_middle_east_political_male"
+					"GFX_Portrait_middle_east_political_male1"
+					"GFX_Portrait_middle_east_political_male2"
+					"GFX_Portrait_middle_east_political_male3"
+					"GFX_Portrait_middle_east_political_male4"
+					"GFX_Portrait_middle_east_political_male5"
+					"GFX_Portrait_middle_east_political_male6"
+					"GFX_Portrait_middle_east_political_male7"
+					"GFX_Portrait_middle_east_political_male8"
+					"GFX_Portrait_middle_east_political_male9"
+					"GFX_Portrait_middle_east_political_male10"
+					"GFX_Portrait_middle_east_political_male11"
+					"GFX_Portrait_middle_east_political_male12"
+					"GFX_Portrait_middle_east_political_male13"
+					"GFX_Portrait_middle_east_political_male14"
+			}
+			
+			female = { 
+					"GFX_Portrait_middle_east_political_female"
+					"GFX_Portrait_middle_east_political_female1"
+					"GFX_Portrait_middle_east_political_female2"
+					"GFX_Portrait_middle_east_political_female3"
+					"GFX_Portrait_middle_east_political_female4"
+					"GFX_Portrait_middle_east_political_female5"
+					"GFX_Portrait_middle_east_political_female6"
+					"GFX_Portrait_middle_east_political_female7"
+					"GFX_Portrait_middle_east_political_female8"
+					"GFX_Portrait_middle_east_political_female9"
+			}
+		}
+		democratic = {
+				male = { 
+					"GFX_Portrait_middle_east_political_male"
+					"GFX_Portrait_middle_east_political_male1"
+					"GFX_Portrait_middle_east_political_male2"
+					"GFX_Portrait_middle_east_political_male3"
+					"GFX_Portrait_middle_east_political_male4"
+					"GFX_Portrait_middle_east_political_male5"
+					"GFX_Portrait_middle_east_political_male6"
+					"GFX_Portrait_middle_east_political_male7"
+					"GFX_Portrait_middle_east_political_male8"
+					"GFX_Portrait_middle_east_political_male9"
+					"GFX_Portrait_middle_east_political_male10"
+					"GFX_Portrait_middle_east_political_male11"
+					"GFX_Portrait_middle_east_political_male12"
+					"GFX_Portrait_middle_east_political_male13"
+					"GFX_Portrait_middle_east_political_male14"
+			}
+			
+			female = { 
+					"GFX_Portrait_middle_east_political_female"
+					"GFX_Portrait_middle_east_political_female1"
+					"GFX_Portrait_middle_east_political_female2"
+					"GFX_Portrait_middle_east_political_female3"
+					"GFX_Portrait_middle_east_political_female4"
+					"GFX_Portrait_middle_east_political_female5"
+					"GFX_Portrait_middle_east_political_female6"
+					"GFX_Portrait_middle_east_political_female7"
+					"GFX_Portrait_middle_east_political_female8"
+					"GFX_Portrait_middle_east_political_female9"
+			}
+		}
+		fascism = {
+				male = { 
+					"GFX_Portrait_middle_east_political_male"
+					"GFX_Portrait_middle_east_political_male1"
+					"GFX_Portrait_middle_east_political_male2"
+					"GFX_Portrait_middle_east_political_male3"
+					"GFX_Portrait_middle_east_political_male4"
+					"GFX_Portrait_middle_east_political_male5"
+					"GFX_Portrait_middle_east_political_male6"
+					"GFX_Portrait_middle_east_political_male7"
+					"GFX_Portrait_middle_east_political_male8"
+					"GFX_Portrait_middle_east_political_male9"
+					"GFX_Portrait_middle_east_political_male10"
+					"GFX_Portrait_middle_east_political_male11"
+					"GFX_Portrait_middle_east_political_male12"
+					"GFX_Portrait_middle_east_political_male13"
+					"GFX_Portrait_middle_east_political_male14"
+			}
+			
+			female = { 
+					"GFX_Portrait_middle_east_political_female"
+					"GFX_Portrait_middle_east_political_female1"
+					"GFX_Portrait_middle_east_political_female2"
+					"GFX_Portrait_middle_east_political_female3"
+					"GFX_Portrait_middle_east_political_female4"
+					"GFX_Portrait_middle_east_political_female5"
+					"GFX_Portrait_middle_east_political_female6"
+					"GFX_Portrait_middle_east_political_female7"
+					"GFX_Portrait_middle_east_political_female8"
+					"GFX_Portrait_middle_east_political_female9"
+			}
+		}
+		neutrality = {
+				male = { 
+					"GFX_Portrait_middle_east_political_male"
+					"GFX_Portrait_middle_east_political_male1"
+					"GFX_Portrait_middle_east_political_male2"
+					"GFX_Portrait_middle_east_political_male3"
+					"GFX_Portrait_middle_east_political_male4"
+					"GFX_Portrait_middle_east_political_male5"
+					"GFX_Portrait_middle_east_political_male6"
+					"GFX_Portrait_middle_east_political_male7"
+					"GFX_Portrait_middle_east_political_male8"
+					"GFX_Portrait_middle_east_political_male9"
+					"GFX_Portrait_middle_east_political_male10"
+					"GFX_Portrait_middle_east_political_male11"
+					"GFX_Portrait_middle_east_political_male12"
+					"GFX_Portrait_middle_east_political_male13"
+					"GFX_Portrait_middle_east_political_male14"
+			}
+			
+			female = { 
+					"GFX_Portrait_middle_east_political_female"
+					"GFX_Portrait_middle_east_political_female1"
+					"GFX_Portrait_middle_east_political_female2"
+					"GFX_Portrait_middle_east_political_female3"
+					"GFX_Portrait_middle_east_political_female4"
+					"GFX_Portrait_middle_east_political_female5"
+					"GFX_Portrait_middle_east_political_female6"
+					"GFX_Portrait_middle_east_political_female7"
+					"GFX_Portrait_middle_east_political_female8"
+					"GFX_Portrait_middle_east_political_female9"
+			}
+		}
+	}
+
+}
+
+GAY = {
+	army = {
+		male = {
+			"GFX_Portrait_GAY_Generic_land_1"
+			"GFX_Portrait_GAY_Generic_land_2"
+            "GFX_Portrait_GAY_Generic_land_3"
+			"GFX_Portrait_GAY_Generic_land_4"
+			"GFX_Portrait_GAY_Generic_land_5"
+			"GFX_Portrait_GAY_Generic_land_6"
+			"GFX_Portrait_GAY_Generic_land_7"
+			"GFX_Portrait_GAY_Generic_land_8"
+		}
+	}	
+}
