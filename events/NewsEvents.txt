@@ -27,9 +27,6 @@ news_event = {
 	option = {
 		name = news.1.b
 		trigger = { TAG = AUC }
-		set_country_leader_portrait = {
-		    portrait = "gfx/leaders/AUC/Portrait_AUC_imgekta_2.dds"
-		}
 	}
 	option = {
 		name = news.1.c
