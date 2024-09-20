@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_KOK_Andrey_Lihachov_large"
+		texturefile = "gfx/leaders/KOK/Portrait_KOK_Andrey_Lihachov_large.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOK_Genady_Viktorov_large"
+		texturefile = "gfx/leaders/KOK/Portrait_KOK_Genady_Viktorov_large.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOK_Alexander_Bespalov_large"
+		texturefile = "gfx/leaders/KOK/Portrait_KOK_Alexander_Bespalov_large.dds"
+	}
+}

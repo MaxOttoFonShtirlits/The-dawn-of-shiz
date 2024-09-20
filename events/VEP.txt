@@ -44,7 +44,7 @@ country_event = {
 		}
 		set_global_flag = KOK_pobeg
 		country_event = {
-			event = VEP.2
+			id = VEP.2
 		}
     }
 
@@ -70,7 +70,13 @@ country_event = {
 
 	option = {
 		name = VEP.2.a
-		Genady Viktorov = {
+		VEP_character_Andrey_Lihachov = {
+			retire = yes
+		}
+		VEP_character_Genady_Viktorov = {
+			retire = yes
+		}
+		VEP_character_Alexander_Bespalov = {
 			retire = yes
 		}
 	}

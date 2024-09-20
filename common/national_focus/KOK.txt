@@ -298,6 +298,21 @@ focus_tree = {
 		x = 10
 		y = 6
         completion_reward = {
+			recruit_character = VEP_character_Alexander_Bespalov
+			recruit_character = VEP_character_Genady_Viktorov
+			recruit_character = VEP_character_Andrey_Lihachov
+			set_portraits = {
+				character = VEP_character_Alexander_Bespalov
+				army = { large ="GFX_portrait_KOK_Alexander_Bespalov_large" }
+			}
+			set_portraits = {
+				character = VEP_character_Genady_Viktorov
+				army = { large ="GFX_portrait_KOK_Genady_Viktorov_large" }
+			}
+			set_portraits = {
+				character = VEP_character_Andrey_Lihachov
+				army = { large ="GFX_portrait_KOK_Andrey_Lihachov_large" }
+			}
 		}
 	}
 	focus = {
