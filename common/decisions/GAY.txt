@@ -26,6 +26,7 @@ GAY_rebel_category = {
 			OR = {
 				GAY = { has_completed_focus = GAY_Focus_neutralize_kipap } 
 			}
+			GAY = { has_global_flag = kipap_rebel }
 		}
 		activation = {
 			826 = { is_fully_controlled_by = GAY } 
