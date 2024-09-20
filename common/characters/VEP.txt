@@ -110,4 +110,123 @@ characters = {
 			}
 		}		
 	}
+	VEP_character_Stepan_Vlasov = {
+		name = 	VEP_character_Stepan_Vlasov_name
+		portraits={
+			army={
+				large="GFX_portrait_VEP_Stepan_Vlasov_large"
+			}
+		}
+		corps_commander = {
+            traits = { media_personality war_hero }
+			skill = 5
+
+			attack_skill = 6
+			defense_skill = 6
+			planning_skill = 4
+			logistics_skill = 2
+        }
+	}
+	VEP_character_Valeriy_Krivoy = {
+		name = 	VEP_character_Valeriy_Krivoy_name
+		portraits={
+			army={
+				large="GFX_portrait_VEP_Valeriy_Krivoy_large"
+			}
+		}
+		field_marshal = {
+            traits = { infantry_leader }
+			skill = 4
+
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 2
+        }
+	}
+	VEP_character_Andrey_Lihachov = {
+		name = 	VEP_character_Andrey_Lihachov_name
+		portraits={
+			army={
+				large="GFX_portrait_VEP_Andrey_Lihachov_large"
+			}
+		}
+		corps_commander = {
+            traits = { media_personality war_hero }
+			skill = 3
+
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 1
+        }
+	}
+	VEP_character_Genady_Viktorov = {
+		name = 	VEP_character_Genady_Viktorov_name
+		portraits={
+			army={
+				large="GFX_portrait_VEP_Genady_Viktorov_large"
+			}
+		}
+		corps_commander = {
+			traits = { infantry_leader }
+			skill = 3
+
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+        }
+	}
+	VEP_character_German_Stepanov = {
+		name = 	VEP_character_German_Stepanov_name
+		portraits={
+			army={
+				large="GFX_portrait_VEP_German_Stepanov_large"
+			}
+		}
+		corps_commander = {
+            traits = { }
+			skill = 2
+
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 1
+        }
+	}
+	VEP_character_Alexander_Bespalov = {
+		name = 	VEP_character_Alexander_Bespalov_name
+		portraits={
+			army={
+				large="GFX_portrait_VEP_Alexander_Bespalov_large"
+			}
+		}
+		corps_commander = {
+            traits = { infantry_leader }
+			skill = 3
+
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+        }
+	}
+	VEP_character_Semen_Pavlov = {
+		name = 	VEP_character_Semen_Pavlov_name
+		portraits={
+			army={
+				large="GFX_portrait_VEP_Semen_Pavlov_large"
+			}
+		}
+		corps_commander = {
+            traits = { }
+			skill = 3
+
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+        }
+	}
 }

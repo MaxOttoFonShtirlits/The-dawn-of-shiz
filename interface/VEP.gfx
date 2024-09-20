@@ -39,6 +39,34 @@ spriteTypes = {
 		name = "GFX_portrait_Texler_small"
 		texturefile = "gfx/leaders/VEP/Portrait_VEP_Texler.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_VEP_Stepan_Vlasov_large"
+		texturefile = "gfx/leaders/VEP/Portrait_VEP_Stepan_Vlasov_large.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_VEP_Valeriy_Krivoy_large"
+		texturefile = "gfx/leaders/VEP/Portrait_VEP_Valeriy_Krivoy_large.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_VEP_Andrey_Lihachov_large"
+		texturefile = "gfx/leaders/VEP/Portrait_VEP_Andrey_Lihachov_large.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_VEP_Genady_Viktorov_large"
+		texturefile = "gfx/leaders/VEP/Portrait_VEP_Genady_Viktorov_large.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_VEP_German_Stepanov_large"
+		texturefile = "gfx/leaders/VEP/Portrait_VEP_German_Stepanov_large.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_VEP_Alexander_Bespalov_large"
+		texturefile = "gfx/leaders/VEP/Portrait_VEP_Alexander_Bespalov_large.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_VEP_Semen_Pavlov_large"
+		texturefile = "gfx/leaders/VEP/Portrait_VEP_Semen_Pavlov_large.dds"
+	}
 	SpriteType = {
 		name = "GFX_focus_VEP_AUC"
 		texturefile = "gfx/interface/goals/VEP_AUC.dds"

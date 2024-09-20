@@ -43,6 +43,9 @@ country_event = {
 			}
 		}
 		set_global_flag = KOK_pobeg
+		country_event = {
+			event = VEP.2
+		}
     }
 
 	option = {
@@ -55,4 +58,20 @@ country_event = {
 				change_tag_from = VEP
 			}
 		}
+}
+
+country_event = {
+	id = VEP.2
+	title = VEP.2.t
+	desc = VEP.2.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = VEP.2.a
+		Genady Viktorov = {
+			retire = yes
+		}
+	}
 }
