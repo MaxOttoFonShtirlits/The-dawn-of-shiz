@@ -59,6 +59,7 @@ GAY_rebel_category = {
 			country_event = {
 			id = GAY.1
 			}
+			set_global_flag = kipap_rebel
 		}
 	    }
     }
@@ -96,6 +97,7 @@ GAY_rebel_category = {
 					type = annex_everything
 				}
 			}
+			set_global_flag = kermenists_rebel
 	        }
 		}
     }
