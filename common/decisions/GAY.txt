@@ -73,7 +73,8 @@ GAY_rebel_category = {
         fire_only_once = yes
 		available = {
 			OR = {
-				GAY = { has_completed_focus = GAY_Focus_repress_everyone_who_was_with_stalker } 
+				GAY = { has_completed_focus = GAY_Focus_repress_everyone_who_was_with_stalker }
+				set_global_flag = kermenists_rebel
 			}
 		}
 		activation = {
