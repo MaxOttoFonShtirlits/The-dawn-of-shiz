@@ -9,12 +9,15 @@ country_event = {
 	option = {
 		name = Real_World.2024.a
 		hidden_effect = {
+			# Россия
 			219 = {
 				transfer_state_to = RUS
 			}
+			# Украина
 			202 = {
 				transfer_state_to = UKR
 			}
+			# Беларусь
 			206 = {
 				transfer_state_to = BLR
 			}
