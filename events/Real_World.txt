@@ -10,16 +10,133 @@ country_event = {
 		name = Real_World.2024.a
 		hidden_effect = {
 			# Россия
-			219 = {
-				transfer_state_to = RUS
+			RUS = {
+			# Ниже передаём штат
+			transfer_state = 219
+			# Ниже корки
+			add_state_core = 219
 			}
 			# Украина
-			202 = {
-				transfer_state_to = UKR
+			UKR = {
+			# Ниже передаём штат
+			transfer_state = 202
+			transfer_state = 192
+			transfer_state = 193
+			transfer_state = 221
+			transfer_state = 983
+			transfer_state = 984
+			transfer_state = 985
+			transfer_state = 986
+			transfer_state = 992
+			transfer_state = 259
+			transfer_state = 225
+			transfer_state = 226
+			transfer_state = 203
+			transfer_state = 197
+			transfer_state = 201
+			transfer_state = 198
+			transfer_state = 834
+			transfer_state = 766
+			transfer_state = 199
+			transfer_state = 93
+			transfer_state = 91
+			transfer_state = 89
+			transfer_state = 80
+			transfer_state = 73
+			# Ниже корки
+			add_state_core = 202
+			add_state_core = 192
+			add_state_core = 193
+			add_state_core = 221
+			add_state_core = 983
+			add_state_core = 984
+			add_state_core = 985
+			add_state_core = 986
+			add_state_core = 992
+			add_state_core = 259
+			add_state_core = 225
+			add_state_core = 226
+			add_state_core = 203
+			add_state_core = 197
+			add_state_core = 201
+			add_state_core = 198
+			add_state_core = 834
+			add_state_core = 766
+			add_state_core = 199
+			add_state_core = 93
+			add_state_core = 91
+			add_state_core = 89
+			add_state_core = 80
+			add_state_core = 73
 			}
 			# Беларусь
-			206 = {
-				transfer_state_to = BLR
+			BLR = {
+			# Ниже передаём штат
+			transfer_state = 206
+			transfer_state = 207
+			transfer_state = 204
+			transfer_state = 94
+			transfer_state = 95
+			transfer_state = 96
+			transfer_state = 987
+			transfer_state = 241
+			transfer_state = 194
+			# Ниже корки
+			add_state_core = 206
+			add_state_core = 207
+			add_state_core = 204
+			add_state_core = 94
+			add_state_core = 95
+			add_state_core = 96
+			add_state_core = 987
+			add_state_core = 241
+			add_state_core = 194
+			}
+			# Убиратор национальных провок 3000
+			EUI = {
+			remove_state_core = 206
+			remove_state_core = 207
+			remove_state_core = 204
+			remove_state_core = 94
+			remove_state_core = 95
+			remove_state_core = 96
+			remove_state_core = 987
+			remove_state_core = 241
+			remove_state_core = 194
+			remove_state_core = 766
+			remove_state_core = 192
+			remove_state_core = 834
+			remove_state_core = 198
+			remove_state_core = 201
+			remove_state_core = 199
+			remove_state_core = 93
+			remove_state_core = 91
+			remove_state_core = 89
+			remove_state_core = 80
+			remove_state_core = 73
+			}
+			BOR = {
+			remove_state_core = 193
+			remove_state_core = 225
+			remove_state_core = 985
+			remove_state_core = 983
+			remove_state_core = 203
+			remove_state_core = 202
+			remove_state_core = 197
+			remove_state_core = 226
+			remove_state_core = 992
+			remove_state_core = 241
+			}
+			XNR = {
+			remove_state_core = 221
+			}
+			PLT = {
+			remove_state_core = 984
+			remove_state_core = 259
+			remove_state_core = 986
+			}
+			AUC = {
+			remove_state_core = 987
 			}
 		}
 	}
