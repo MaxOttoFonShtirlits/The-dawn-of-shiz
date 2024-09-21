@@ -1,0 +1,49 @@
+﻿capital = 219
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_anti_tank = 1
+	infantry_anti_air_equipment = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	
+	mass_assault = 1
+	fleet_in_being = 1
+}
+
+set_politics = {
+	ruling_party = neutrality 
+	last_election = "2018.3.18"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 42
+	fascism = 10
+	communism = 21
+	neutrality = 27
+}
+
+add_ideas = {
+
+}
+
+create_country_leader = {
+	name = "Владимир Владимирович Путин"
+	picture = "Vova_Zrada.dds"
+	expire = "2022.2.24"
+	ideology = Despotism 
+	traits = { 
+	}
+}
+create_corps_commander = {
+}
+create_field_marshal = {
+}

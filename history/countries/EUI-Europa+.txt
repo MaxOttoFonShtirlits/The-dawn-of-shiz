@@ -1,0 +1,53 @@
+﻿capital = 593
+
+oob = "ZOV_1936"
+
+set_research_slots = 3
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_anti_tank = 1
+	infantry_anti_air_equipment = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	paratroopers = 1
+	gw_artillery = 1
+	
+	mass_assault = 1
+	fleet_in_being = 1
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2023.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 30
+	fascism = 30
+	communism = 40
+	neutrality = 0
+}
+
+add_ideas = {
+	Discord_Political_Community
+}
+
+create_country_leader = {
+	name = "Про- Европейские медиа"
+	picture = "Proevropeiskiemedia.dds"
+	expire = "2022.3.1"
+	ideology = liberalism
+	traits = { 
+	}
+}
+create_corps_commander = {
+}
+create_field_marshal = {
+}

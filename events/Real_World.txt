@@ -1,0 +1,23 @@
+add_namespace = Real_World
+
+country_event = {
+	id = Real_World.2024
+	title = Real_World.2024.t
+	desc = Real_World.2024.d
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = Real_World.2024.a
+		hidden_effect = {
+			219 = {
+				transfer_state_to = RUS
+			}
+			202 = {
+				transfer_state_to = UKR
+			}
+			206 = {
+				transfer_state_to = BLR
+			}
+		}
+	}
+}

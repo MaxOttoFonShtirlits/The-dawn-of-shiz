@@ -1,4 +1,4 @@
-#reload countrycolors
+#Интернет/Internet
 GAY = {
 	color = rgb { 2 150 0 }
 	color_ui = rgb { 1 117 0 }
@@ -62,4 +62,21 @@ KON = {
 SVO = {
    color = rgb { 138 190 252 }
    color_ui = rgb { 138 190 252 }
+}
+EUI = {
+	color = rgb { 0 72 143 }
+	color_ui = rgb { 12 60 110 }
+}
+#Реальный Мир/Real World
+RUS = {
+	color = rgb { 0 122 61 }
+	color_ui = rgb { 0 92 31 }
+}
+UKR = {
+	color = rgb { 0 91 187 }
+	color_ui = rgb { 0 61 157 }
+}
+BLR = {
+	color = rgb { 101 167 0 }
+	color_ui = rgb { 101 167 0 }
 }
