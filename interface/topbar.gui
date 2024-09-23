@@ -36,6 +36,17 @@ guiTypes = {
 #			position = { x= -357 y = 0 }
 #			Orientation = "UPPER_RIGHT"
 #		}
+containerWindowType = {
+		name = "defname"
+		position = { x = 0 y = 0 }
+		iconType = {
+			name = "thebg"
+			position = { x = -840 y = 47 }
+			alwaystransparent = yes
+			spriteType = "GFX_defname_box"
+			Orientation = "UPPER_LEFT"
+		}
+	}
 
 		containerWindowType = {
 			name = "toggle_music_commands_win"
@@ -87,7 +98,6 @@ guiTypes = {
 			Orientation = "UPPER_RIGHT"
 			alwaystransparent = yes
 		}
-		
 		buttonType = {
 			name = "player_flag"
 			quadTextureSprite ="GFX_shield_medium"
@@ -172,7 +182,6 @@ guiTypes = {
 			position = { x= 225 y = 3 }
 			Orientation = "UPPER_LEFT"
 		}
-
 		instantTextBoxType = {
 			name ="war_support"
 			position = { x= 230 y = 7 }
@@ -608,7 +617,7 @@ guiTypes = {
 			clicksound = click_ok
 			oversound = ui_menu_over
 			Orientation = "UPPER_RIGHT"
-		}		
+		}	
 		containerWindowType = {
 			name = "country_menu_window"
 			position = { x=217 y=36 }
@@ -651,7 +660,6 @@ guiTypes = {
 				maxHeight = 24
 				fixedsize = yes
 			}
-			
 			iconType = {
 				name = "decisionview_amount_to_take_bg"
 				spriteType = "GFX_topbar_alert_bg"
