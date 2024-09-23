@@ -50,8 +50,8 @@ containerWindowType = {
 
 		containerWindowType = {
 			name = "toggle_music_commands_win"
-			position = { x = -259 y = 34 }
-			show_position = { x = -450 y = 34 }
+			position = { x = -259 y = 32 }
+			show_position = { x = -435 y = 32 }
 			show_animation_type = decelerated
 			hide_animation_type = accelerated
 			animation_time = 450
@@ -89,8 +89,7 @@ containerWindowType = {
 				pdx_tooltip = "MUSICPLAYER_OPEN_PLAYER"
 			}
 
-		}	
-				
+		}		
 		iconType = {
 			name ="armyoverview_buttons_bg"
 			spriteType = "GFX_armyoverview_buttons_bg"
@@ -107,6 +106,7 @@ containerWindowType = {
 			oversound = ui_menu_over
 			shortcut = "q"
 		}
+	
 		buttonType = {
             name = "button_enter"
             position = {x = -146 y = 42}
