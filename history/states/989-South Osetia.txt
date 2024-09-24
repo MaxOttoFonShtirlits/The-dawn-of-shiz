@@ -16,6 +16,7 @@ state={
 		set_demilitarized_zone = yes
 		add_dynamic_modifier = {
 		    modifier = Kommunist_Rebel_Activity
+			scope = GAY
 		}
 		victory_points = {
 			13380 1

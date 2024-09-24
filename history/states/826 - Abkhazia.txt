@@ -13,6 +13,10 @@ state = {
 			
 
 		}
+		add_dynamic_modifier = {
+		    modifier = Kommunist_Rebel_Activity
+			scope = GAY
+		}
 		add_core_of = KIP
 		set_demilitarized_zone = yes
 		1939.1.1 = {
