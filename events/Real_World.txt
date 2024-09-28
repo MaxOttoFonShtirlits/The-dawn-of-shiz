@@ -81,6 +81,12 @@ country_event = {
 			transfer_state = 147
 			transfer_state = 213
 			transfer_state = 722
+			transfer_state = 228
+			transfer_state = 227
+			transfer_state = 200
+			transfer_state = 196
+			transfer_state = 240
+			transfer_state = 220
 			# Ниже корки
 			add_state_core = 219
 			add_state_core = 242
@@ -227,6 +233,17 @@ country_event = {
 			}
 			FSB = {
 			remove_state_core = 219
+			}
+			# Российско-Украинская война
+			RUS = {
+			load_oob=RF_SVO
+			declare_war_on = {
+                target = UKR
+                type = annex_everything
+            }
+			}
+			UKR = {
+			load_oob=UKR_SVO
 			}
 		}
 	}
