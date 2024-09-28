@@ -169,6 +169,16 @@ country_event = {
 			add_state_core = 241
 			add_state_core = 194
 			}
+			# Абхазия
+			ABK = {
+			transfer_state = 826
+			add_state_core = 826
+			}
+			# Южная Осетия
+			SON = {
+			transfer_state = 989
+			add_state_core = 989
+			}
 			# Убиратор национальных провок 3000
 			EUI = {
 			remove_state_core = 206
