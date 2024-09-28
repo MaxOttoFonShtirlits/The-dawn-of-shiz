@@ -5,7 +5,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "thename"
 			position = { x = 10 y = 95 }
-			font = "hoi_16mbs"
+			font = "hoi_20b"
 			text = "[ROOT.GetNameDefCap]"
 			maxWidth = 3000
 			maxHeight = 20

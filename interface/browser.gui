@@ -76,6 +76,7 @@ guiTypes = {
 			quadTextureSprite = "GFX_Browser_Close"
 			position = { x = 8 y = 8 }
 			clicksound = click_close
+			shortcut = "ESCAPE"
 		}		
 		
 		#editBoxType = {

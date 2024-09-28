@@ -3323,7 +3323,7 @@ guiTypes = {
 				instantTextBoxType = {
 					name = "electronic_eng_subtitle"
 					position = { x = 295 y = 100 }
-					font = "hoi_22tech"
+					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
 					text = "TITLE_ELECTRONIC_SUBTITLE"
 					maxWidth = 200
