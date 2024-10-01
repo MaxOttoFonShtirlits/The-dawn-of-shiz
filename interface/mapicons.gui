@@ -43,7 +43,7 @@ guiTypes = {
 		iconType = {
 			name = "count_selected"
 			spriteType = "GFX_onmap_unit_counter_selected"
-			position = { x=0 y=45 }
+			position = { x=0 y=0 }
 			alwaystransparent = yes
 		}
 
@@ -99,7 +99,7 @@ guiTypes = {
 		iconType = {
 			name = "large_flag"
 			spriteType = "GFX_mapicon_unit_large_flag_stripe"
-			position = { x = 3 y = 2 }
+			position = { x = 2 y = 3 }
 			alwaystransparent = yes
 			Orientation = "UPPER_LEFT"
 			scale = 0.7
